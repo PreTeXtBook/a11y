@@ -1,6 +1,6 @@
 # Resources
 
-Static resources can be linked into the wiki for easy access by others.
+Static resources can be linked into the wiki for easy access by others.  These are stable static versions (generally PDF).  In some cases an HTML online version could be more convenient.
 
 ## braille
 
