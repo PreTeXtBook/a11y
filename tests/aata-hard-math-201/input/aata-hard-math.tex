@@ -1,8 +1,8 @@
 %********************************************%
 %*       Generated from PreTeXt source      *%
-%*       on 2020-08-08T21:41:33-07:00       *%
-%*   A recent stable commit (2020-07-07):   *%
-%* 1771dacf84bfb1789139598d8379414b560b8f17 *%
+%*       on 2020-08-14T15:02:59-07:00       *%
+%*   A recent stable commit (2020-08-09):   *%
+%* 98f21740783f166a773df4dc83cab5293ab63a4a *%
 %*                                          *%
 %*         https://pretextbook.org          *%
 %*                                          *%
@@ -295,7 +295,9 @@ colback=white, colbacktitle=white, coltitle=black, opacityfill=0.0} }
 \newtcolorbox[auto counter]{project-distinct}{}
 %% A faux tcolorbox whose only purpose is to provide common numbering
 %% facilities for 2D displays which are subnumbered as part of a "sidebyside"
+\makeatletter
 \newtcolorbox[auto counter, number within=tcb@cnt@block, number freestyle={\noexpand\thetcb@cnt@block(\noexpand\alph{\tcbcounter})}]{subdisplay}{}
+\makeatother
 %% Localize LaTeX supplied names (possibly none)
 %% More flexible list management, esp. for references
 %% But also for specifying labels (i.e. custom order) on nested lists
@@ -353,207 +355,207 @@ colback=white, colbacktitle=white, coltitle=black, opacityfill=0.0} }
 \hypertarget{g:article:idp1}{}
 %
 \begin{enumerate}
-\item{}\(\displaystyle \mathcal S\)%
-\item{}\(\displaystyle a \neq 0\)%
-\item{}\(\displaystyle x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}\)%
-\item{}\(\displaystyle X = \{ x_1, x_2, \ldots, x_n \}\)%
-\item{}\(\displaystyle X = \{ x :x \text{ satisfies }{\mathcal P}\}\)%
-\item{}\(\displaystyle -3 \notin E\)%
-\item{}\(\displaystyle \{4,5,8\} \subset \{2, 3, 4, 5, 6, 7, 8, 9 \}\)%
-\item{}\(\displaystyle {\mathbb N} \subset {\mathbb Z} \subset {\mathbb Q} \subset {\mathbb R} \subset {\mathbb C}\)%
-\item{}\(\displaystyle A \notsubset B\)%
-\item{}\(\displaystyle \bigcup_{i = 1}^{n} A_{i} = A_{1} \cup \ldots \cup A_n\)%
-\item{}\(\displaystyle \bigcap_{i = 1}^{n} A_{i} = A_{1} \cap \ldots \cap A_n\)%
-\item{}\(\displaystyle A \setminus B = A \cap B' = \{ x : x \in A \text{ and } x \notin B \}\)%
-\item{}\(\displaystyle A \stackrel{f}{\rightarrow} B\)%
-\item{}\(\displaystyle f : a \mapsto b\)%
-\item{}\(\displaystyle a_1 \neq a_2\)%
-\item{}\(\displaystyle (f \circ g )(x) = f(g(x)) = f( \sqrt[3]{x}\, ) = (\sqrt[3]{x}\, )^3 = x\)%
-\item{}\(\displaystyle \begin{pmatrix} a & b \\ c & d \end{pmatrix} \begin{pmatrix} x \\ y \end{pmatrix} = \begin{pmatrix} ax + by \\ cx +dy \end{pmatrix}\)%
-\item{}\(\displaystyle \begin{pmatrix} 1 & 2 & 3 \\ \pi(1) & \pi(2) & \pi(3) \end{pmatrix} = \begin{pmatrix} 1 & 2 & 3 \\ 2 & 1 & 3 \end{pmatrix}\)%
-\item{}\(\displaystyle g \circ f = id_A\)%
-\item{}\(\displaystyle x \sim y, x\cong y\)%
-\item{}\(\displaystyle psu = qru = qst\)%
-\item{}\(\displaystyle C = QBQ^{-1} = QPAP^{-1} Q^{-1} = (QP)A(QP)^{-1}\)%
-\item{}\(\displaystyle [x] = \{ y \in X : y \sim x \}\)%
-\item{}\(\displaystyle r \equiv s \pmod{ n}\)%
-\item{}\(\displaystyle A \times D = \emptyset\)%
-\item{}\(\displaystyle \displaystyle f(p/q) = \frac{3p}{3q}\)%
-\item{}\(\displaystyle mn > 0\)%
-\item{}\(\displaystyle |x - y| \leq 4\)%
-\item{}\(\displaystyle a^2 + b^2 \leq c^2 + d^2\)%
-\item{}\(\displaystyle \binom{n}{k} = \frac{n!}{k! (n - k)!}\)%
-\item{}\(\displaystyle \gcd( a, b) = ar + bs\)%
-\item{}\(\displaystyle 2^{2^5} + 1 = 4{,}294{,}967{,}297\)%
-\item{}\(\displaystyle \sqrt[n]{a_1 a_2 \cdots a_n} \leq \frac{1}{n} \sum_{k = 1}^{n} a_k\)%
-\item{}\(\displaystyle \lim_{n \rightarrow \infty} f_n / f_{n + 1} = (\sqrt{5} - 1)/2\)%
-\item{}\(\displaystyle c=4\,598\,037\,234\)%
-\item{}\(\displaystyle \begin{array}{c|cccccccc} \cdot & 0 & 1 & 2 & 3 & 4 & 5 & 6 & 7 \\ \hline 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 \\ 1 & 0 & 1 & 2 & 3 & 4 & 5 & 6 & 7 \\ 2 & 0 & 2 & 4 & 6 & 0 & 2 & 4 & 6 \\ 3 & 0 & 3 & 6 & 1 & 4 & 7 & 2 & 5 \\ 4 & 0 & 4 & 0 & 4 & 0 & 4 & 0 & 4 \\ 5 & 0 & 5 & 2 & 7 & 4 & 1 & 6 & 3 \\ 6 & 0 & 6 & 4 & 2 & 0 & 6 & 4 & 2 \\ 7 & 0 & 7 & 6 & 5 & 4 & 3 & 2 & 1 \end{array}\)%
-\item{}\(\displaystyle \bigtriangleup ABC\)%
-\item{}\(\displaystyle 120^{\circ}\)%
-\item{}\(\displaystyle \mu_1 \rho_1\)%
-\item{}\(\displaystyle \begin{array}{c|cccccc} \circ & \identity & \rho_1 & \rho_2 & \mu_1 & \mu_2 & \mu_3 \\ \hline \identity & \identity & \rho_1 & \rho_2 & \mu_1 & \mu_2 & \mu_3 \\ \rho_1 & \rho_1 & \rho_2 & \identity & \mu_3 & \mu_1 & \mu_2 \\ \rho_2 & \rho_2 & \identity & \rho_1 & \mu_2 & \mu_3 & \mu_1 \\ \mu_1 & \mu_1 & \mu_2 & \mu_3 & \identity & \rho_1& \rho_2\\ \mu_2 & \mu_2 & \mu_3 & \mu_1 & \rho_2 & \identity & \rho_1\\ \mu_3 & \mu_3 & \mu_1 & \mu_2 & \rho_1 & \rho_2& \identity \end{array}\)%
-\item{}\(\displaystyle \begin{array}{c|ccccc} + & 0 & 1 & 2 & 3 & 4 \\ \hline 0 & 0 & 1 & 2 & 3 & 4 \\ 1 & 1 & 2 & 3 & 4 & 0 \\ 2 & 2 & 3 & 4 & 0 & 1 \\ 3 & 3 & 4 & 0 & 1 & 2 \\ 4 & 4 & 0 & 1 & 2 & 3 \end{array}\)%
-\item{}\(\displaystyle a^{-1} (a^{-1})^{-1} = e\)%
-\item{}\(\displaystyle g^{-n} = \underbrace{g^{-1} \cdot g^{-1} \cdots g^{-1}}_{n \; \text{times}}\)%
-\item{}\(\displaystyle {\mathbb Q}^* = \{ p/q : p \, \text{and}\, q\, \text{are nonzero integers} \}\)%
-\item{}\(\displaystyle SL_2( {\mathbb R})\)%
-\item{}\(\displaystyle \begin{pmatrix} 1 & 0 \\ 0 & 1 \end{pmatrix} + \begin{pmatrix} -1 & 0 \\ 0 & -1 \end{pmatrix} = \begin{pmatrix} 0 & 0 \\ 0 & 0 \end{pmatrix}\)%
-\item{}\(\displaystyle \begin{array}{c|cccc} + & (0,0) & (0,1) & (1,0) & (1,1) \\ \hline (0,0) & (0,0) & (0,1) & (1,0) & (1,1) \\ (0,1) & (0,1) & (0,0) & (1,1) & (1,0) \\ (1,0) & (1,0) & (1,1) & (0,0) & (0,1) \\ (1,1) & (1,1) & (1,0) & (0,1) & (0,0) \end{array}\)%
-\item{}\(\displaystyle \begin{array}{c|cccc} \circ & a & b & c & d \\ \hline a & a & c & d & a \\ b & b & b & c & d \\ c & c & d & a & b \\ d & d & a & b & c \end{array}\)%
-\item{}\(\displaystyle \begin{array}{c|cccc} \circ & a & b & c & d \\ \hline a & a & b & c & d \\ b & b & a & d & c \\ c & c & d & a & b \\ d & d & c & b & a \end{array}\)%
-\item{}\(\displaystyle \begin{array}{c|cccc} \circ & a & b & c & d \\ \hline a & a & b & c & d \\ b & b & c & d & a \\ c & c & d & a & b \\ d & d & a & b & c \end{array}\)%
-\item{}\(\displaystyle \begin{array}{c|cccc} \circ & a & b & c & d \\ \hline a & a & b & c & d \\ b & b & a & c & d \\ c & c & b & a & d \\ d & d & d & b & c \end{array}\)%
-\item{}\(\displaystyle \begin{array}{c|cccc} \cdot & 1 & 5 & 7 & 11 \\ \hline 1 & 1 & 5 & 7 & 11 \\ 5 & 5 & 1 & 11 & 7 \\ 7 & 7 & 11 & 1 & 5 \\ 11 & 11 & 7 & 5 & 1 \end{array}\)%
-\item{}\(\displaystyle \begin{pmatrix} 1 & x & y \\ 0 & 1 & z \\ 0 & 0 & 1 \end{pmatrix}\)%
-\item{}\(\displaystyle \begin{pmatrix} 1 & x & y \\ 0 & 1 & z \\ 0 & 0 & 1 \end{pmatrix} \begin{pmatrix} 1 & x' & y' \\ 0 & 1 & z' \\ 0 & 0 & 1 \end{pmatrix} = \begin{pmatrix} 1 & x+x' & y+y'+xz' \\ 0 & 1 & z+z' \\ 0 & 0 & 1 \end{pmatrix}\)%
-\item{}\(\displaystyle \sigma = \begin{pmatrix} 1 & 2 & \cdots & n \\ a_1 & a_2 & \cdots & a_n \end{pmatrix}\)%
-\item{}\(\displaystyle H_2 = \{ \identity, \rho_1, \rho_2 \}\)%
-\item{}\(\displaystyle \begin{pmatrix} \cos \theta & -\sin \theta \\ \sin \theta & \cos \theta \end{pmatrix}\)%
-\item{}\(\displaystyle G = \{ a + b \sqrt{2} : a, b \in {\mathbb Q} \text{ and } a \text{ and } b \text{ are not both zero} \}\)%
-\item{}\(\displaystyle H = \left\{ \begin{pmatrix} a & b \\ c & d \end{pmatrix} : a + d = 0 \right\}\)%
-\item{}\(\displaystyle (d_1, d_2, \ldots, d_{10} ) \cdot (10, 9, \ldots, 1 ) \equiv 0 \pmod{11}\)%
-\item{}\(\displaystyle 6.00000+0.00000i\)%
-\item{}\(\displaystyle \langle a \rangle = \{ a^k : k \in {\mathbb Z} \}\)%
-\item{}\(\displaystyle z^{-1} = \frac{a-bi}{ a^2 + b^2 }\)%
-\item{}\(\displaystyle \overline{z} = a- bi\)%
-\item{}\(\displaystyle z = \cis\left( \frac{2 k \pi}{n } \right)\)%
-\item{}\(\displaystyle \ast\)%
-\item{}\(\displaystyle A = \begin{pmatrix} 0 & 1 \\ -1 & 0 \end{pmatrix} \qquad \text{and} \qquad B = \begin{pmatrix} 0 & -1 \\ 1 & -1 \end{pmatrix}\)%
-\item{}\(\displaystyle \begin{array}{c|cccc} \circ & \identity & \sigma & \tau & \mu \\ \hline \identity & \identity & \sigma & \tau & \mu \\ \sigma & \sigma & \identity & \mu & \tau \\ \tau & \tau & \mu & \identity & \sigma \\ \mu & \mu & \tau & \sigma & \identity \end{array}\)%
-\item{}\(\displaystyle \sigma = \begin{pmatrix} 1 & 2 & 3 & 4 & 5 & 6 & 7\\ 6 & 3 & 5 & 1 & 4 & 2 & 7 \end{pmatrix} = (1 6 2 3 5 4 )\)%
-\item{}\(\displaystyle \tau = \begin{pmatrix} 1 & 2 & 3 & 4 & 5 & 6 \\ 1 & 4 & 2 & 3 & 5 & 6 \end{pmatrix} = (2 4 3)\)%
-\item{}\(\displaystyle \begin{pmatrix} 1 & 2 & 3 & 4 & 5 & 6 \\ 2 & 4 & 1 & 3 & 6 & 5 \end{pmatrix} = (1 2 4 3)(5 6)\)%
-\item{}\(\displaystyle 1 \mapsto 3, \qquad 3 \mapsto 5, \qquad 5 \mapsto 2, \qquad 2 \mapsto 1\)%
-\item{}\(\displaystyle ( 1 6 ) (2 5 3) = (1 6 )( 2 3 )( 2 5 ) = (1 6 )( 4 5 )(2 3 )( 4 5 )(2 5 )\)%
-\item{}\(\displaystyle \lambda_{\sigma} : A_n \rightarrow B_n\)%
-\item{}\(\displaystyle \identity, \frac{360^{\circ} }{n}, 2 \cdot \frac{360^{\circ} }{n}, \ldots, (n-1) \cdot \frac{360^{\circ} }{n}\)%
-\item{}\(\displaystyle D_n = \{1, r, r^2, \ldots, r^{n-1}, s, sr, sr^2, \ldots, sr^{n-1}\}\)%
-\item{}\(\displaystyle Z(G) = \{ g \in G : gx = xg \text{ for all } x \in G \}\)%
-\item{}\(\displaystyle {\mathcal O}_{x, \sigma} = \{ y : x \sim y \}\)%
-\item{}\(\displaystyle \phi : {\mathcal L}_H \rightarrow {\mathcal R}_H\)%
-\item{}\(\displaystyle [G:K] = \frac{|G|}{|K|} = \frac{|G|}{|H|} \cdot \frac{|H|}{|K|} = [G:H][H:K]\)%
-\item{}\(\displaystyle (1), (123), (132), (243), (243)^{-1} = (234), (142), (142)^{-1} = (124)\)%
-\item{}\(\displaystyle p \notdivide a\)%
-\item{}\(\displaystyle \phi(n) = n \left( 1 - \frac{1}{p_1} \right) \left( 1 - \frac{1}{p_2} \right)\cdots \left( 1 - \frac{1}{p_k} \right)\)%
-\item{}\(\displaystyle {\mathbf b} = ( 2, 2)^\transpose\)%
-\item{}\(\displaystyle \text{A} = 00, \text{B} = 02, \ldots, \text{Z}= 25\)%
-\item{}\(\displaystyle 169^{191} \bmod 667 = 25\)%
-\item{}\(\displaystyle y^D = x^{km + 1} = x^{km} x = (1 + tq) x = x + tq(rp) = x + trn = x \bmod n\)%
-\item{}\(\displaystyle n = 3551, E = 629, x = 31\)%
-\item{}\(\displaystyle 2^{15-1} \equiv 2^{14} \equiv 4 \pmod{15}\)%
-\item{}\(\displaystyle (x_{1}, x_{2}, \ldots, x_{n}) \mapsto (x_{1}, x_{2}, \ldots, x_{n}, x_{1}, x_{2}, \ldots, x_{n}, x_{1}, x_{2}, \ldots, x_{n})\)%
-\item{}\(\displaystyle (0.999)^{10,000} \approx 0.00005\)%
-\item{}\(\displaystyle \binom{n}{k} q^kp^{n - k}\)%
-\item{}\(\displaystyle \binom{n}{1} qp^{n - 1}= 500(0.005)(0.995)^{499} \approx 0.204\)%
-\item{}\(\displaystyle \binom{n}{2} q^{2}p^{n - 2}= \frac{500 \cdot 499}{2}(0.005)^{2}(0.995)^{498} \approx 0.257\)%
-\item{}\(\displaystyle H \in {\mathbb M}_{m \times n}({\mathbb Z}_2)\)%
-\item{}\(\displaystyle H{\mathbf x} = {\mathbf 0}\)%
-\item{}\(\displaystyle \Null(H)\)%
-\item{}\(\displaystyle \begin{pmatrix} a_{11} & a_{12} & \cdots & a_{1,n-m} \\ a_{21} & a_{22} & \cdots & a_{2,n-m} \\ \vdots & \vdots & \ddots & \vdots \\ a_{m1} & a_{m2} & \cdots & a_{m,n-m} \end{pmatrix}\)%
-\item{}\(\displaystyle G = \left( \frac{I_{n-m}}{A} \right)\)%
-\item{}\(\displaystyle G= \begin{pmatrix} 1 & 0 & 0 \\ 0 & 1 & 0 \\ 0 & 0 & 1 \\ 0 & 1 & 1 \\ 1 & 1 & 0 \\ 1 & 0 & 1 \end{pmatrix}\)%
-\item{}\(\displaystyle {\mathbf x} = (x_1, x_2, x_3, x_4, x_5, x_6)\)%
-\item{}\(\displaystyle \begin{array}{cccc} (000000) & (001101) & (010110) & (011011) \\ (100011) & (101110) & (110101) & (111000). \end{array}\)%
-\item{}\(\displaystyle \delta_{ij} = \begin{cases} 1 & i = j \\ 0 & i \neq j \end{cases}\)%
-\item{}\(\displaystyle \begin{pmatrix} 1 & 1 & 1 & 0 & 0 \\ 1 & 0 & 0 & 1 & 0 \\ 1 & 1 & 0 & 0 & 1 \end{pmatrix} \begin{pmatrix} 0 \\ 1 \\ 0 \\ 0 \\ 0 \end{pmatrix} = \begin{pmatrix} 1 \\ 0 \\ 1 \end{pmatrix}\)%
-\item{}\(\displaystyle H{\mathbf x} = \begin{pmatrix} 1 \\ 1 \\ 1 \end{pmatrix}, H{\mathbf y} = \begin{pmatrix} 1 \\ 1 \\ 0 \end{pmatrix}, H{\mathbf z} = \begin{pmatrix} 1 \\ 0 \\ 0 \end{pmatrix}\)%
-\item{}\(\displaystyle \begin{pmatrix} 0 & 0 & 0 & 1 & 1 & 1 & 1 \\ 0 & 1 & 1 & 0 & 0 & 1 & 1 \\ 1 & 0 & 1 & 0 & 1 & 0 & 1 \\ 0 & 1 & 1 & 0 & 0 & 1 & 1 \end{pmatrix}\)%
-\item{}\(\displaystyle G = \begin{pmatrix} 1 & 0 \\ 0 & 1 \\ 1 & 0 \\ 1 & 1 \\ 0 & 1 \\ 1 & 1 \end{pmatrix}\)%
-\item{}\(\displaystyle C^\perp = \{ {\mathbf x} \in {\mathbb Z}_2^n : {\mathbf x} \cdot {\mathbf y} = 0 \text{ for all } {\mathbf y} \in C \}\)%
-\item{}\(\displaystyle 2^k\left({n\choose 0} + {n\choose 1} + {n\choose 2} + \cdots + {n\choose \frac{d-1}{2}}\right) = 2^n\)%
-\item{}\(\displaystyle \phi( a \cdot b) = \phi( a) \circ \phi( b)\)%
-\item{}\(\displaystyle G \cong H\)%
-\item{}\(\displaystyle \begin{array}{c|ccc} + & 0 & 1 & 2 \\ \hline 0 & 0 & 1 & 2 \\ 1 & 1 & 2 & 0 \\ 2 & 2 & 0 & 1 \end{array}\)%
-\item{}\(\displaystyle \prod_{i = 1}^n G_i = G_1 \times G_2 \times \cdots \times G_n\)%
-\item{}\(\displaystyle \prod G_i\)%
-\item{}\(\displaystyle \underbrace{(a,b) + (a,b)+ \cdots + (a,b)}_{mn/d \; \text{times}} = (0, 0)\)%
-\item{}\(\displaystyle {\mathbb Z}_{p_1^{e_1}} \times \cdots \times {\mathbb Z}_{p_k^{e_k}}\)%
-\item{}\(\displaystyle a \ast b = a + b + ab\)%
-\item{}\(\displaystyle A = \begin{pmatrix} \omega & 0 \\ 0 & \omega^{-1} \end{pmatrix} \quad \text{and} \quad B = \begin{pmatrix} 0 & 1 \\ 1 & 0 \end{pmatrix}\)%
-\item{}\(\displaystyle \begin{pmatrix} \pm 1 & k \\ 0 & 1 \end{pmatrix}\)%
-\item{}\(\displaystyle \inn(G) = \aut(G)\)%
-\item{}\(\displaystyle g \mapsto \rho_g\)%
-\item{}\(\displaystyle G \times H \cong \overline{G} \times \overline{H}\)%
-\item{}\(\displaystyle \langle m \rangle \cap \langle n \rangle = \langle l \rangle\)%
-\item{}\(\displaystyle \{z^iy^j\mid 0\leq i \lt p, 0\leq j \lt 2\}\)%
-\item{}\(\displaystyle \begin{array}{c|cc} & N & (12) N \\ \hline N & N & (12) N \\ (12) N & (12) N & N \end{array}\)%
-\item{}\(\displaystyle \begin{array}{c|ccc} + & 0 + 3{\mathbb Z} & 1 + 3{\mathbb Z} & 2 + 3{\mathbb Z} \\\hline 0 + 3{\mathbb Z} & 0 + 3{\mathbb Z} & 1 + 3{\mathbb Z} & 2 + 3{\mathbb Z} \\ 1 + 3{\mathbb Z} & 1 + 3{\mathbb Z} & 2 + 3{\mathbb Z} & 0 + 3{\mathbb Z} \\ 2 + 3{\mathbb Z} & 2 + 3{\mathbb Z} & 0 + 3{\mathbb Z} & 1 + 3{\mathbb Z} \end{array}\)%
-\item{}\(\displaystyle [(i j)(a k)](i j a)^2 [(i j)(a k)]^{-1} = (i j k)\)%
-\item{}\(\displaystyle \sigma^{-1}(a_1 a_2 a_4)\sigma(a_1 a_2 a_4)^{-1} \in N\)%
-\item{}\(\displaystyle (a_1 a_2 a_4)\sigma(a_1 a_2 a_4)^{-1} \in N\)%
-\item{}\(\displaystyle \ker \phi = SL_2( {\mathbb R })\)%
-\item{}\(\displaystyle \eta(g_1 K) = \psi(g_1) = \psi(g_1) \psi(k) = \psi(g_1k) = \psi(g_2) = \eta(g_2 K)\)%
-\item{}\(\displaystyle {\mathbb Z} / \ker \phi = {\mathbb Z} / m {\mathbb Z} \cong G\)%
-\item{}\(\displaystyle ( hn )^{-1} = n^{-1 } h^{-1} = h^{-1} (h n^{-1} h^{-1} )\)%
-\item{}\(\displaystyle G \rightarrow G/N \rightarrow \frac{G/N}{H/N} \)%
-\item{}\(\displaystyle \begin{pmatrix} 3/5 & -4/5 \\ 4/5 & 3/5 \end{pmatrix}, \quad \begin{pmatrix} 1/2 & -\sqrt{3}/2 \\ \sqrt{3}/2 & 1/2 \end{pmatrix}, \quad \begin{pmatrix} -1/\sqrt{2} & 0 & 1/ \sqrt{2} \\ 1/\sqrt{6} & -2/\sqrt{6} & 1/\sqrt{6} \\ 1/ \sqrt{3} & 1/ \sqrt{3} & 1/ \sqrt{3} \end{pmatrix}\)%
-\item{}\(\displaystyle \| {\mathbf x} \| = \sqrt{\langle {\mathbf x}, {\mathbf x} \rangle} = \sqrt{x_1^2 + \cdots + x_n^2}\)%
-\item{}\(\displaystyle \langle A{\mathbf x}, A{\mathbf y} \rangle = \langle {\mathbf x},{\mathbf y} \rangle\)%
-\item{}\(\displaystyle (2) \Rightarrow (3)\)%
-\item{}\(\displaystyle \langle {\mathbf x}, {\mathbf y} \rangle = \frac{1}{2} \left[ \|{\mathbf x} +{\mathbf y}\|^2 - \|{\mathbf x}\|^2 - \|{\mathbf y}\|^2 \right]\)%
-\item{}\(\displaystyle T_{\phi} = \begin{pmatrix} \cos \phi & - \sin \phi \\ \sin \phi & \cos \phi \end{pmatrix} \begin{pmatrix} 1 & 0 \\ 0 & -1 \end{pmatrix} = \begin{pmatrix} \cos \phi & \sin \phi \\ \sin \phi & - \cos \phi \end{pmatrix}\)%
-\item{}\(\displaystyle \begin{pmatrix} 4/ \sqrt{5} & 0 & 3 / \sqrt{5} \\ -3 / \sqrt{5} & 0 & 4 / \sqrt{5} \\ 0 & -1 & 0 \end{pmatrix}\)%
-\item{}\(\displaystyle E(n) = \{(A, {\mathbf x}) : A \in O(n) \text{ and } {\mathbf x} \in {\mathbb R}^n \}\)%
-\item{}\(\displaystyle G = H_n \supset H_{n - 1} \supset \cdots \supset H_1 \supset H_0 = \{ e \}\)%
-\item{}\(\displaystyle {\mathbb Z}_{p_1^{\alpha_1}} \times \cdots \times {\mathbb Z}_{p_n^{\alpha_n}}\)%
-\item{}\(\displaystyle \{ g_i \in G : i \in I \}\)%
-\item{}\(\displaystyle g^{-1} = (g_{i_1}^{k_{1}} \cdots g_{i_n}^{k_n})^{-1} = (g_{i_n}^{-k_n} \cdots g_{i_{1}}^{-k_{1}})\)%
-\item{}\(\displaystyle (gh)^{p_i^t} = g^{p_i^t} h^{p_i^t} = 1 \cdot 1 = 1\)%
-\item{}\(\displaystyle |g| = p_1^{\beta_1} p_2^{\beta_2} \cdots p_k^{\beta_k}\)%
-\item{}\(\displaystyle g = g^{a_1 b_1 + \cdots + a_k b_k} = g^{a_1 b_1} \cdots g^{a_k b_k}\)%
-\item{}\(\displaystyle g^{(a_i b_i ) p_i^{\beta_i}} = g^{b_i |g|} = e\)%
-\item{}\(\displaystyle G^{(0)} = G \supset G^{(1)} \supset G^{(2)} \supset \cdots\)%
-\item{}\(\displaystyle Z_3\rtimes Z_4\)%
-\item{}\(\displaystyle \phi(ab) = gabg^{-1} = gag^{-1} gbg^{-1} = \phi(a) \phi(b)\)%
-\item{}\(\displaystyle \sum_{y \in {\mathcal O}_x} |G_y| = | {\mathcal O}_x| \cdot |G_x|\)%
-\item{}\(\displaystyle |\widetilde{X}_{(13)(24)}| = 2^2 = 4\)%
-\item{}\(\displaystyle |{\mathcal S}| = |\text{orbit of }P| = [G : N(P)]\)%
-\item{}\(\displaystyle q \not\equiv 1 \pmod{p}\)%
-\item{}\(\displaystyle p \nmid \binom{p^k m}{p^k}\)%
-\item{}\(\displaystyle 44\,352\,000\)%
-\item{}\(\displaystyle \begin{pmatrix} \alpha & \beta \\ -\overline{\beta} & \overline{\alpha } \end{pmatrix}\)%
-\item{}\(\displaystyle (a_1 + b_1 {\mathbf i} + c_1 {\mathbf j} +d_1 {\mathbf k} ) ( a_2 + b_2 {\mathbf i} + c_2 {\mathbf j} +d_2 {\mathbf k} ) = \alpha + \beta {\mathbf i} + \gamma {\mathbf j} + \delta {\mathbf k}\)%
-\item{}\(\displaystyle T = \left\{ \begin{pmatrix} a & b \\ 0 & c \end{pmatrix} : a, b, c \in {\mathbb R} \right\}\)%
-\item{}\(\displaystyle A = \begin{pmatrix} a & b \\ 0 & c \end{pmatrix} \quad \text{and} \quad B = \begin{pmatrix} a' & b' \\ 0 & c' \end{pmatrix}\)%
-\item{}\(\displaystyle F = \left\{ \begin{pmatrix} 1 & 0 \\ 0 & 1 \end{pmatrix}, \begin{pmatrix} 1 & 1 \\ 1 & 0 \end{pmatrix}, \begin{pmatrix} 0 & 1 \\ 1 & 1 \end{pmatrix}, \begin{pmatrix} 0 & 0 \\ 0 & 0 \end{pmatrix} \right\}\)%
-\item{}\(\displaystyle \frac{a}{a^2 - 2 b^2} +\frac{- b}{ a^2 - 2 b^2} \sqrt{2}\)%
-\item{}\(\displaystyle R/I \cong \frac{R/J}{I/J}\)%
-\item{}\(\displaystyle \left\{ \begin{pmatrix} 1 & 0 \\ 0 & 1 \end{pmatrix}, \begin{pmatrix} 1 & 1 \\ 0 & 1 \end{pmatrix}, \begin{pmatrix} 1 & 0 \\ 1 & 1 \end{pmatrix}, \begin{pmatrix} 0 & 1 \\ 1 & 0 \end{pmatrix}, \begin{pmatrix} 1 & 1 \\ 1 & 0 \end{pmatrix}, \begin{pmatrix} 0 & 1 \\ 1 & 1 \end{pmatrix}, \right\}\)%
-\item{}\(\displaystyle f(x) = \sum^{n}_{i=0} a_i x^i = a_0 + a_1 x +a_2 x^2 + \cdots + a_n x^n\)%
-\item{}\(\displaystyle c_i = \sum_{k = 0}^i a_k b_{i - k} = a_0 b_i + a_1 b_{i -1} + \cdots + a_{i -1} b _1 + a_i b_0\)%
-\item{}\(\displaystyle p(x) = \frac{b_0}{c_0} + \frac{b_1}{c_1} x + \cdots + \frac{b_n}{c_n} x^n\)%
-\item{}\(\displaystyle p(x) = \alpha(x) \beta(x) = \frac{c_1 c_2}{d_1 d_2} \alpha_1(x) \beta_1(x) = \frac{c}{d} \alpha_1(x) \beta_1(x)\)%
-\item{}\(\displaystyle \omega^i \sqrt[3]{-\frac{q}{2}+ \sqrt{\ \frac{p^3}{27} + \frac{q^2}{4}} } + \omega^{2i} \sqrt[3]{-\frac{q}{2}- \sqrt{\ \frac{p^3}{27} + \frac{q^2}{4}} }\)%
-\item{}\(\displaystyle D\lbrack x \rbrack\)%
-\item{}\(\displaystyle c_{r + s} = a_0 b_{r + s} + a_1 b_{r + s - 1} + \cdots + a_{r + s - 1} b_1 + a_{r + s} b_0\)%
-\item{}\(\displaystyle O \preceq \cdots \preceq b_3 \preceq b_2 \preceq b_1 \preceq b\)%
-\item{}\(\displaystyle a \not\preceq c\)%
-\item{}\(\displaystyle a = a \wedge b = a \wedge( a_1 \vee \cdots \vee a_n ) = (a \wedge a_1) \vee \cdots \vee ( a \wedge a_n )\)%
-\item{}\(\displaystyle ( a \wedge b') \vee (a' \wedge b) = O \Rightarrow a \vee b = (a \vee a) \vee b = a \vee (a \vee b) = a \vee [I \wedge (a \vee b)] = a \vee [(a \vee a') \wedge (a \vee b)] = [a \vee (a \wedge b')] \vee [a \vee (a' \wedge b)] = a \vee [(a \wedge b') \vee (a' \wedge b)] = a \vee 0 = a\)%
-\item{}\(\displaystyle u + v = (u_1, \ldots, u_n) + (v_1, \ldots, v_n) = (u_1 + v_1, \ldots, u_n + v_n)\)%
-\item{}\(\displaystyle u + v =( \alpha_1 + \beta_1) v_1 + (\alpha_2+ \beta_2) v_2 + \cdots + (\alpha_n + \beta_n) v_n\)%
-\item{}\(\displaystyle v_k = - \frac{\alpha_1}{\alpha_k} v_1 - \cdots - \frac{\alpha_{k - 1}}{\alpha_k} v_{k-1} - \frac{\alpha_{k + 1}}{\alpha_k} v_{k + 1} - \cdots - \frac{\alpha_n}{\alpha_k} v_n\)%
-\item{}\(\displaystyle E = {\mathbb Z}_2[x] / \langle x^2 + x + 1 \rangle\)%
-\item{}\(\displaystyle \begin{array}{c|cccc} + & 0 & 1 & \alpha & 1 + \alpha \\ \hline 0 & 0 & 1 & \alpha & 1 + \alpha \\ 1 & 1 & 0 & 1 + \alpha & \alpha \\ \alpha & \alpha & 1 + \alpha & 0 & 1 \\ 1 + \alpha & 1 + \alpha & \alpha & 1 & 0 \end{array}\)%
-\item{}\(\displaystyle \begin{array}{c|cccc} \cdot & 0 & 1 & \alpha & 1 + \alpha \\ \hline 0 & 0 & 0 & 0 & 0 \\ 1 & 0 & 1 & \alpha & 1 + \alpha \\ \alpha & 0 & \alpha & 1 + \alpha & 1 \\ 1 + \alpha & 0 & 1 + \alpha & 1 & \alpha \end{array}\)%
-\item{}\(\displaystyle \{ 1, \sqrt{5}\, i, \sqrt[3]{5}, (\sqrt[3]{5}\, )^2, (\sqrt[6]{5}\, )^5 i, (\sqrt[6]{5}\, )^7 i = 5 \sqrt[6]{5}\, i \text{ or } \sqrt[6]{5}\, i \}\)%
-\item{}\(\displaystyle 0 = f(\beta) = f\left( \frac{p(\alpha)}{q(\alpha)} \right) = a_0 + a_1 \left( \frac{p(\alpha)}{q(\alpha)} \right) + \cdots + a_n \left( \frac{p(\alpha)}{q(\alpha)} \right)^n\)%
-\item{}\(\displaystyle (a + b)^p = \sum_{k = 0}^{p} \binom{p}{k} a^k b^{p - k}\)%
-\item{}\(\displaystyle (a + b)^{p^{n + 1}} = ((a + b)^p)^{p^{n}} = (a^p + b^p)^{p^{n}} = (a^p)^{p^{n}} + (b^p)^{p^{n}} = a^{p^{n + 1}} + b^{p^{n + 1}}\)%
-\item{}\(\displaystyle G_1 = \begin{pmatrix} 1 & 0 & 0 \\ 0 & 1 & 0 \\ 0 & 0 & 1 \\ 1 & 0 & 0 \\ 0 & 1 & 0 \\ 0 & 0 & 1 \end{pmatrix} \quad \text{and} \quad G_2 = \begin{pmatrix} 1 & 0 & 0 \\ 1 & 1 & 0 \\ 1 & 1 & 1 \\ 1 & 1 & 1 \\ 0 & 1 & 1 \\ 0 & 0 & 1 \end{pmatrix}\)%
-\item{}\(\displaystyle \begin{array}{rclccrcl} (000) & \mapsto & (000000) & & & (100) & \mapsto & (100100) \\ (001) & \mapsto & (001001) & & & (101) & \mapsto & (101101) \\ (010) & \mapsto & (010010) & & & (110) & \mapsto & (110110) \\ (011) & \mapsto & (011011) & & & (111) & \mapsto & (111111). \end{array}\)%
-\item{}\(\displaystyle \begin{array}{rclccrcl} (000) & \mapsto & (000000) & & & (100) & \mapsto & (111100) \\ (001) & \mapsto & (001111) & & & (101) & \mapsto & (110011) \\ (010) & \mapsto & (011110) & & & (110) & \mapsto & (100010) \\ (011) & \mapsto & (010001) & & & (111) & \mapsto & (101101). \end{array}\)%
-\item{}\(\displaystyle G = \begin{pmatrix} 1 & 0 & 0 & 0 \\ 1 & 1 & 0 & 0 \\ 0 & 1 & 1 & 0 \\ 1 & 0 & 1 & 1 \\ 0 & 1 & 0 & 1 \\ 0 & 0 & 1 & 0 \\ 0 & 0 & 0 & 1 \end{pmatrix}\)%
-\item{}\(\displaystyle G = \begin{pmatrix} g_0 & 0 & \cdots & 0 \\ g_1 & g_0 & \cdots & 0 \\ \vdots & \vdots &\ddots & \vdots \\ g_{n-k} & g_{n-k-1} & \cdots & g_0 \\ 0 & g_{n-k} & \cdots & g_{1} \\ \vdots & \vdots & \ddots & \vdots \\ 0 & 0 & \cdots & g_{n-k} \end{pmatrix}\)%
-\item{}\(\displaystyle H = \begin{pmatrix} 0 & \cdots & 0 & 0 & h_k & \cdots & h_0 \\ 0 & \cdots & 0 & h_k & \cdots & h_0 & 0 \\ \cdots & \cdots & \cdots & \cdots & \cdots & \cdots & \cdots \\ h_k & \cdots & h_0 & 0 & 0 & \cdots & 0 \end{pmatrix}\)%
-\item{}\(\displaystyle \det \begin{pmatrix} 1 & 1 & \cdots & 1 \\ \alpha_1 & \alpha_2 & \cdots & \alpha_n \\ \alpha_1^2 & \alpha_2^2 & \cdots & \alpha_n^2 \\ \vdots & \vdots & \ddots & \vdots \\ \alpha_1^{n-1} & \alpha_2^{n-1} & \cdots & \alpha_n^{n-1} \end{pmatrix} = \prod_{1 \leq j \lt i \leq n} (\alpha_i - \alpha_j)\)%
-\item{}\(\displaystyle p(x) = \det \begin{pmatrix} 1 & 1 & \cdots & 1 & 1 \\ \alpha_1 & \alpha_2 & \cdots & \alpha_{n-1} & x \\ \alpha_1^2 & \alpha_2^2 & \cdots & \alpha_{n-1}^2 & x^2 \\ \vdots & \vdots & \ddots & \vdots & \vdots \\ \alpha_1^{n-1} & \alpha_2^{n-1} & \cdots & \alpha_{n-1}^{n-1} & x^{n-1} \end{pmatrix}\)%
-\item{}\(\displaystyle \beta = (-1)^{n + n} \det \begin{pmatrix} 1 & 1 & \cdots & 1 \\ \alpha_1 & \alpha_2 & \cdots & \alpha_{n-1} \\ \alpha_1^2 & \alpha_2^2 & \cdots & \alpha_{n-1}^2 \\ \vdots & \vdots & \ddots & \vdots \\ \alpha_1^{n-2} & \alpha_2^{n-2} & \cdots & \alpha_{n-1}^{n-2} \end{pmatrix}\)%
-\item{}\(\displaystyle \beta = (-1)^{n+n} \prod_{1 \leq j \lt i \leq n - 1} (\alpha_i - \alpha_j)\)%
-\item{}\(\displaystyle \begin{pmatrix} (\omega^{i_0})^r & (\omega^{i_1})^r & \cdots & (\omega^{i_{s-1}})^r \\ (\omega^{i_0})^{r+1} & (\omega^{i_1})^{r+1} & \cdots & (\omega^{i_{s-1}})^{r+1} \\ \vdots & \vdots & \ddots & \vdots \\ (\omega^{i_0})^{r+s-1} & (\omega^{i_1})^{r+s-1} & \cdots & (\omega^{i_{s-1}})^{r+s-1} \end{pmatrix}\)%
-\item{}\(\displaystyle H = \begin{pmatrix} 1 & \omega & \omega^2 & \cdots & \omega^{n-1}\\ 1 & \omega^2 & \omega^{4} & \cdots & \omega^{(n-1)(2)} \\ 1 & \omega^3 & \omega^{6} & \cdots & \omega^{(n-1)(3)} \\ \vdots & \vdots & \vdots & \ddots & \vdots \\ 1 & \omega^{2r} & \omega^{4r} & \cdots & \omega^{(n-1)(2r)} \end{pmatrix}\)%
-\item{}\(\displaystyle H {\mathbf x} = \begin{pmatrix} a_0 + a_1 \omega + \cdots + a_{n-1} \omega^{n-1} \\ a_0 + a_1 \omega^2 + \cdots + a_{n-1} (\omega^2)^{n-1} \\ \vdots \\ a_0 + a_1 \omega^{2r} + \cdots + a_{n-1} (\omega^{2r})^{n-1} \end{pmatrix} = \begin{pmatrix} f(\omega) \\ f(\omega^2) \\ \vdots \\ f(\omega^{2r}) \end{pmatrix} = 0\)%
+\item{}\(\mathcal S\)%
+\item{}\(a \neq 0\)%
+\item{}\(x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}\)%
+\item{}\(X = \{ x_1, x_2, \ldots, x_n \}\)%
+\item{}\(X = \{ x :x \text{ satisfies }{\mathcal P}\}\)%
+\item{}\(-3 \notin E\)%
+\item{}\(\{4,5,8\} \subset \{2, 3, 4, 5, 6, 7, 8, 9 \}\)%
+\item{}\({\mathbb N} \subset {\mathbb Z} \subset {\mathbb Q} \subset {\mathbb R} \subset {\mathbb C}\)%
+\item{}\(A \notsubset B\)%
+\item{}\(\bigcup_{i = 1}^{n} A_{i} = A_{1} \cup \ldots \cup A_n\)%
+\item{}\(\bigcap_{i = 1}^{n} A_{i} = A_{1} \cap \ldots \cap A_n\)%
+\item{}\(A \setminus B = A \cap B' = \{ x : x \in A \text{ and } x \notin B \}\)%
+\item{}\(A \stackrel{f}{\rightarrow} B\)%
+\item{}\(f : a \mapsto b\)%
+\item{}\(a_1 \neq a_2\)%
+\item{}\((f \circ g )(x) = f(g(x)) = f( \sqrt[3]{x}\, ) = (\sqrt[3]{x}\, )^3 = x\)%
+\item{}\(\begin{pmatrix} a & b \\ c & d \end{pmatrix} \begin{pmatrix} x \\ y \end{pmatrix} = \begin{pmatrix} ax + by \\ cx +dy \end{pmatrix}\)%
+\item{}\(\begin{pmatrix} 1 & 2 & 3 \\ \pi(1) & \pi(2) & \pi(3) \end{pmatrix} = \begin{pmatrix} 1 & 2 & 3 \\ 2 & 1 & 3 \end{pmatrix}\)%
+\item{}\(g \circ f = id_A\)%
+\item{}\(x \sim y, x\cong y\)%
+\item{}\(psu = qru = qst\)%
+\item{}\(C = QBQ^{-1} = QPAP^{-1} Q^{-1} = (QP)A(QP)^{-1}\)%
+\item{}\([x] = \{ y \in X : y \sim x \}\)%
+\item{}\(r \equiv s \pmod{ n}\)%
+\item{}\(A \times D = \emptyset\)%
+\item{}\(\displaystyle f(p/q) = \frac{3p}{3q}\)%
+\item{}\(mn > 0\)%
+\item{}\(|x - y| \leq 4\)%
+\item{}\(a^2 + b^2 \leq c^2 + d^2\)%
+\item{}\(\binom{n}{k} = \frac{n!}{k! (n - k)!}\)%
+\item{}\(\gcd( a, b) = ar + bs\)%
+\item{}\(2^{2^5} + 1 = 4{,}294{,}967{,}297\)%
+\item{}\(\sqrt[n]{a_1 a_2 \cdots a_n} \leq \frac{1}{n} \sum_{k = 1}^{n} a_k\)%
+\item{}\(\lim_{n \rightarrow \infty} f_n / f_{n + 1} = (\sqrt{5} - 1)/2\)%
+\item{}\(c=4\,598\,037\,234\)%
+\item{}\(\begin{array}{c|cccccccc} \cdot & 0 & 1 & 2 & 3 & 4 & 5 & 6 & 7 \\ \hline 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 \\ 1 & 0 & 1 & 2 & 3 & 4 & 5 & 6 & 7 \\ 2 & 0 & 2 & 4 & 6 & 0 & 2 & 4 & 6 \\ 3 & 0 & 3 & 6 & 1 & 4 & 7 & 2 & 5 \\ 4 & 0 & 4 & 0 & 4 & 0 & 4 & 0 & 4 \\ 5 & 0 & 5 & 2 & 7 & 4 & 1 & 6 & 3 \\ 6 & 0 & 6 & 4 & 2 & 0 & 6 & 4 & 2 \\ 7 & 0 & 7 & 6 & 5 & 4 & 3 & 2 & 1 \end{array}\)%
+\item{}\(\bigtriangleup ABC\)%
+\item{}\(120^{\circ}\)%
+\item{}\(\mu_1 \rho_1\)%
+\item{}\(\begin{array}{c|cccccc} \circ & \identity & \rho_1 & \rho_2 & \mu_1 & \mu_2 & \mu_3 \\ \hline \identity & \identity & \rho_1 & \rho_2 & \mu_1 & \mu_2 & \mu_3 \\ \rho_1 & \rho_1 & \rho_2 & \identity & \mu_3 & \mu_1 & \mu_2 \\ \rho_2 & \rho_2 & \identity & \rho_1 & \mu_2 & \mu_3 & \mu_1 \\ \mu_1 & \mu_1 & \mu_2 & \mu_3 & \identity & \rho_1& \rho_2\\ \mu_2 & \mu_2 & \mu_3 & \mu_1 & \rho_2 & \identity & \rho_1\\ \mu_3 & \mu_3 & \mu_1 & \mu_2 & \rho_1 & \rho_2& \identity \end{array}\)%
+\item{}\(\begin{array}{c|ccccc} + & 0 & 1 & 2 & 3 & 4 \\ \hline 0 & 0 & 1 & 2 & 3 & 4 \\ 1 & 1 & 2 & 3 & 4 & 0 \\ 2 & 2 & 3 & 4 & 0 & 1 \\ 3 & 3 & 4 & 0 & 1 & 2 \\ 4 & 4 & 0 & 1 & 2 & 3 \end{array}\)%
+\item{}\(a^{-1} (a^{-1})^{-1} = e\)%
+\item{}\(g^{-n} = \underbrace{g^{-1} \cdot g^{-1} \cdots g^{-1}}_{n \; \text{times}}\)%
+\item{}\({\mathbb Q}^* = \{ p/q : p \, \text{and}\, q\, \text{are nonzero integers} \}\)%
+\item{}\(SL_2( {\mathbb R})\)%
+\item{}\(\begin{pmatrix} 1 & 0 \\ 0 & 1 \end{pmatrix} + \begin{pmatrix} -1 & 0 \\ 0 & -1 \end{pmatrix} = \begin{pmatrix} 0 & 0 \\ 0 & 0 \end{pmatrix}\)%
+\item{}\(\begin{array}{c|cccc} + & (0,0) & (0,1) & (1,0) & (1,1) \\ \hline (0,0) & (0,0) & (0,1) & (1,0) & (1,1) \\ (0,1) & (0,1) & (0,0) & (1,1) & (1,0) \\ (1,0) & (1,0) & (1,1) & (0,0) & (0,1) \\ (1,1) & (1,1) & (1,0) & (0,1) & (0,0) \end{array}\)%
+\item{}\(\begin{array}{c|cccc} \circ & a & b & c & d \\ \hline a & a & c & d & a \\ b & b & b & c & d \\ c & c & d & a & b \\ d & d & a & b & c \end{array}\)%
+\item{}\(\begin{array}{c|cccc} \circ & a & b & c & d \\ \hline a & a & b & c & d \\ b & b & a & d & c \\ c & c & d & a & b \\ d & d & c & b & a \end{array}\)%
+\item{}\(\begin{array}{c|cccc} \circ & a & b & c & d \\ \hline a & a & b & c & d \\ b & b & c & d & a \\ c & c & d & a & b \\ d & d & a & b & c \end{array}\)%
+\item{}\(\begin{array}{c|cccc} \circ & a & b & c & d \\ \hline a & a & b & c & d \\ b & b & a & c & d \\ c & c & b & a & d \\ d & d & d & b & c \end{array}\)%
+\item{}\(\begin{array}{c|cccc} \cdot & 1 & 5 & 7 & 11 \\ \hline 1 & 1 & 5 & 7 & 11 \\ 5 & 5 & 1 & 11 & 7 \\ 7 & 7 & 11 & 1 & 5 \\ 11 & 11 & 7 & 5 & 1 \end{array}\)%
+\item{}\(\begin{pmatrix} 1 & x & y \\ 0 & 1 & z \\ 0 & 0 & 1 \end{pmatrix}\)%
+\item{}\(\begin{pmatrix} 1 & x & y \\ 0 & 1 & z \\ 0 & 0 & 1 \end{pmatrix} \begin{pmatrix} 1 & x' & y' \\ 0 & 1 & z' \\ 0 & 0 & 1 \end{pmatrix} = \begin{pmatrix} 1 & x+x' & y+y'+xz' \\ 0 & 1 & z+z' \\ 0 & 0 & 1 \end{pmatrix}\)%
+\item{}\(\sigma = \begin{pmatrix} 1 & 2 & \cdots & n \\ a_1 & a_2 & \cdots & a_n \end{pmatrix}\)%
+\item{}\(H_2 = \{ \identity, \rho_1, \rho_2 \}\)%
+\item{}\(\begin{pmatrix} \cos \theta & -\sin \theta \\ \sin \theta & \cos \theta \end{pmatrix}\)%
+\item{}\(G = \{ a + b \sqrt{2} : a, b \in {\mathbb Q} \text{ and } a \text{ and } b \text{ are not both zero} \}\)%
+\item{}\(H = \left\{ \begin{pmatrix} a & b \\ c & d \end{pmatrix} : a + d = 0 \right\}\)%
+\item{}\((d_1, d_2, \ldots, d_{10} ) \cdot (10, 9, \ldots, 1 ) \equiv 0 \pmod{11}\)%
+\item{}\(6.00000+0.00000i\)%
+\item{}\(\langle a \rangle = \{ a^k : k \in {\mathbb Z} \}\)%
+\item{}\(z^{-1} = \frac{a-bi}{ a^2 + b^2 }\)%
+\item{}\(\overline{z} = a- bi\)%
+\item{}\(z = \cis\left( \frac{2 k \pi}{n } \right)\)%
+\item{}\(\ast\)%
+\item{}\(A = \begin{pmatrix} 0 & 1 \\ -1 & 0 \end{pmatrix} \qquad \text{and} \qquad B = \begin{pmatrix} 0 & -1 \\ 1 & -1 \end{pmatrix}\)%
+\item{}\(\begin{array}{c|cccc} \circ & \identity & \sigma & \tau & \mu \\ \hline \identity & \identity & \sigma & \tau & \mu \\ \sigma & \sigma & \identity & \mu & \tau \\ \tau & \tau & \mu & \identity & \sigma \\ \mu & \mu & \tau & \sigma & \identity \end{array}\)%
+\item{}\(\sigma = \begin{pmatrix} 1 & 2 & 3 & 4 & 5 & 6 & 7\\ 6 & 3 & 5 & 1 & 4 & 2 & 7 \end{pmatrix} = (1 6 2 3 5 4 )\)%
+\item{}\(\tau = \begin{pmatrix} 1 & 2 & 3 & 4 & 5 & 6 \\ 1 & 4 & 2 & 3 & 5 & 6 \end{pmatrix} = (2 4 3)\)%
+\item{}\(\begin{pmatrix} 1 & 2 & 3 & 4 & 5 & 6 \\ 2 & 4 & 1 & 3 & 6 & 5 \end{pmatrix} = (1 2 4 3)(5 6)\)%
+\item{}\(1 \mapsto 3, \qquad 3 \mapsto 5, \qquad 5 \mapsto 2, \qquad 2 \mapsto 1\)%
+\item{}\(( 1 6 ) (2 5 3) = (1 6 )( 2 3 )( 2 5 ) = (1 6 )( 4 5 )(2 3 )( 4 5 )(2 5 )\)%
+\item{}\(\lambda_{\sigma} : A_n \rightarrow B_n\)%
+\item{}\(\identity, \frac{360^{\circ} }{n}, 2 \cdot \frac{360^{\circ} }{n}, \ldots, (n-1) \cdot \frac{360^{\circ} }{n}\)%
+\item{}\(D_n = \{1, r, r^2, \ldots, r^{n-1}, s, sr, sr^2, \ldots, sr^{n-1}\}\)%
+\item{}\(Z(G) = \{ g \in G : gx = xg \text{ for all } x \in G \}\)%
+\item{}\({\mathcal O}_{x, \sigma} = \{ y : x \sim y \}\)%
+\item{}\(\phi : {\mathcal L}_H \rightarrow {\mathcal R}_H\)%
+\item{}\([G:K] = \frac{|G|}{|K|} = \frac{|G|}{|H|} \cdot \frac{|H|}{|K|} = [G:H][H:K]\)%
+\item{}\((1), (123), (132), (243), (243)^{-1} = (234), (142), (142)^{-1} = (124)\)%
+\item{}\(p \notdivide a\)%
+\item{}\(\phi(n) = n \left( 1 - \frac{1}{p_1} \right) \left( 1 - \frac{1}{p_2} \right)\cdots \left( 1 - \frac{1}{p_k} \right)\)%
+\item{}\({\mathbf b} = ( 2, 2)^\transpose\)%
+\item{}\(\text{A} = 00, \text{B} = 02, \ldots, \text{Z}= 25\)%
+\item{}\(169^{191} \bmod 667 = 25\)%
+\item{}\(y^D = x^{km + 1} = x^{km} x = (1 + tq) x = x + tq(rp) = x + trn = x \bmod n\)%
+\item{}\(n = 3551, E = 629, x = 31\)%
+\item{}\(2^{15-1} \equiv 2^{14} \equiv 4 \pmod{15}\)%
+\item{}\((x_{1}, x_{2}, \ldots, x_{n}) \mapsto (x_{1}, x_{2}, \ldots, x_{n}, x_{1}, x_{2}, \ldots, x_{n}, x_{1}, x_{2}, \ldots, x_{n})\)%
+\item{}\((0.999)^{10,000} \approx 0.00005\)%
+\item{}\(\binom{n}{k} q^kp^{n - k}\)%
+\item{}\(\binom{n}{1} qp^{n - 1}= 500(0.005)(0.995)^{499} \approx 0.204\)%
+\item{}\(\binom{n}{2} q^{2}p^{n - 2}= \frac{500 \cdot 499}{2}(0.005)^{2}(0.995)^{498} \approx 0.257\)%
+\item{}\(H \in {\mathbb M}_{m \times n}({\mathbb Z}_2)\)%
+\item{}\(H{\mathbf x} = {\mathbf 0}\)%
+\item{}\(\Null(H)\)%
+\item{}\(\begin{pmatrix} a_{11} & a_{12} & \cdots & a_{1,n-m} \\ a_{21} & a_{22} & \cdots & a_{2,n-m} \\ \vdots & \vdots & \ddots & \vdots \\ a_{m1} & a_{m2} & \cdots & a_{m,n-m} \end{pmatrix}\)%
+\item{}\(G = \left( \frac{I_{n-m}}{A} \right)\)%
+\item{}\(G= \begin{pmatrix} 1 & 0 & 0 \\ 0 & 1 & 0 \\ 0 & 0 & 1 \\ 0 & 1 & 1 \\ 1 & 1 & 0 \\ 1 & 0 & 1 \end{pmatrix}\)%
+\item{}\({\mathbf x} = (x_1, x_2, x_3, x_4, x_5, x_6)\)%
+\item{}\(\begin{array}{cccc} (000000) & (001101) & (010110) & (011011) \\ (100011) & (101110) & (110101) & (111000). \end{array}\)%
+\item{}\(\delta_{ij} = \begin{cases} 1 & i = j \\ 0 & i \neq j \end{cases}\)%
+\item{}\(\begin{pmatrix} 1 & 1 & 1 & 0 & 0 \\ 1 & 0 & 0 & 1 & 0 \\ 1 & 1 & 0 & 0 & 1 \end{pmatrix} \begin{pmatrix} 0 \\ 1 \\ 0 \\ 0 \\ 0 \end{pmatrix} = \begin{pmatrix} 1 \\ 0 \\ 1 \end{pmatrix}\)%
+\item{}\(H{\mathbf x} = \begin{pmatrix} 1 \\ 1 \\ 1 \end{pmatrix}, H{\mathbf y} = \begin{pmatrix} 1 \\ 1 \\ 0 \end{pmatrix}, H{\mathbf z} = \begin{pmatrix} 1 \\ 0 \\ 0 \end{pmatrix}\)%
+\item{}\(\begin{pmatrix} 0 & 0 & 0 & 1 & 1 & 1 & 1 \\ 0 & 1 & 1 & 0 & 0 & 1 & 1 \\ 1 & 0 & 1 & 0 & 1 & 0 & 1 \\ 0 & 1 & 1 & 0 & 0 & 1 & 1 \end{pmatrix}\)%
+\item{}\(G = \begin{pmatrix} 1 & 0 \\ 0 & 1 \\ 1 & 0 \\ 1 & 1 \\ 0 & 1 \\ 1 & 1 \end{pmatrix}\)%
+\item{}\(C^\perp = \{ {\mathbf x} \in {\mathbb Z}_2^n : {\mathbf x} \cdot {\mathbf y} = 0 \text{ for all } {\mathbf y} \in C \}\)%
+\item{}\(2^k\left({n\choose 0} + {n\choose 1} + {n\choose 2} + \cdots + {n\choose \frac{d-1}{2}}\right) = 2^n\)%
+\item{}\(\phi( a \cdot b) = \phi( a) \circ \phi( b)\)%
+\item{}\(G \cong H\)%
+\item{}\(\begin{array}{c|ccc} + & 0 & 1 & 2 \\ \hline 0 & 0 & 1 & 2 \\ 1 & 1 & 2 & 0 \\ 2 & 2 & 0 & 1 \end{array}\)%
+\item{}\(\prod_{i = 1}^n G_i = G_1 \times G_2 \times \cdots \times G_n\)%
+\item{}\(\prod G_i\)%
+\item{}\(\underbrace{(a,b) + (a,b)+ \cdots + (a,b)}_{mn/d \; \text{times}} = (0, 0)\)%
+\item{}\({\mathbb Z}_{p_1^{e_1}} \times \cdots \times {\mathbb Z}_{p_k^{e_k}}\)%
+\item{}\(a \ast b = a + b + ab\)%
+\item{}\(A = \begin{pmatrix} \omega & 0 \\ 0 & \omega^{-1} \end{pmatrix} \quad \text{and} \quad B = \begin{pmatrix} 0 & 1 \\ 1 & 0 \end{pmatrix}\)%
+\item{}\(\begin{pmatrix} \pm 1 & k \\ 0 & 1 \end{pmatrix}\)%
+\item{}\(\inn(G) = \aut(G)\)%
+\item{}\(g \mapsto \rho_g\)%
+\item{}\(G \times H \cong \overline{G} \times \overline{H}\)%
+\item{}\(\langle m \rangle \cap \langle n \rangle = \langle l \rangle\)%
+\item{}\(\{z^iy^j\mid 0\leq i \lt p, 0\leq j \lt 2\}\)%
+\item{}\(\begin{array}{c|cc} & N & (12) N \\ \hline N & N & (12) N \\ (12) N & (12) N & N \end{array}\)%
+\item{}\(\begin{array}{c|ccc} + & 0 + 3{\mathbb Z} & 1 + 3{\mathbb Z} & 2 + 3{\mathbb Z} \\\hline 0 + 3{\mathbb Z} & 0 + 3{\mathbb Z} & 1 + 3{\mathbb Z} & 2 + 3{\mathbb Z} \\ 1 + 3{\mathbb Z} & 1 + 3{\mathbb Z} & 2 + 3{\mathbb Z} & 0 + 3{\mathbb Z} \\ 2 + 3{\mathbb Z} & 2 + 3{\mathbb Z} & 0 + 3{\mathbb Z} & 1 + 3{\mathbb Z} \end{array}\)%
+\item{}\([(i j)(a k)](i j a)^2 [(i j)(a k)]^{-1} = (i j k)\)%
+\item{}\(\sigma^{-1}(a_1 a_2 a_4)\sigma(a_1 a_2 a_4)^{-1} \in N\)%
+\item{}\((a_1 a_2 a_4)\sigma(a_1 a_2 a_4)^{-1} \in N\)%
+\item{}\(\ker \phi = SL_2( {\mathbb R })\)%
+\item{}\(\eta(g_1 K) = \psi(g_1) = \psi(g_1) \psi(k) = \psi(g_1k) = \psi(g_2) = \eta(g_2 K)\)%
+\item{}\({\mathbb Z} / \ker \phi = {\mathbb Z} / m {\mathbb Z} \cong G\)%
+\item{}\(( hn )^{-1} = n^{-1 } h^{-1} = h^{-1} (h n^{-1} h^{-1} )\)%
+\item{}\(G \rightarrow G/N \rightarrow \frac{G/N}{H/N} \)%
+\item{}\(\begin{pmatrix} 3/5 & -4/5 \\ 4/5 & 3/5 \end{pmatrix}, \quad \begin{pmatrix} 1/2 & -\sqrt{3}/2 \\ \sqrt{3}/2 & 1/2 \end{pmatrix}, \quad \begin{pmatrix} -1/\sqrt{2} & 0 & 1/ \sqrt{2} \\ 1/\sqrt{6} & -2/\sqrt{6} & 1/\sqrt{6} \\ 1/ \sqrt{3} & 1/ \sqrt{3} & 1/ \sqrt{3} \end{pmatrix}\)%
+\item{}\(\| {\mathbf x} \| = \sqrt{\langle {\mathbf x}, {\mathbf x} \rangle} = \sqrt{x_1^2 + \cdots + x_n^2}\)%
+\item{}\(\langle A{\mathbf x}, A{\mathbf y} \rangle = \langle {\mathbf x},{\mathbf y} \rangle\)%
+\item{}\((2) \Rightarrow (3)\)%
+\item{}\(\langle {\mathbf x}, {\mathbf y} \rangle = \frac{1}{2} \left[ \|{\mathbf x} +{\mathbf y}\|^2 - \|{\mathbf x}\|^2 - \|{\mathbf y}\|^2 \right]\)%
+\item{}\(T_{\phi} = \begin{pmatrix} \cos \phi & - \sin \phi \\ \sin \phi & \cos \phi \end{pmatrix} \begin{pmatrix} 1 & 0 \\ 0 & -1 \end{pmatrix} = \begin{pmatrix} \cos \phi & \sin \phi \\ \sin \phi & - \cos \phi \end{pmatrix}\)%
+\item{}\(\begin{pmatrix} 4/ \sqrt{5} & 0 & 3 / \sqrt{5} \\ -3 / \sqrt{5} & 0 & 4 / \sqrt{5} \\ 0 & -1 & 0 \end{pmatrix}\)%
+\item{}\(E(n) = \{(A, {\mathbf x}) : A \in O(n) \text{ and } {\mathbf x} \in {\mathbb R}^n \}\)%
+\item{}\(G = H_n \supset H_{n - 1} \supset \cdots \supset H_1 \supset H_0 = \{ e \}\)%
+\item{}\({\mathbb Z}_{p_1^{\alpha_1}} \times \cdots \times {\mathbb Z}_{p_n^{\alpha_n}}\)%
+\item{}\(\{ g_i \in G : i \in I \}\)%
+\item{}\(g^{-1} = (g_{i_1}^{k_{1}} \cdots g_{i_n}^{k_n})^{-1} = (g_{i_n}^{-k_n} \cdots g_{i_{1}}^{-k_{1}})\)%
+\item{}\((gh)^{p_i^t} = g^{p_i^t} h^{p_i^t} = 1 \cdot 1 = 1\)%
+\item{}\(|g| = p_1^{\beta_1} p_2^{\beta_2} \cdots p_k^{\beta_k}\)%
+\item{}\(g = g^{a_1 b_1 + \cdots + a_k b_k} = g^{a_1 b_1} \cdots g^{a_k b_k}\)%
+\item{}\(g^{(a_i b_i ) p_i^{\beta_i}} = g^{b_i |g|} = e\)%
+\item{}\(G^{(0)} = G \supset G^{(1)} \supset G^{(2)} \supset \cdots\)%
+\item{}\(Z_3\rtimes Z_4\)%
+\item{}\(\phi(ab) = gabg^{-1} = gag^{-1} gbg^{-1} = \phi(a) \phi(b)\)%
+\item{}\(\sum_{y \in {\mathcal O}_x} |G_y| = | {\mathcal O}_x| \cdot |G_x|\)%
+\item{}\(|\widetilde{X}_{(13)(24)}| = 2^2 = 4\)%
+\item{}\(|{\mathcal S}| = |\text{orbit of }P| = [G : N(P)]\)%
+\item{}\(q \not\equiv 1 \pmod{p}\)%
+\item{}\(p \nmid \binom{p^k m}{p^k}\)%
+\item{}\(44\,352\,000\)%
+\item{}\(\begin{pmatrix} \alpha & \beta \\ -\overline{\beta} & \overline{\alpha } \end{pmatrix}\)%
+\item{}\((a_1 + b_1 {\mathbf i} + c_1 {\mathbf j} +d_1 {\mathbf k} ) ( a_2 + b_2 {\mathbf i} + c_2 {\mathbf j} +d_2 {\mathbf k} ) = \alpha + \beta {\mathbf i} + \gamma {\mathbf j} + \delta {\mathbf k}\)%
+\item{}\(T = \left\{ \begin{pmatrix} a & b \\ 0 & c \end{pmatrix} : a, b, c \in {\mathbb R} \right\}\)%
+\item{}\(A = \begin{pmatrix} a & b \\ 0 & c \end{pmatrix} \quad \text{and} \quad B = \begin{pmatrix} a' & b' \\ 0 & c' \end{pmatrix}\)%
+\item{}\(F = \left\{ \begin{pmatrix} 1 & 0 \\ 0 & 1 \end{pmatrix}, \begin{pmatrix} 1 & 1 \\ 1 & 0 \end{pmatrix}, \begin{pmatrix} 0 & 1 \\ 1 & 1 \end{pmatrix}, \begin{pmatrix} 0 & 0 \\ 0 & 0 \end{pmatrix} \right\}\)%
+\item{}\(\frac{a}{a^2 - 2 b^2} +\frac{- b}{ a^2 - 2 b^2} \sqrt{2}\)%
+\item{}\(R/I \cong \frac{R/J}{I/J}\)%
+\item{}\(\left\{ \begin{pmatrix} 1 & 0 \\ 0 & 1 \end{pmatrix}, \begin{pmatrix} 1 & 1 \\ 0 & 1 \end{pmatrix}, \begin{pmatrix} 1 & 0 \\ 1 & 1 \end{pmatrix}, \begin{pmatrix} 0 & 1 \\ 1 & 0 \end{pmatrix}, \begin{pmatrix} 1 & 1 \\ 1 & 0 \end{pmatrix}, \begin{pmatrix} 0 & 1 \\ 1 & 1 \end{pmatrix}, \right\}\)%
+\item{}\(f(x) = \sum^{n}_{i=0} a_i x^i = a_0 + a_1 x +a_2 x^2 + \cdots + a_n x^n\)%
+\item{}\(c_i = \sum_{k = 0}^i a_k b_{i - k} = a_0 b_i + a_1 b_{i -1} + \cdots + a_{i -1} b _1 + a_i b_0\)%
+\item{}\(p(x) = \frac{b_0}{c_0} + \frac{b_1}{c_1} x + \cdots + \frac{b_n}{c_n} x^n\)%
+\item{}\(p(x) = \alpha(x) \beta(x) = \frac{c_1 c_2}{d_1 d_2} \alpha_1(x) \beta_1(x) = \frac{c}{d} \alpha_1(x) \beta_1(x)\)%
+\item{}\(\omega^i \sqrt[3]{-\frac{q}{2}+ \sqrt{\ \frac{p^3}{27} + \frac{q^2}{4}} } + \omega^{2i} \sqrt[3]{-\frac{q}{2}- \sqrt{\ \frac{p^3}{27} + \frac{q^2}{4}} }\)%
+\item{}\(D\lbrack x \rbrack\)%
+\item{}\(c_{r + s} = a_0 b_{r + s} + a_1 b_{r + s - 1} + \cdots + a_{r + s - 1} b_1 + a_{r + s} b_0\)%
+\item{}\(O \preceq \cdots \preceq b_3 \preceq b_2 \preceq b_1 \preceq b\)%
+\item{}\(a \not\preceq c\)%
+\item{}\(a = a \wedge b = a \wedge( a_1 \vee \cdots \vee a_n ) = (a \wedge a_1) \vee \cdots \vee ( a \wedge a_n )\)%
+\item{}\(( a \wedge b') \vee (a' \wedge b) = O \Rightarrow a \vee b = (a \vee a) \vee b = a \vee (a \vee b) = a \vee [I \wedge (a \vee b)] = a \vee [(a \vee a') \wedge (a \vee b)] = [a \vee (a \wedge b')] \vee [a \vee (a' \wedge b)] = a \vee [(a \wedge b') \vee (a' \wedge b)] = a \vee 0 = a\)%
+\item{}\(u + v = (u_1, \ldots, u_n) + (v_1, \ldots, v_n) = (u_1 + v_1, \ldots, u_n + v_n)\)%
+\item{}\(u + v =( \alpha_1 + \beta_1) v_1 + (\alpha_2+ \beta_2) v_2 + \cdots + (\alpha_n + \beta_n) v_n\)%
+\item{}\(v_k = - \frac{\alpha_1}{\alpha_k} v_1 - \cdots - \frac{\alpha_{k - 1}}{\alpha_k} v_{k-1} - \frac{\alpha_{k + 1}}{\alpha_k} v_{k + 1} - \cdots - \frac{\alpha_n}{\alpha_k} v_n\)%
+\item{}\(E = {\mathbb Z}_2[x] / \langle x^2 + x + 1 \rangle\)%
+\item{}\(\begin{array}{c|cccc} + & 0 & 1 & \alpha & 1 + \alpha \\ \hline 0 & 0 & 1 & \alpha & 1 + \alpha \\ 1 & 1 & 0 & 1 + \alpha & \alpha \\ \alpha & \alpha & 1 + \alpha & 0 & 1 \\ 1 + \alpha & 1 + \alpha & \alpha & 1 & 0 \end{array}\)%
+\item{}\(\begin{array}{c|cccc} \cdot & 0 & 1 & \alpha & 1 + \alpha \\ \hline 0 & 0 & 0 & 0 & 0 \\ 1 & 0 & 1 & \alpha & 1 + \alpha \\ \alpha & 0 & \alpha & 1 + \alpha & 1 \\ 1 + \alpha & 0 & 1 + \alpha & 1 & \alpha \end{array}\)%
+\item{}\(\{ 1, \sqrt{5}\, i, \sqrt[3]{5}, (\sqrt[3]{5}\, )^2, (\sqrt[6]{5}\, )^5 i, (\sqrt[6]{5}\, )^7 i = 5 \sqrt[6]{5}\, i \text{ or } \sqrt[6]{5}\, i \}\)%
+\item{}\(0 = f(\beta) = f\left( \frac{p(\alpha)}{q(\alpha)} \right) = a_0 + a_1 \left( \frac{p(\alpha)}{q(\alpha)} \right) + \cdots + a_n \left( \frac{p(\alpha)}{q(\alpha)} \right)^n\)%
+\item{}\((a + b)^p = \sum_{k = 0}^{p} \binom{p}{k} a^k b^{p - k}\)%
+\item{}\((a + b)^{p^{n + 1}} = ((a + b)^p)^{p^{n}} = (a^p + b^p)^{p^{n}} = (a^p)^{p^{n}} + (b^p)^{p^{n}} = a^{p^{n + 1}} + b^{p^{n + 1}}\)%
+\item{}\(G_1 = \begin{pmatrix} 1 & 0 & 0 \\ 0 & 1 & 0 \\ 0 & 0 & 1 \\ 1 & 0 & 0 \\ 0 & 1 & 0 \\ 0 & 0 & 1 \end{pmatrix} \quad \text{and} \quad G_2 = \begin{pmatrix} 1 & 0 & 0 \\ 1 & 1 & 0 \\ 1 & 1 & 1 \\ 1 & 1 & 1 \\ 0 & 1 & 1 \\ 0 & 0 & 1 \end{pmatrix}\)%
+\item{}\(\begin{array}{rclccrcl} (000) & \mapsto & (000000) & & & (100) & \mapsto & (100100) \\ (001) & \mapsto & (001001) & & & (101) & \mapsto & (101101) \\ (010) & \mapsto & (010010) & & & (110) & \mapsto & (110110) \\ (011) & \mapsto & (011011) & & & (111) & \mapsto & (111111). \end{array}\)%
+\item{}\(\begin{array}{rclccrcl} (000) & \mapsto & (000000) & & & (100) & \mapsto & (111100) \\ (001) & \mapsto & (001111) & & & (101) & \mapsto & (110011) \\ (010) & \mapsto & (011110) & & & (110) & \mapsto & (100010) \\ (011) & \mapsto & (010001) & & & (111) & \mapsto & (101101). \end{array}\)%
+\item{}\(G = \begin{pmatrix} 1 & 0 & 0 & 0 \\ 1 & 1 & 0 & 0 \\ 0 & 1 & 1 & 0 \\ 1 & 0 & 1 & 1 \\ 0 & 1 & 0 & 1 \\ 0 & 0 & 1 & 0 \\ 0 & 0 & 0 & 1 \end{pmatrix}\)%
+\item{}\(G = \begin{pmatrix} g_0 & 0 & \cdots & 0 \\ g_1 & g_0 & \cdots & 0 \\ \vdots & \vdots &\ddots & \vdots \\ g_{n-k} & g_{n-k-1} & \cdots & g_0 \\ 0 & g_{n-k} & \cdots & g_{1} \\ \vdots & \vdots & \ddots & \vdots \\ 0 & 0 & \cdots & g_{n-k} \end{pmatrix}\)%
+\item{}\(H = \begin{pmatrix} 0 & \cdots & 0 & 0 & h_k & \cdots & h_0 \\ 0 & \cdots & 0 & h_k & \cdots & h_0 & 0 \\ \cdots & \cdots & \cdots & \cdots & \cdots & \cdots & \cdots \\ h_k & \cdots & h_0 & 0 & 0 & \cdots & 0 \end{pmatrix}\)%
+\item{}\(\det \begin{pmatrix} 1 & 1 & \cdots & 1 \\ \alpha_1 & \alpha_2 & \cdots & \alpha_n \\ \alpha_1^2 & \alpha_2^2 & \cdots & \alpha_n^2 \\ \vdots & \vdots & \ddots & \vdots \\ \alpha_1^{n-1} & \alpha_2^{n-1} & \cdots & \alpha_n^{n-1} \end{pmatrix} = \prod_{1 \leq j \lt i \leq n} (\alpha_i - \alpha_j)\)%
+\item{}\(p(x) = \det \begin{pmatrix} 1 & 1 & \cdots & 1 & 1 \\ \alpha_1 & \alpha_2 & \cdots & \alpha_{n-1} & x \\ \alpha_1^2 & \alpha_2^2 & \cdots & \alpha_{n-1}^2 & x^2 \\ \vdots & \vdots & \ddots & \vdots & \vdots \\ \alpha_1^{n-1} & \alpha_2^{n-1} & \cdots & \alpha_{n-1}^{n-1} & x^{n-1} \end{pmatrix}\)%
+\item{}\(\beta = (-1)^{n + n} \det \begin{pmatrix} 1 & 1 & \cdots & 1 \\ \alpha_1 & \alpha_2 & \cdots & \alpha_{n-1} \\ \alpha_1^2 & \alpha_2^2 & \cdots & \alpha_{n-1}^2 \\ \vdots & \vdots & \ddots & \vdots \\ \alpha_1^{n-2} & \alpha_2^{n-2} & \cdots & \alpha_{n-1}^{n-2} \end{pmatrix}\)%
+\item{}\(\beta = (-1)^{n+n} \prod_{1 \leq j \lt i \leq n - 1} (\alpha_i - \alpha_j)\)%
+\item{}\(\begin{pmatrix} (\omega^{i_0})^r & (\omega^{i_1})^r & \cdots & (\omega^{i_{s-1}})^r \\ (\omega^{i_0})^{r+1} & (\omega^{i_1})^{r+1} & \cdots & (\omega^{i_{s-1}})^{r+1} \\ \vdots & \vdots & \ddots & \vdots \\ (\omega^{i_0})^{r+s-1} & (\omega^{i_1})^{r+s-1} & \cdots & (\omega^{i_{s-1}})^{r+s-1} \end{pmatrix}\)%
+\item{}\(H = \begin{pmatrix} 1 & \omega & \omega^2 & \cdots & \omega^{n-1}\\ 1 & \omega^2 & \omega^{4} & \cdots & \omega^{(n-1)(2)} \\ 1 & \omega^3 & \omega^{6} & \cdots & \omega^{(n-1)(3)} \\ \vdots & \vdots & \vdots & \ddots & \vdots \\ 1 & \omega^{2r} & \omega^{4r} & \cdots & \omega^{(n-1)(2r)} \end{pmatrix}\)%
+\item{}\(H {\mathbf x} = \begin{pmatrix} a_0 + a_1 \omega + \cdots + a_{n-1} \omega^{n-1} \\ a_0 + a_1 \omega^2 + \cdots + a_{n-1} (\omega^2)^{n-1} \\ \vdots \\ a_0 + a_1 \omega^{2r} + \cdots + a_{n-1} (\omega^{2r})^{n-1} \end{pmatrix} = \begin{pmatrix} f(\omega) \\ f(\omega^2) \\ \vdots \\ f(\omega^{2r}) \end{pmatrix} = 0\)%
 \end{enumerate}
 %
 \end{document}
