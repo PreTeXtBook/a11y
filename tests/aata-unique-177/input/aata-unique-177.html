@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*       on 2020-08-14T15:55:40-07:00       *-->
+<!--*   A recent stable commit (2020-08-09):   *-->
+<!--* 98f21740783f166a773df4dc83cab5293ab63a4a *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<html lang="en-US">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title></title>
+<meta name="Keywords" content="Authored in PreTeXt">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+    tex2jax: {
+        inlineMath: [['\\(','\\)']]
+    },
+    asciimath2jax: {
+        ignoreClass: ".*",
+        processClass: "has_am"
+    },
+    jax: ["input/AsciiMath"],
+    extensions: ["asciimath2jax.js"],
+    TeX: {
+        extensions: ["extpfeil.js", "autobold.js", "https://pretextbook.org/js/lib/mathjaxknowl.js", "AMScd.js", ],
+        // scrolling to fragment identifiers is controlled by other Javascript
+        positionToHash: false,
+        equationNumbers: { autoNumber: "none", useLabelIds: true, },
+        TagSide: "right",
+        TagIndent: ".8em",
+    },
+    // HTML-CSS output Jax to be dropped for MathJax 3.0
+    "HTML-CSS": {
+        scale: 88,
+        mtextFontInherit: true,
+    },
+    CommonHTML: {
+        scale: 88,
+        mtextFontInherit: true,
+    },
+});
+</script><script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS_CHTML-full"></script><script xmlns:svg="http://www.w3.org/2000/svg" src="https://pretextbook.org/js/lib/jquery.min.js"></script><script xmlns:svg="http://www.w3.org/2000/svg" src="https://pretextbook.org/js/lib/jquery.sticky.js"></script><script xmlns:svg="http://www.w3.org/2000/svg" src="https://pretextbook.org/js/lib/jquery.espy.min.js"></script><script xmlns:svg="http://www.w3.org/2000/svg" src="https://pretextbook.org/js/0.13/pretext.js"></script><script xmlns:svg="http://www.w3.org/2000/svg" src="https://pretextbook.org/js/0.13/pretext_add_on.js"></script><script xmlns:svg="http://www.w3.org/2000/svg" src="https://pretextbook.org/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script xmlns:svg="http://www.w3.org/2000/svg">sagecellEvalName='Evaluate (Sage)';
+</script><link xmlns:svg="http://www.w3.org/2000/svg" href="https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic" rel="stylesheet" type="text/css">
+<link xmlns:svg="http://www.w3.org/2000/svg" href="https://fonts.googleapis.com/css?family=Inconsolata:400,700&amp;subset=latin,latin-ext" rel="stylesheet" type="text/css">
+<link xmlns:svg="http://www.w3.org/2000/svg" href="https://pretextbook.org/css/0.31/pretext.css" rel="stylesheet" type="text/css">
+<link xmlns:svg="http://www.w3.org/2000/svg" href="https://pretextbook.org/css/0.31/pretext_add_on.css" rel="stylesheet" type="text/css">
+<link xmlns:svg="http://www.w3.org/2000/svg" href="https://pretextbook.org/css/0.31/banner_default.css" rel="stylesheet" type="text/css">
+<link xmlns:svg="http://www.w3.org/2000/svg" href="https://pretextbook.org/css/0.31/toc_default.css" rel="stylesheet" type="text/css">
+<link xmlns:svg="http://www.w3.org/2000/svg" href="https://pretextbook.org/css/0.31/knowls_default.css" rel="stylesheet" type="text/css">
+<link xmlns:svg="http://www.w3.org/2000/svg" href="https://pretextbook.org/css/0.31/style_default.css" rel="stylesheet" type="text/css">
+<link xmlns:svg="http://www.w3.org/2000/svg" href="https://pretextbook.org/css/0.31/colors_default.css" rel="stylesheet" type="text/css">
+<link xmlns:svg="http://www.w3.org/2000/svg" href="https://pretextbook.org/css/0.31/setcolors.css" rel="stylesheet" type="text/css">
+<!-- 2019-10-12: Temporary - CSS file for experiments with styling --><link xmlns:svg="http://www.w3.org/2000/svg" href="developer.css" rel="stylesheet" type="text/css">
+</head>
+<body class="mathbook-article">
+<a class="assistive" href="#content">Skip to main content</a><div xmlns:svg="http://www.w3.org/2000/svg" class="hidden-content" style="display:none">\(\newcommand{\identity}{\mathrm{id}}
+\newcommand{\notdivide}{\nmid}
+\newcommand{\notsubset}{\not\subset}
+\newcommand{\lcm}{\operatorname{lcm}}
+\newcommand{\gf}{\operatorname{GF}}
+\newcommand{\inn}{\operatorname{Inn}}
+\newcommand{\aut}{\operatorname{Aut}}
+\newcommand{\Hom}{\operatorname{Hom}}
+\newcommand{\cis}{\operatorname{cis}}
+\newcommand{\chr}{\operatorname{char}}
+\newcommand{\Null}{\operatorname{Null}}
+\newcommand{\transpose}{\text{t}}
+\newcommand{\lt}{&lt;}
+\newcommand{\gt}{&gt;}
+\newcommand{\amp}{&amp;}
+\)</div>
+<header id="masthead" class="smallbuttons"><div class="banner"><div class="container">
+<a id="logo-link" href=""></a><div class="title-container">
+<h1 class="heading"><a href="article-1.html"><span class="title"></span></a></h1>
+<p class="byline"></p>
+</div>
+</div></div>
+<nav xmlns:svg="http://www.w3.org/2000/svg" id="primary-navbar" class="navbar"><div class="container">
+<div class="navbar-top-buttons">
+<button class="sidebar-left-toggle-button button active" aria-label="Show or hide table of contents sidebar">Contents</button><div class="tree-nav toolbar toolbar-divisor-3"><span class="threebuttons"><span id="previousbutton" class="previous-button button toolbar-item disabled">Prev</span><span id="upbutton" class="up-button button disabled toolbar-item">Up</span><span id="nextbutton" class="next-button button toolbar-item disabled">Next</span></span></div>
+</div>
+<div class="navbar-bottom-buttons toolbar toolbar-divisor-4">
+<button class="sidebar-left-toggle-button button toolbar-item active">Contents</button><span class="previous-button button toolbar-item disabled">Prev</span><span class="up-button button disabled toolbar-item">Up</span><span class="next-button button toolbar-item disabled">Next</span>
+</div>
+</div></nav></header><div class="page">
+<div xmlns:svg="http://www.w3.org/2000/svg" id="sidebar-left" class="sidebar" role="navigation"><div class="sidebar-content">
+<nav id="toc"><ul></ul></nav><div class="extras"><nav><a class="mathbook-link" href="https://pretextbook.org">Authored in PreTeXt</a><a href="https://www.mathjax.org"><img title="Powered by MathJax" src="https://www.mathjax.org/badge/badge.gif" alt="Powered by MathJax"></a></nav></div>
+</div></div>
+<main class="main"><div id="content" class="pretext-content"><section xmlns:svg="http://www.w3.org/2000/svg" class="article" id="article-1"><ol id="p-1" class="decimal">
+<li id="li-1">\(\mathcal S\)</li>
+<li id="li-2">\(3 + 56 - 13 + 8/2 \)</li>
+<li id="li-3">\(2 + 3 = 5\)</li>
+<li id="li-4">\(2x = 6\)</li>
+<li id="li-5">\(ax^2 + bx + c = 0\)</li>
+<li id="li-6">\(a \neq 0\)</li>
+<li id="li-7">\(x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}\text{.}\)</li>
+<li id="li-8">\(2 \cdot 4\)</li>
+<li id="li-9">\(p\)</li>
+<li id="li-10">\(q\)</li>
+<li id="li-11">\(r\)</li>
+<li id="li-12">\(s\)</li>
+<li id="li-13">\(A\)</li>
+<li id="li-14">\(X\)</li>
+<li id="li-15">\(a \in A\)</li>
+<li id="li-16">\(X = \{ x_1, x_2, \ldots, x_n \}\)</li>
+<li id="li-17">\(X = \{ x :x \text{ satisfies }{\mathcal P}\}\)</li>
+<li id="li-18">\(E\)</li>
+<li id="li-19">\(E = \{2, 4, 6, \ldots \} \quad \text{or} \quad E = \{ x : x \text{ is an even integer and } x \gt 0 \}\text{.}\)</li>
+<li id="li-20">\(-3 \notin E\)</li>
+<li id="li-21">\(B\)</li>
+<li id="li-22">\(A \subset B\)</li>
+<li id="li-23">\(B \supset A\)</li>
+<li id="li-24">\({\mathbb N} \subset {\mathbb Z} \subset {\mathbb Q} \subset {\mathbb R} \subset {\mathbb C}\text{.}\)</li>
+<li id="li-25">\(A \notsubset B\)</li>
+<li id="li-26">\(\emptyset\)</li>
+<li id="li-27">\(A \cup B\)</li>
+<li id="li-28">\(A \cup B = \{x : x \in A \text{ or } x \in B \};\)</li>
+<li id="li-29">\(A \cap B = \{x :  x \in A \text{ and } x \in B \}\text{.}\)</li>
+<li id="li-30">\(\bigcup_{i = 1}^{n} A_{i} = A_{1} \cup \ldots \cup A_n\)</li>
+<li id="li-31">\(\bigcap_{i = 1}^{n} A_{i} = A_{1} \cap \ldots \cap A_n\)</li>
+<li id="li-32">\(O\)</li>
+<li id="li-33">\(U\)</li>
+<li id="li-34">\(A'\)</li>
+<li id="li-35">\(A \setminus B = A \cap B'  = \{ x : x \in A \text{ and } x \notin B \}\text{.}\)</li>
+<li id="li-36">\(A = \{ x \in {\mathbb R} : 0 \lt x \leq 3 \} \quad \text{and} \quad B = \{ x \in {\mathbb R} : 2 \leq x \lt 4 \}\text{.}\)</li>
+<li id="li-37">\(C\)</li>
+<li id="li-38">\(A \cup (B \cup C) = (A \cup B) \cup C\)</li>
+<li id="li-39">\(A \times B\)</li>
+<li id="li-40">\(A = \{ x, y \}\)</li>
+<li id="li-41">\(A_1 \times \cdots \times A_n = \{ (a_1, \ldots, a_n): a_i \in A_i \text{ for } i = 1, \ldots, n \}\text{.}\)</li>
+<li id="li-42">\(f \subset A \times B\)</li>
+<li id="li-43">\(f:A \rightarrow B\)</li>
+<li id="li-44">\(f : a \mapsto b\)</li>
+<li id="li-45">\(g\)</li>
+<li id="li-46">\((g \circ f)(x) = g(f(x))\)</li>
+<li id="li-47">\(A =
+\begin{pmatrix}
+a &amp; b \\
+c &amp; d
+\end{pmatrix}\text{,}\)</li>
+<li id="li-48">\(T_A : {\mathbb R}^2 \rightarrow {\mathbb R}^2\)</li>
+<li id="li-49">\({\mathbb R}^m\)</li>
+<li id="li-50">\(S = \{ 1,2,3  \}\)</li>
+<li id="li-51">\(\pi :S\rightarrow S\)</li>
+<li id="li-52">\(h : C \rightarrow D\)</li>
+<li id="li-53">\(f(x) = \ln x\)</li>
+<li id="li-54">\(f^{-1}(x) = e^x\)</li>
+<li id="li-55">\(R \subset X \times X\)</li>
+<li id="li-56">\((y, z) \in R\)</li>
+<li id="li-57">\(x \sim y\)</li>
+<li id="li-58">\(\equiv\)</li>
+<li id="li-59">\(\cong\)</li>
+<li id="li-60">\(r/s \sim t/u\)</li>
+<li id="li-61">\(P\)</li>
+<li id="li-62">\(I\)</li>
+<li id="li-63">\(Q\)</li>
+<li id="li-64">\(X_i \cap X_j = \emptyset\)</li>
+<li id="li-65">\(\bigcup_k X_k = X\)</li>
+<li id="li-66">\([x] = \{ y \in X : y \sim x \}\)</li>
+<li id="li-67">\(r \equiv s \pmod{n}\)</li>
+<li id="li-68">\(l\)</li>
+<li id="li-69">\(f(x) = \sin x\)</li>
+<li id="li-70">\(f: X \rightarrow Y\)</li>
+<li id="li-71">\(x \geq y\)</li>
+<li id="li-72">\(|x - y| \leq 4\)</li>
+<li id="li-73">\(\lambda\)</li>
+<li id="li-74">\({\mathbb P}({\mathbb R}) \)</li>
+<li id="li-75">\(300!\)</li>
+<li id="li-76">\((a + b)^n = \sum_{k = 0}^{n} \binom{n}{k} a^k b^{n - k}\text{,}\)</li>
+<li id="li-77">\(a \mid b\)</li>
+<li id="li-78">\(d = \gcd(a, b)\)</li>
+<li id="li-79">\(\lim_{n \rightarrow \infty} f_n / f_{n + 1} = (\sqrt{5} - 1)/2\)</li>
+<li id="li-80">\(\lcm(a,b)\)</li>
+<li id="li-81">\(N\)</li>
+<li id="li-82">\(\bigtriangleup ABC\)</li>
+<li id="li-83">\(\mu_1 \rho_1\)</li>
+<li id="li-84">\(\alpha\)</li>
+<li id="li-85">\(\beta\)</li>
+<li id="li-86">\(\alpha \beta = \identity\)</li>
+<li id="li-87">\(G\)</li>
+<li id="li-88">\({\mathbb M}_2 ( {\mathbb R})\)</li>
+<li id="li-89">\(GL_2({\mathbb R})\)</li>
+<li id="li-90">\(\det A = ad - bc \neq 0\)</li>
+<li id="li-91">\(I^2 = J^2 = K^2 = -1\)</li>
+<li id="li-92">\({\mathbb C}^\ast\)</li>
+<li id="li-93">\(g''\)</li>
+<li id="li-94">\(g^n = \underbrace{g \cdot g \cdots g}_{n \; \text{times}}\)</li>
+<li id="li-95">\(H\)</li>
+<li id="li-96">\(\sigma =
+\begin{pmatrix}
+1 &amp; 2 &amp; \cdots &amp; n \\ a_1 &amp; a_2 &amp; \cdots &amp; a_n
+\end{pmatrix}\)</li>
+<li id="li-97">\({\mathbb T} = \{ z \in {\mathbb C}^* : |z| =1 \}\)</li>
+<li id="li-98">\(\begin{pmatrix}
+\cos \theta &amp; -\sin \theta \\
+\sin \theta &amp; \cos \theta
+\end{pmatrix}\text{,}\)</li>
+<li id="li-99">\(H =
+\left\{
+\begin{pmatrix}
+a &amp; b \\
+c &amp; d
+\end{pmatrix} :
+a + d = 0
+\right\}\text{.}\)</li>
+<li id="li-100">\(Z(G) = \{ x \in G : gx = xg \text{ for all } g \in G \}\)</li>
+<li id="li-101">\((d_1, d_2, \ldots, d_k ) \cdot (w_1, w_2, \ldots, w_k ) \equiv 0 \pmod{ n }\)</li>
+<li id="li-102">\(\langle a \rangle  = \{ a^k : k \in {\mathbb Z} \}\)</li>
+<li id="li-103">\(\overline{z} = a- bi\)</li>
+<li id="li-104">\(r \cis \theta\)</li>
+<li id="li-105">\(\theta = \arctan \left( \frac{b}{a} \right) = \arctan( - 1) = 315^{\circ}\text{,}\)</li>
+<li id="li-106">\(w = s \cis \phi\)</li>
+<li id="li-107">\(\begin{array}{c|cccc}
+\circ &amp; \identity &amp; \sigma &amp; \tau &amp; \mu \\ \hline
+\identity &amp; \identity &amp; \sigma &amp; \tau &amp; \mu \\
+\sigma &amp; \sigma &amp; \identity &amp; \mu &amp; \tau \\
+\tau &amp; \tau &amp; \mu &amp; \identity &amp; \sigma \\
+\mu &amp; \mu &amp; \tau &amp; \sigma &amp; \identity
+\end{array}\)</li>
+<li id="li-108">\(\sigma( a_i ) = a_{(i \bmod k) + 1}\)</li>
+<li id="li-109">\(\sigma_i( x ) = 
+\begin{cases}
+\sigma( x ) &amp; x \in X_i \\
+x   &amp; x \notin X_i
+\end{cases}\text{,}\)</li>
+<li id="li-110">\({\mathcal O}_{x, \sigma} = \{ y : x \sim y  \}\text{.}\)</li>
+<li id="li-111">\({\mathcal L}_H\)</li>
+<li id="li-112">\({\mathcal R}_H\)</li>
+<li id="li-113">\(p \notdivide a\)</li>
+<li id="li-114">\(\gamma\)</li>
+<li id="li-115">\({\mathbf p} = 
+\begin{pmatrix}
+p_1 \\ p_2
+\end{pmatrix}\text{.}\)</li>
+<li id="li-116">\(f({\mathbf p}) = A {\mathbf p} + {\mathbf b}\text{,}\)</li>
+<li id="li-117">\((0.999)^{10,000} \approx 0.00005\text{.}\)</li>
+<li id="li-118">\({\mathbf x} = (x_1, \ldots,
+x_n)\)</li>
+<li id="li-119">\({\mathbf y} = (y_1, \ldots,
+y_n)\)</li>
+<li id="li-120">\(d_{\min}\)</li>
+<li id="li-121">\({\mathbf z} = (00011)\)</li>
+<li id="li-122">\({\mathbf c}_1 = (00000)\)</li>
+<li id="li-123">\(\Null(H)\)</li>
+<li id="li-124">\(\begin{pmatrix}
+a_{11} &amp; a_{12} &amp; \cdots &amp; a_{1,n-m} \\
+a_{21} &amp; a_{22} &amp; \cdots &amp; a_{2,n-m} \\
+\vdots &amp; \vdots &amp; \ddots &amp; \vdots    \\
+a_{m1} &amp; a_{m2} &amp; \cdots &amp; a_{m,n-m}
+\end{pmatrix}\)</li>
+<li id="li-125">\(\begin{array}{cccc}
+(000000) &amp; (001101) &amp; (010110) &amp; (011011) \\
+(100011) &amp; (101110) &amp; (110101) &amp; (111000).
+\end{array}\)</li>
+<li id="li-126">\(\delta_{ij} =
+\begin{cases}
+1 &amp; i = j \\
+0 &amp; i \neq j
+\end{cases}\)</li>
+<li id="li-127">\(H{\mathbf e}_i\)</li>
+<li id="li-128">\({\mathbf r}\)</li>
+<li id="li-129">\(H =\begin{bmatrix}
+0 \amp 1 \amp 0 \amp 1 \amp 0 \\
+1 \amp 1 \amp 1 \amp 1 \amp 0 \\
+0 \amp 0 \amp 1 \amp 1 \amp 1
+\end{bmatrix}\)</li>
+<li id="li-130">\(C^\perp = \{ {\mathbf x} \in {\mathbb Z}_2^n :  {\mathbf x} \cdot {\mathbf y} = 0 \text{ for all } {\mathbf y} \in C \}\text{.}\)</li>
+<li id="li-131">\(\psi\)</li>
+<li id="li-132">\(\prod_{i = 1}^n G_i = G_1 \times G_2 \times \cdots \times G_n\)</li>
+<li id="li-133">\(\omega = \cis(2 \pi /n)\)</li>
+<li id="li-134">\(\aut(G)\)</li>
+<li id="li-135">\(\inn(G)\)</li>
+<li id="li-136">\(\Rightarrow\)</li>
+<li id="li-137">\(i_g : G \to G\)</li>
+<li id="li-138">\(\ker \phi\)</li>
+<li id="li-139">\(\eta: G/K \rightarrow \psi(G)\)</li>
+<li id="li-140">\(\| {\mathbf x} \| = \sqrt{\langle  {\mathbf x}, {\mathbf x} \rangle}  = \sqrt{x_1^2 + \cdots + x_n^2}\text{.}\)</li>
+<li id="li-141">\({\mathbf w}\)</li>
+<li id="li-142">\({\mathbf a}_j =
+\begin{pmatrix}
+a_{1j} \\ a_{2j} \\ \vdots \\ a_{nj}
+\end{pmatrix}\)</li>
+<li id="li-143">\(\ell\)</li>
+<li id="li-144">\(Z_3\rtimes Z_4\)</li>
+<li id="li-145">\(v \in {\mathbb R}^2\)</li>
+<li id="li-146">\(Y = \{ B, W \}\)</li>
+<li id="li-147">\(\widetilde{ \sigma }\)</li>
+<li id="li-148">\(q \not\equiv 1 \pmod{p}\)</li>
+<li id="li-149">\(1 = 
+\begin{pmatrix}
+1 &amp; 0 \\
+0 &amp; 1
+\end{pmatrix},
+\quad
+{\mathbf i}
+=
+\begin{pmatrix}
+0 &amp; 1 \\
+-1 &amp; 0
+\end{pmatrix},
+\quad
+{\mathbf j} =
+\begin{pmatrix}
+0 &amp; i \\
+i &amp; 0
+\end{pmatrix},
+\quad
+{\mathbf k} = 
+\begin{pmatrix}
+i &amp; 0 \\
+0 &amp; -i
+\end{pmatrix}\text{,}\)</li>
+<li id="li-150">\({\mathbb H}\)</li>
+<li id="li-151">\(F =
+\left\{
+\begin{pmatrix}
+1 &amp; 0 \\
+0 &amp; 1
+\end{pmatrix},
+\begin{pmatrix}
+1 &amp; 1 \\
+1 &amp; 0
+\end{pmatrix},
+\begin{pmatrix}
+0 &amp; 1 \\
+1 &amp; 1
+\end{pmatrix},
+\begin{pmatrix}
+0 &amp; 0 \\
+0 &amp; 0
+\end{pmatrix}
+\right\}\)</li>
+<li id="li-152">\(\chr R\)</li>
+<li id="li-153">\(M\)</li>
+<li id="li-154">\(\deg f(x) = n\)</li>
+<li id="li-155">\(F\lbrack x \rbrack\)</li>
+<li id="li-156">\(\Phi_n(x) = \frac{x^n - 1}{x - 1} = x^{n - 1} + x^{n - 2} + \cdots + x + 1\)</li>
+<li id="li-157">\(\deg( p(x) + q(x) ) \leq \max( \deg p(x), \deg q(x) )\)</li>
+<li id="li-158">\(\Delta = b^2 - 4ac\)</li>
+<li id="li-159">\(\nu : {\mathbb Z}[ \sqrt{3}\, i ] \rightarrow {\mathbb N} \cup \{ 0 \}\)</li>
+<li id="li-160">\(a \preceq b\)</li>
+<li id="li-161">\(a \vee b\)</li>
+<li id="li-162">\(a \wedge b\)</li>
+<li id="li-163">\(\succeq\)</li>
+<li id="li-164">\(b \not\preceq c\)</li>
+<li id="li-165">\(( \Leftarrow)\)</li>
+<li id="li-166">\('\)</li>
+<li id="li-167">\(V\)</li>
+<li id="li-168">\(\dim V =n\)</li>
+<li id="li-169">\(S=\{\mathbf{u}\}\)</li>
+<li id="li-170">\(W = U \oplus V\)</li>
+<li id="li-171">\(\Hom(V, W)\)</li>
+<li id="li-172">\(\begin{CD}
+E[x]/\langle p(x) \rangle    @&gt;\psi&gt;&gt;  F[x]/\langle q(x) \rangle  \\
+@VV{\sigma}V        @VV{\tau}V\\
+E(\alpha)     @&gt;\overline{\phi}&gt;&gt;  F(\beta) \\
+@VVV        @VVV\\
+E     @&gt;\phi&gt;&gt;  F
+\end{CD}\)</li>
+<li id="li-173">\(\triangle ABC\)</li>
+<li id="li-174">\(\gf(p^n)\)</li>
+<li id="li-175">\(\begin{CD}
+E   @&gt;&gt;&gt;  \{\text{id}\}  \\
+@AAA        @VVV\\
+L     @&gt;&gt;&gt;  G(E/L) \\
+@AAA        @VVV\\
+K    @&gt;&gt;&gt;  G(E/K) \\
+@AAA        @VVV\\
+F    @&gt;&gt;&gt;  G(E/F)
+\end{CD}\)</li>
+<li id="li-176">\(\zeta\)</li>
+<li id="li-177">\(K \supseteq E\)</li>
+</ol></section></div></main>
+</div>
+</body>
+</html>

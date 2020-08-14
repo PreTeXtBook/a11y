@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pretext>
+  <docinfo>
+    <macros>
+      \newcommand{\identity}{\mathrm{id}}
+      \newcommand{\notdivide}{\nmid}
+      \newcommand{\notsubset}{\not\subset}
+      \newcommand{\lcm}{\operatorname{lcm}}
+      \newcommand{\gf}{\operatorname{GF}}
+      \newcommand{\inn}{\operatorname{Inn}}
+      \newcommand{\aut}{\operatorname{Aut}}
+      \newcommand{\Hom}{\operatorname{Hom}}
+      \newcommand{\cis}{\operatorname{cis}}
+      \newcommand{\chr}{\operatorname{char}}
+      \newcommand{\Null}{\operatorname{Null}}
+      \newcommand{\transpose}{\text{t}}
+    </macros>
+  </docinfo>
+  <article>
+    <p>
+      <ol>
+		<li><m>\mathcal S</m></li>
+		<li><m>3 + 56 - 13 + 8/2 </m></li>
+		<li><m>2 + 3 = 5</m></li>
+		<li><m>2x = 6</m></li>
+		<li><m>ax^2 + bx + c = 0</m></li>
+		<li><m>a \neq 0</m></li>
+		<li><m>x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}\text{.}</m></li>
+		<li><m>2 \cdot 4</m></li>
+		<li><m>p</m></li>
+		<li><m>q</m></li>
+		<li><m>r</m></li>
+		<li><m>s</m></li>
+		<li><m>A</m></li>
+		<li><m>X</m></li>
+		<li><m>a \in A</m></li>
+		<li><m>X = \{ x_1, x_2, \ldots, x_n \}</m></li>
+		<li><m>X = \{ x :x \text{ satisfies }{\mathcal P}\}</m></li>
+		<li><m>E</m></li>
+		<li><m>E = \{2, 4, 6, \ldots \} \quad \text{or} \quad E = \{ x : x \text{ is an even integer and } x \gt 0 \}\text{.}</m></li>
+		<li><m>-3 \notin E</m></li>
+		<li><m>B</m></li>
+		<li><m>A \subset B</m></li>
+		<li><m>B \supset A</m></li>
+		<li><m>{\mathbb N} \subset {\mathbb Z} \subset {\mathbb Q} \subset {\mathbb R} \subset {\mathbb C}\text{.}</m></li>
+		<li><m>A \notsubset B</m></li>
+		<li><m>\emptyset</m></li>
+		<li><m>A \cup B</m></li>
+		<li><m>A \cup B = \{x : x \in A \text{ or } x \in B \};</m></li>
+		<li><m>A \cap B = \{x :  x \in A \text{ and } x \in B \}\text{.}</m></li>
+		<li><m>\bigcup_{i = 1}^{n} A_{i} = A_{1} \cup \ldots \cup A_n</m></li>
+		<li><m>\bigcap_{i = 1}^{n} A_{i} = A_{1} \cap \ldots \cap A_n</m></li>
+		<li><m>O</m></li>
+		<li><m>U</m></li>
+		<li><m>A'</m></li>
+		<li><m>A \setminus B = A \cap B'  = \{ x : x \in A \text{ and } x \notin B \}\text{.}</m></li>
+		<li><m>A = \{ x \in {\mathbb R} : 0 \lt x \leq 3 \} \quad \text{and} \quad B = \{ x \in {\mathbb R} : 2 \leq x \lt 4 \}\text{.}</m></li>
+		<li><m>C</m></li>
+		<li><m>A \cup (B \cup C) = (A \cup B) \cup C</m></li>
+		<li><m>A \times B</m></li>
+		<li><m>A = \{ x, y \}</m></li>
+		<li><m>A_1 \times \cdots \times A_n = \{ (a_1, \ldots, a_n): a_i \in A_i \text{ for } i = 1, \ldots, n \}\text{.}</m></li>
+		<li><m>f \subset A \times B</m></li>
+		<li><m>f:A \rightarrow B</m></li>
+		<li><m>f : a \mapsto b</m></li>
+		<li><m>g</m></li>
+		<li><m>(g \circ f)(x) = g(f(x))</m></li>
+		<li><m>A =
+		\begin{pmatrix}
+		a &amp; b \\
+		c &amp; d
+		\end{pmatrix}\text{,}</m></li>
+		<li><m>T_A : {\mathbb R}^2 \rightarrow {\mathbb R}^2</m></li>
+		<li><m>{\mathbb R}^m</m></li>
+		<li><m>S = \{ 1,2,3  \}</m></li>
+		<li><m>\pi :S\rightarrow S</m></li>
+		<li><m>h : C \rightarrow D</m></li>
+		<li><m>f(x) = \ln x</m></li>
+		<li><m>f^{-1}(x) = e^x</m></li>
+		<li><m>R \subset X \times X</m></li>
+		<li><m>(y, z) \in R</m></li>
+		<li><m>x \sim y</m></li>
+		<li><m>\equiv</m></li>
+		<li><m>\cong</m></li>
+		<li><m>r/s \sim t/u</m></li>
+		<li><m>P</m></li>
+		<li><m>I</m></li>
+		<li><m>Q</m></li>
+		<li><m>X_i \cap X_j = \emptyset</m></li>
+		<li><m>\bigcup_k X_k = X</m></li>
+		<li><m>[x] = \{ y \in X : y \sim x \}</m></li>
+		<li><m>r \equiv s \pmod{n}</m></li>
+		<li><m>l</m></li>
+		<li><m>f(x) = \sin x</m></li>
+		<li><m>f: X \rightarrow Y</m></li>
+		<li><m>x \geq y</m></li>
+		<li><m>|x - y| \leq 4</m></li>
+		<li><m>\lambda</m></li>
+		<li><m>{\mathbb P}({\mathbb R}) </m></li>
+		<li><m>300!</m></li>
+		<li><m>(a + b)^n = \sum_{k = 0}^{n} \binom{n}{k} a^k b^{n - k}\text{,}</m></li>
+		<li><m>a \mid b</m></li>
+		<li><m>d = \gcd(a, b)</m></li>
+		<li><m>\lim_{n \rightarrow \infty} f_n / f_{n + 1} = (\sqrt{5} - 1)/2</m></li>
+		<li><m>\lcm(a,b)</m></li>
+		<li><m>N</m></li>
+		<li><m>\bigtriangleup ABC</m></li>
+		<li><m>\mu_1 \rho_1</m></li>
+		<li><m>\alpha</m></li>
+		<li><m>\beta</m></li>
+		<li><m>\alpha \beta = \identity</m></li>
+		<li><m>G</m></li>
+		<li><m>{\mathbb M}_2 ( {\mathbb R})</m></li>
+		<li><m>GL_2({\mathbb R})</m></li>
+		<li><m>\det A = ad - bc \neq 0</m></li>
+		<li><m>I^2 = J^2 = K^2 = -1</m></li>
+		<li><m>{\mathbb C}^\ast</m></li>
+		<li><m>g''</m></li>
+		<li><m>g^n = \underbrace{g \cdot g \cdots g}_{n \; \text{times}}</m></li>
+		<li><m>H</m></li>
+		<li><m>\sigma =
+		\begin{pmatrix}
+		1 &amp; 2 &amp; \cdots &amp; n \\ a_1 &amp; a_2 &amp; \cdots &amp; a_n
+		\end{pmatrix}</m></li>
+		<li><m>{\mathbb T} = \{ z \in {\mathbb C}^* : |z| =1 \}</m></li>
+		<li><m>\begin{pmatrix}
+		\cos \theta &amp; -\sin \theta \\
+		\sin \theta &amp; \cos \theta
+		\end{pmatrix}\text{,}</m></li>
+		<li><m>H =
+		\left\{
+		\begin{pmatrix}
+		a &amp; b \\
+		c &amp; d
+		\end{pmatrix} :
+		a + d = 0
+		\right\}\text{.}</m></li>
+		<li><m>Z(G) = \{ x \in G : gx = xg \text{ for all } g \in G \}</m></li>
+		<li><m>(d_1, d_2, \ldots, d_k ) \cdot (w_1, w_2, \ldots, w_k ) \equiv 0 \pmod{ n }</m></li>
+		<li><m>\langle a \rangle  = \{ a^k : k \in {\mathbb Z} \}</m></li>
+		<li><m>\overline{z} = a- bi</m></li>
+		<li><m>r \cis \theta</m></li>
+		<li><m>\theta = \arctan \left( \frac{b}{a} \right) = \arctan( - 1) = 315^{\circ}\text{,}</m></li>
+		<li><m>w = s \cis \phi</m></li>
+		<li><m>\begin{array}{c|cccc}
+		\circ &amp; \identity &amp; \sigma &amp; \tau &amp; \mu \\ \hline
+		\identity &amp; \identity &amp; \sigma &amp; \tau &amp; \mu \\
+		\sigma &amp; \sigma &amp; \identity &amp; \mu &amp; \tau \\
+		\tau &amp; \tau &amp; \mu &amp; \identity &amp; \sigma \\
+		\mu &amp; \mu &amp; \tau &amp; \sigma &amp; \identity
+		\end{array}</m></li>
+		<li><m>\sigma( a_i ) = a_{(i \bmod k) + 1}</m></li>
+		<li><m>\sigma_i( x ) = 
+		\begin{cases}
+		\sigma( x ) &amp; x \in X_i \\
+		x   &amp; x \notin X_i
+		\end{cases}\text{,}</m></li>
+		<li><m>{\mathcal O}_{x, \sigma} = \{ y : x \sim y  \}\text{.}</m></li>
+		<li><m>{\mathcal L}_H</m></li>
+		<li><m>{\mathcal R}_H</m></li>
+		<li><m>p \notdivide a</m></li>
+		<li><m>\gamma</m></li>
+		<li><m>{\mathbf p} = 
+		\begin{pmatrix}
+		p_1 \\ p_2
+		\end{pmatrix}\text{.}</m></li>
+		<li><m>f({\mathbf p}) = A {\mathbf p} + {\mathbf b}\text{,}</m></li>
+		<li><m>(0.999)^{10,000} \approx 0.00005\text{.}</m></li>
+		<li><m>{\mathbf x} = (x_1, \ldots,
+		x_n)</m></li>
+		<li><m>{\mathbf y} = (y_1, \ldots,
+		y_n)</m></li>
+		<li><m>d_{\min}</m></li>
+		<li><m>{\mathbf z} = (00011)</m></li>
+		<li><m>{\mathbf c}_1 = (00000)</m></li>
+		<li><m>\Null(H)</m></li>
+		<li><m>\begin{pmatrix}
+		a_{11} &amp; a_{12} &amp; \cdots &amp; a_{1,n-m} \\
+		a_{21} &amp; a_{22} &amp; \cdots &amp; a_{2,n-m} \\
+		\vdots &amp; \vdots &amp; \ddots &amp; \vdots    \\
+		a_{m1} &amp; a_{m2} &amp; \cdots &amp; a_{m,n-m}
+		\end{pmatrix}</m></li>
+		<li><m>\begin{array}{cccc}
+		(000000) &amp; (001101) &amp; (010110) &amp; (011011) \\
+		(100011) &amp; (101110) &amp; (110101) &amp; (111000).
+		\end{array}</m></li>
+		<li><m>\delta_{ij} =
+		\begin{cases}
+		1 &amp; i = j \\
+		0 &amp; i \neq j
+		\end{cases}</m></li>
+		<li><m>H{\mathbf e}_i</m></li>
+		<li><m>{\mathbf r}</m></li>
+		<li><m>H =\begin{bmatrix}
+		0 \amp 1 \amp 0 \amp 1 \amp 0 \\
+		1 \amp 1 \amp 1 \amp 1 \amp 0 \\
+		0 \amp 0 \amp 1 \amp 1 \amp 1
+		\end{bmatrix}</m></li>
+		<li><m>C^\perp = \{ {\mathbf x} \in {\mathbb Z}_2^n :  {\mathbf x} \cdot {\mathbf y} = 0 \text{ for all } {\mathbf y} \in C \}\text{.}</m></li>
+		<li><m>\psi</m></li>
+		<li><m>\prod_{i = 1}^n G_i = G_1 \times G_2 \times \cdots \times G_n</m></li>
+		<li><m>\omega = \cis(2 \pi /n)</m></li>
+		<li><m>\aut(G)</m></li>
+		<li><m>\inn(G)</m></li>
+		<li><m>\Rightarrow</m></li>
+		<li><m>i_g : G \to G</m></li>
+		<li><m>\ker \phi</m></li>
+		<li><m>\eta: G/K \rightarrow \psi(G)</m></li>
+		<li><m>\| {\mathbf x} \| = \sqrt{\langle  {\mathbf x}, {\mathbf x} \rangle}  = \sqrt{x_1^2 + \cdots + x_n^2}\text{.}</m></li>
+		<li><m>{\mathbf w}</m></li>
+		<li><m>{\mathbf a}_j =
+		\begin{pmatrix}
+		a_{1j} \\ a_{2j} \\ \vdots \\ a_{nj}
+		\end{pmatrix}</m></li>
+		<li><m>\ell</m></li>
+		<li><m>Z_3\rtimes Z_4</m></li>
+		<li><m>v \in {\mathbb R}^2</m></li>
+		<li><m>Y = \{ B, W \}</m></li>
+		<li><m>\widetilde{ \sigma }</m></li>
+		<li><m>q \not\equiv 1 \pmod{p}</m></li>
+		<li><m>1 = 
+		\begin{pmatrix}
+		1 &amp; 0 \\
+		0 &amp; 1
+		\end{pmatrix},
+		\quad
+		{\mathbf i}
+		=
+		\begin{pmatrix}
+		0 &amp; 1 \\
+		-1 &amp; 0
+		\end{pmatrix},
+		\quad
+		{\mathbf j} =
+		\begin{pmatrix}
+		0 &amp; i \\
+		i &amp; 0
+		\end{pmatrix},
+		\quad
+		{\mathbf k} = 
+		\begin{pmatrix}
+		i &amp; 0 \\
+		0 &amp; -i
+		\end{pmatrix}\text{,}</m></li>
+		<li><m>{\mathbb H}</m></li>
+		<li><m>F =
+		\left\{
+		\begin{pmatrix}
+		1 &amp; 0 \\
+		0 &amp; 1
+		\end{pmatrix},
+		\begin{pmatrix}
+		1 &amp; 1 \\
+		1 &amp; 0
+		\end{pmatrix},
+		\begin{pmatrix}
+		0 &amp; 1 \\
+		1 &amp; 1
+		\end{pmatrix},
+		\begin{pmatrix}
+		0 &amp; 0 \\
+		0 &amp; 0
+		\end{pmatrix}
+		\right\}</m></li>
+		<li><m>\chr R</m></li>
+		<li><m>M</m></li>
+		<li><m>\deg f(x) = n</m></li>
+		<li><m>F\lbrack x \rbrack</m></li>
+		<li><m>\Phi_n(x) = \frac{x^n - 1}{x - 1} = x^{n - 1} + x^{n - 2} + \cdots + x + 1</m></li>
+		<li><m>\deg( p(x) + q(x) ) \leq \max( \deg p(x), \deg q(x) )</m></li>
+		<li><m>\Delta = b^2 - 4ac</m></li>
+		<li><m>\nu : {\mathbb Z}[ \sqrt{3}\, i ] \rightarrow {\mathbb N} \cup \{ 0 \}</m></li>
+		<li><m>a \preceq b</m></li>
+		<li><m>a \vee b</m></li>
+		<li><m>a \wedge b</m></li>
+		<li><m>\succeq</m></li>
+		<li><m>b \not\preceq c</m></li>
+		<li><m>( \Leftarrow)</m></li>
+		<li><m>'</m></li>
+		<li><m>V</m></li>
+		<li><m>\dim V =n</m></li>
+		<li><m>S=\{\mathbf{u}\}</m></li>
+		<li><m>W = U \oplus V</m></li>
+		<li><m>\Hom(V, W)</m></li>
+		<li><m>\begin{CD}
+		E[x]/\langle p(x) \rangle    @&gt;\psi&gt;&gt;  F[x]/\langle q(x) \rangle  \\
+		@VV{\sigma}V        @VV{\tau}V\\
+		E(\alpha)     @&gt;\overline{\phi}&gt;&gt;  F(\beta) \\
+		@VVV        @VVV\\
+		E     @&gt;\phi&gt;&gt;  F
+		\end{CD}</m></li>
+		<li><m>\triangle ABC</m></li>
+		<li><m>\gf(p^n)</m></li>
+		<li><m>\begin{CD}
+		E   @&gt;&gt;&gt;  \{\text{id}\}  \\
+		@AAA        @VVV\\
+		L     @&gt;&gt;&gt;  G(E/L) \\
+		@AAA        @VVV\\
+		K    @&gt;&gt;&gt;  G(E/K) \\
+		@AAA        @VVV\\
+		F    @&gt;&gt;&gt;  G(E/F)
+		\end{CD}</m></li>
+		<li><m>\zeta</m></li>
+		<li><m>K \supseteq E</m></li>
+	  </ol>
+    </p>
+  </article>
+</pretext>

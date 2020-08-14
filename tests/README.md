@@ -22,3 +22,7 @@ When using PreTeXt to process these files, normally a solo "m" in an "li" will e
 ### `aata-hard-math-201`
 
 201 one-line expressions from Judson's [Abstract Algebra](http://abstract.ups.edu/), curated by Alexei Kolesnikov to avoid repetition and stress translation.
+
+### `aata-unique-177`
+
+177 one-line expressions from Judson's [Abstract Algebra](http://abstract.ups.edu/), algorithmically created by Alexei Kolesnikov to have each symbol once, avoid repetition, and keep expressions small.

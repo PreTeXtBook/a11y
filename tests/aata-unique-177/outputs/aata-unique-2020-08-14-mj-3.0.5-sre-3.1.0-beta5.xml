@@ -1,0 +1,358 @@
+<?xml version="1.0"?>
+<pi:math-representations xmlns:pi="http://pretextbook.org/2020/pretext/internal" xmlns:math="http://www.w3.org/1998/Math/MathML">
+
+<pi:math context="m" id="m-1"><div class="braille">⠈⠠⠎</div></pi:math>
+
+<pi:math context="m" id="m-2"><div class="braille">⠼⠒⠬⠢⠖⠤⠂⠒⠬⠦⠸⠌⠆</div></pi:math>
+
+<pi:math context="m" id="m-3"><div class="braille">⠼⠆⠬⠒⠀⠨⠅⠀⠼⠢</div></pi:math>
+
+<pi:math context="m" id="m-4"><div class="braille">⠼⠆⠭⠀⠨⠅⠀⠼⠖</div></pi:math>
+
+<pi:math context="m" id="m-5"><div class="braille">⠁⠭⠘⠆⠐⠬⠃⠭⠬⠉⠀⠨⠅⠀⠼⠴</div></pi:math>
+
+<pi:math context="m" id="m-6"><div class="braille">⠁⠀⠌⠨⠅⠀⠼⠴</div></pi:math>
+
+<pi:math context="m" id="m-7"><div class="braille">⠭⠀⠨⠅⠀⠹⠤⠃⠬⠤⠜⠃⠘⠆⠐⠤⠲⠁⠉⠻⠌⠆⠁⠼⠨</div></pi:math>
+
+<pi:math context="m" id="m-8"><div class="braille">⠼⠆⠡⠲</div></pi:math>
+
+<pi:math context="m" id="m-9"><div class="braille">⠏</div></pi:math>
+
+<pi:math context="m" id="m-10"><div class="braille">⠟</div></pi:math>
+
+<pi:math context="m" id="m-11"><div class="braille">⠗</div></pi:math>
+
+<pi:math context="m" id="m-12"><div class="braille">⠎</div></pi:math>
+
+<pi:math context="m" id="m-13"><div class="braille">⠠⠁</div></pi:math>
+
+<pi:math context="m" id="m-14"><div class="braille">⠠⠭</div></pi:math>
+
+<pi:math context="m" id="m-15"><div class="braille">⠁⠀⠈⠑⠀⠠⠁</div></pi:math>
+
+<pi:math context="m" id="m-16"><div class="braille">⠠⠭⠀⠨⠅⠀⠨⠷⠭⠂⠠⠀⠭⠆⠠⠀⠄⠄⠄⠀⠠⠀⠭⠰⠝⠐⠨⠾</div></pi:math>
+
+<pi:math context="m" id="m-17"><div class="braille">⠠⠭⠀⠨⠅⠀⠨⠷⠭⠒⠀⠭⠀⠎⠁⠞⠊⠎⠋⠊⠑⠎⠀⠈⠠⠏⠨⠾</div></pi:math>
+
+<pi:math context="m" id="m-18"><div class="braille">⠠⠑</div></pi:math>
+
+<pi:math context="m" id="m-19"><div class="braille">⠠⠑⠀⠨⠅⠀⠨⠷⠼⠆⠠⠀⠼⠲⠠⠀⠼⠖⠠⠀⠄⠄⠄⠨⠾⠕⠗⠠⠑⠀⠨⠅⠀⠨⠷⠭⠒⠀⠭⠀⠊⠎⠀⠁⠝⠀⠑⠧⠑⠝⠀⠊⠝⠞⠑⠛⠑⠗⠀⠁⠝⠙⠀⠭⠀⠨⠂⠀⠼⠴⠨⠾⠨</div></pi:math>
+
+<pi:math context="m" id="m-20"><div class="braille">⠤⠼⠒⠀⠌⠈⠑⠀⠠⠑</div></pi:math>
+
+<pi:math context="m" id="m-21"><div class="braille">⠠⠃</div></pi:math>
+
+<pi:math context="m" id="m-22"><div class="braille">⠠⠁⠀⠸⠐⠅⠀⠠⠃</div></pi:math>
+
+<pi:math context="m" id="m-23"><div class="braille">⠠⠃⠀⠸⠨⠂⠀⠠⠁</div></pi:math>
+
+<pi:math context="m" id="m-24"><div class="braille">⠸⠠⠝⠀⠸⠐⠅⠀⠸⠠⠵⠀⠸⠐⠅⠀⠸⠠⠟⠀⠸⠐⠅⠀⠸⠠⠗⠀⠸⠐⠅⠀⠸⠠⠉⠨</div></pi:math>
+
+<pi:math context="m" id="m-25"><div class="braille">⠠⠁⠀⠌⠸⠐⠅⠀⠠⠃</div></pi:math>
+
+<pi:math context="m" id="m-26"><div class="braille">⠸⠴</div></pi:math>
+
+<pi:math context="m" id="m-27"><div class="braille">⠠⠁⠨⠬⠠⠃</div></pi:math>
+
+<pi:math context="m" id="m-28"><div class="braille">⠠⠁⠨⠬⠠⠃⠀⠨⠅⠀⠨⠷⠭⠒⠀⠭⠀⠈⠑⠀⠠⠁⠀⠕⠗⠀⠭⠀⠈⠑⠀⠠⠃⠨⠾⠆</div></pi:math>
+
+<pi:math context="m" id="m-29"><div class="braille">⠠⠁⠨⠩⠠⠃⠀⠨⠅⠀⠨⠷⠭⠒⠀⠭⠀⠈⠑⠀⠠⠁⠀⠁⠝⠙⠀⠭⠀⠈⠑⠀⠠⠃⠨⠾⠨</div></pi:math>
+
+<pi:math context="m" id="m-30"><div class="braille">⠐⠨⠬⠩⠊⠀⠨⠅⠀⠼⠂⠣⠝⠻⠠⠁⠰⠊⠐⠀⠨⠅⠀⠠⠁⠂⠨⠬⠄⠄⠄⠨⠬⠠⠁⠰⠝</div></pi:math>
+
+<pi:math context="m" id="m-31"><div class="braille">⠐⠨⠩⠩⠊⠀⠨⠅⠀⠼⠂⠣⠝⠻⠠⠁⠰⠊⠐⠀⠨⠅⠀⠠⠁⠂⠨⠩⠄⠄⠄⠨⠩⠠⠁⠰⠝</div></pi:math>
+
+<pi:math context="m" id="m-32"><div class="braille">⠠⠕</div></pi:math>
+
+<pi:math context="m" id="m-33"><div class="braille">⠠⠥</div></pi:math>
+
+<pi:math context="m" id="m-34"><div class="braille">⠠⠁⠄</div></pi:math>
+
+<pi:math context="m" id="m-35"><div class="braille">⠠⠁⠸⠡⠠⠃⠀⠨⠅⠀⠠⠁⠨⠩⠠⠃⠘⠄⠐⠀⠨⠅⠀⠨⠷⠭⠒⠀⠭⠀⠈⠑⠀⠠⠁⠀⠁⠝⠙⠀⠭⠀⠌⠈⠑⠀⠠⠃⠨⠾⠨</div></pi:math>
+
+<pi:math context="m" id="m-36"><div class="braille">⠠⠁⠀⠨⠅⠀⠨⠷⠭⠀⠈⠑⠀⠸⠠⠗⠒⠀⠼⠴⠀⠐⠅⠀⠭⠀⠐⠅⠱⠀⠼⠒⠨⠾⠁⠝⠙⠠⠃⠀⠨⠅⠀⠨⠷⠭⠀⠈⠑⠀⠸⠠⠗⠒⠀⠼⠆⠀⠐⠅⠱⠀⠭⠀⠐⠅⠀⠼⠲⠨⠾⠨</div></pi:math>
+
+<pi:math context="m" id="m-37"><div class="braille">⠠⠉</div></pi:math>
+
+<pi:math context="m" id="m-38"><div class="braille">⠠⠁⠨⠬⠷⠠⠃⠨⠬⠠⠉⠾⠀⠨⠅⠀⠷⠠⠁⠨⠬⠠⠃⠾⠨⠬⠠⠉</div></pi:math>
+
+<pi:math context="m" id="m-39"><div class="braille">⠠⠁⠈⠡⠠⠃</div></pi:math>
+
+<pi:math context="m" id="m-40"><div class="braille">⠠⠁⠀⠨⠅⠀⠨⠷⠭⠠⠀⠽⠨⠾</div></pi:math>
+
+<pi:math context="m" id="m-41"><div class="braille">⠠⠁⠂⠈⠡⠄⠄⠄⠈⠡⠠⠁⠰⠝⠐⠀⠨⠅⠀⠨⠷⠷⠁⠂⠠⠀⠄⠄⠄⠀⠠⠀⠁⠰⠝⠐⠾⠒⠀⠁⠰⠊⠐⠀⠈⠑⠀⠠⠁⠰⠊⠐⠀⠋⠕⠗⠀⠊⠀⠨⠅⠀⠼⠂⠠⠀⠄⠄⠄⠀⠠⠀⠝⠨⠾⠨</div></pi:math>
+
+<pi:math context="m" id="m-42"><div class="braille">⠋⠀⠸⠐⠅⠀⠠⠁⠈⠡⠠⠃</div></pi:math>
+
+<pi:math context="m" id="m-43"><div class="braille">⠋⠒⠀⠠⠁⠀⠫⠕⠀⠠⠃</div></pi:math>
+
+<pi:math context="m" id="m-44"><div class="braille">⠋⠒⠀⠁⠀⠫⠳⠒⠒⠕⠀⠃</div></pi:math>
+
+<pi:math context="m" id="m-45"><div class="braille">⠛</div></pi:math>
+
+<pi:math context="m" id="m-46"><div class="braille">⠷⠛⠘⠨⠡⠋⠾⠷⠭⠾⠀⠨⠅⠀⠛⠷⠋⠷⠭⠾⠾</div></pi:math>
+
+<pi:math context="m" id="m-47"><div class="braille">⠠⠁⠀⠨⠅⠀⠠⠷⠁⠀⠃⠠⠾⠀⠠⠷⠉⠀⠙⠠⠾⠠</div></pi:math>
+
+<pi:math context="m" id="m-48"><div class="braille">⠠⠞⠰⠠⠁⠐⠒⠀⠸⠠⠗⠘⠆⠐⠀⠫⠕⠀⠸⠠⠗⠘⠆</div></pi:math>
+
+<pi:math context="m" id="m-49"><div class="braille">⠸⠠⠗⠘⠍</div></pi:math>
+
+<pi:math context="m" id="m-50"><div class="braille">⠠⠎⠀⠨⠅⠀⠨⠷⠼⠂⠠⠀⠼⠆⠠⠀⠼⠒⠨⠾</div></pi:math>
+
+<pi:math context="m" id="m-51"><div class="braille">⠨⠏⠒⠀⠠⠎⠀⠫⠕⠀⠠⠎</div></pi:math>
+
+<pi:math context="m" id="m-52"><div class="braille">⠓⠒⠀⠠⠉⠀⠫⠕⠀⠠⠙</div></pi:math>
+
+<pi:math context="m" id="m-53"><div class="braille">⠋⠷⠭⠾⠀⠨⠅⠀⠇⠝⠀⠭</div></pi:math>
+
+<pi:math context="m" id="m-54"><div class="braille">⠋⠘⠤⠼⠂⠐⠷⠭⠾⠀⠨⠅⠀⠑⠘⠭</div></pi:math>
+
+<pi:math context="m" id="m-55"><div class="braille">⠠⠗⠀⠸⠐⠅⠀⠠⠭⠈⠡⠠⠭</div></pi:math>
+
+<pi:math context="m" id="m-56"><div class="braille">⠷⠽⠠⠀⠵⠾⠀⠈⠑⠀⠠⠗</div></pi:math>
+
+<pi:math context="m" id="m-57"><div class="braille">⠭⠈⠱⠽</div></pi:math>
+
+<pi:math context="m" id="m-58"><div class="braille">⠀⠸⠇⠀</div></pi:math>
+
+<pi:math context="m" id="m-59"><div class="braille">⠀⠈⠱⠈⠱⠀</div></pi:math>
+
+<pi:math context="m" id="m-60"><div class="braille">⠗⠸⠌⠎⠈⠱⠞⠸⠌⠥</div></pi:math>
+
+<pi:math context="m" id="m-61"><div class="braille">⠠⠏</div></pi:math>
+
+<pi:math context="m" id="m-62"><div class="braille">⠠⠊</div></pi:math>
+
+<pi:math context="m" id="m-63"><div class="braille">⠠⠟</div></pi:math>
+
+<pi:math context="m" id="m-64"><div class="braille">⠠⠭⠰⠊⠐⠨⠩⠠⠭⠰⠚⠐⠀⠨⠅⠀⠸⠴</div></pi:math>
+
+<pi:math context="m" id="m-65"><div class="braille">⠐⠨⠬⠩⠅⠻⠠⠭⠰⠅⠐⠀⠨⠅⠀⠠⠭</div></pi:math>
+
+<pi:math context="m" id="m-66"><div class="braille">⠈⠷⠭⠈⠾⠀⠨⠅⠀⠨⠷⠽⠀⠈⠑⠀⠠⠭⠒⠀⠽⠈⠱⠭⠨⠾</div></pi:math>
+
+<pi:math context="m" id="m-67"><div class="braille">⠗⠀⠸⠇⠀⠎⠷⠍⠕⠙⠀⠝⠾</div></pi:math>
+
+<pi:math context="m" id="m-68"><div class="braille">⠇</div></pi:math>
+
+<pi:math context="m" id="m-69"><div class="braille">⠋⠷⠭⠾⠀⠨⠅⠀⠎⠊⠝⠀⠭</div></pi:math>
+
+<pi:math context="m" id="m-70"><div class="braille">⠋⠒⠀⠠⠭⠀⠫⠕⠀⠠⠽</div></pi:math>
+
+<pi:math context="m" id="m-71"><div class="braille">⠭⠀⠨⠂⠱⠀⠽</div></pi:math>
+
+<pi:math context="m" id="m-72"><div class="braille">⠳⠭⠤⠽⠳⠀⠐⠅⠱⠀⠼⠲</div></pi:math>
+
+<pi:math context="m" id="m-73"><div class="braille">⠨⠇</div></pi:math>
+
+<pi:math context="m" id="m-74"><div class="braille">⠸⠠⠏⠷⠸⠠⠗⠾</div></pi:math>
+
+<pi:math context="m" id="m-75"><div class="braille">⠼⠒⠴⠴⠯</div></pi:math>
+
+<pi:math context="m" id="m-76"><div class="braille">⠷⠁⠬⠃⠾⠘⠝⠐⠀⠨⠅⠀⠐⠨⠠⠎⠩⠅⠀⠨⠅⠀⠼⠴⠣⠝⠻⠠⠷⠝⠠⠾⠀⠠⠷⠅⠠⠾⠁⠘⠅⠐⠃⠘⠝⠤⠅⠐⠠</div></pi:math>
+
+<pi:math context="m" id="m-77"><div class="braille">⠁⠳⠃</div></pi:math>
+
+<pi:math context="m" id="m-78"><div class="braille">⠙⠀⠨⠅⠀⠛⠉⠙⠀⠷⠁⠠⠀⠃⠾</div></pi:math>
+
+<pi:math context="m" id="m-79"><div class="braille">⠐⠇⠊⠍⠩⠝⠀⠫⠕⠀⠠⠿⠻⠀⠋⠰⠝⠐⠸⠌⠋⠰⠝⠬⠂⠐⠀⠨⠅⠀⠷⠜⠢⠻⠤⠂⠾⠸⠌⠆</div></pi:math>
+
+<pi:math context="m" id="m-80"><div class="braille">⠇⠉⠍⠷⠁⠠⠀⠃⠾</div></pi:math>
+
+<pi:math context="m" id="m-81"><div class="braille">⠠⠝</div></pi:math>
+
+<pi:math context="m" id="m-82"><div class="braille">⠫⠞⠠⠁⠠⠃⠠⠉</div></pi:math>
+
+<pi:math context="m" id="m-83"><div class="braille">⠨⠍⠂⠨⠗⠂</div></pi:math>
+
+<pi:math context="m" id="m-84"><div class="braille">⠨⠁</div></pi:math>
+
+<pi:math context="m" id="m-85"><div class="braille">⠨⠃</div></pi:math>
+
+<pi:math context="m" id="m-86"><div class="braille">⠨⠁⠨⠃⠀⠨⠅⠀⠊⠙</div></pi:math>
+
+<pi:math context="m" id="m-87"><div class="braille">⠠⠛</div></pi:math>
+
+<pi:math context="m" id="m-88"><div class="braille">⠸⠠⠍⠆⠷⠸⠠⠗⠾</div></pi:math>
+
+<pi:math context="m" id="m-89"><div class="braille">⠠⠛⠠⠇⠆⠷⠸⠠⠗⠾</div></pi:math>
+
+<pi:math context="m" id="m-90"><div class="braille">⠙⠑⠞⠀⠠⠁⠀⠨⠅⠀⠁⠙⠤⠃⠉⠀⠌⠨⠅⠀⠼⠴</div></pi:math>
+
+<pi:math context="m" id="m-91"><div class="braille">⠠⠊⠘⠆⠐⠀⠨⠅⠀⠠⠚⠘⠆⠐⠀⠨⠅⠀⠠⠅⠘⠆⠐⠀⠨⠅⠀⠤⠼⠂</div></pi:math>
+
+<pi:math context="m" id="m-92"><div class="braille">⠸⠠⠉⠘⠈⠼</div></pi:math>
+
+<pi:math context="m" id="m-93"><div class="braille">⠛⠄⠄</div></pi:math>
+
+<pi:math context="m" id="m-94"><div class="braille">⠛⠘⠝⠐⠀⠨⠅⠀⠐⠐⠛⠡⠛⠀⠄⠄⠄⠀⠛⠩⠣⠨⠾⠻⠩⠝⠞⠊⠍⠑⠎⠻</div></pi:math>
+
+<pi:math context="m" id="m-95"><div class="braille">⠠⠓</div></pi:math>
+
+<pi:math context="m" id="m-96"><div class="braille">⠨⠎⠀⠨⠅⠀⠠⠷⠼⠂⠀⠆⠀⠄⠄⠄⠀⠝⠠⠾⠀⠠⠷⠁⠂⠀⠁⠆⠀⠄⠄⠄⠀⠁⠰⠝⠠⠾</div></pi:math>
+
+<pi:math context="m" id="m-97"><div class="braille">⠸⠠⠞⠀⠨⠅⠀⠨⠷⠵⠀⠈⠑⠀⠸⠠⠉⠘⠈⠼⠐⠒⠀⠳⠵⠳⠀⠨⠅⠀⠼⠂⠨⠾</div></pi:math>
+
+<pi:math context="m" id="m-98"><div class="braille">⠠⠷⠉⠕⠎⠀⠨⠹⠀⠤⠎⠊⠝⠀⠨⠹⠠⠾⠀⠠⠷⠎⠊⠝⠀⠨⠹⠀⠉⠕⠎⠀⠨⠹⠠⠾⠠</div></pi:math>
+
+<pi:math context="m" id="m-99"><div class="braille">⠠⠓⠀⠨⠅⠀⠨⠷⠠⠷⠁⠀⠃⠠⠾⠀⠠⠷⠉⠀⠙⠠⠾⠒⠀⠁⠬⠙⠀⠨⠅⠀⠼⠴⠨⠾⠨</div></pi:math>
+
+<pi:math context="m" id="m-100"><div class="braille">⠠⠵⠷⠠⠛⠾⠀⠨⠅⠀⠨⠷⠭⠀⠈⠑⠀⠠⠛⠒⠀⠛⠭⠀⠨⠅⠀⠭⠛⠀⠋⠕⠗⠀⠁⠇⠇⠀⠛⠀⠈⠑⠀⠠⠛⠨⠾</div></pi:math>
+
+<pi:math context="m" id="m-101"><div class="braille">⠷⠙⠂⠠⠀⠙⠆⠠⠀⠄⠄⠄⠀⠠⠀⠙⠰⠅⠐⠾⠡⠷⠺⠂⠠⠀⠺⠆⠠⠀⠄⠄⠄⠀⠠⠀⠺⠰⠅⠐⠾⠀⠸⠇⠀⠼⠴⠷⠍⠕⠙⠀⠝⠾</div></pi:math>
+
+<pi:math context="m" id="m-102"><div class="braille">⠨⠨⠷⠁⠨⠨⠾⠀⠨⠅⠀⠨⠷⠁⠘⠅⠐⠒⠀⠅⠀⠈⠑⠀⠸⠠⠵⠨⠾</div></pi:math>
+
+<pi:math context="m" id="m-103"><div class="braille">⠐⠵⠣⠱⠻⠀⠨⠅⠀⠁⠤⠃⠊</div></pi:math>
+
+<pi:math context="m" id="m-104"><div class="braille">⠗⠉⠊⠎⠨⠹</div></pi:math>
+
+<pi:math context="m" id="m-105"><div class="braille">⠨⠹⠀⠨⠅⠀⠁⠗⠉⠞⠁⠝⠀⠷⠹⠃⠌⠁⠼⠾⠀⠨⠅⠀⠁⠗⠉⠞⠁⠝⠀⠷⠤⠼⠂⠾⠀⠨⠅⠀⠼⠒⠂⠢⠘⠘⠨⠡⠐⠠</div></pi:math>
+
+<pi:math context="m" id="m-106"><div class="braille">⠺⠀⠨⠅⠀⠎⠉⠊⠎⠨⠋</div></pi:math>
+
+<pi:math context="m" id="m-107"><div class="braille">⠘⠨⠡⠀⠊⠙⠀⠨⠎⠀⠨⠞⠀⠨⠍⠀⠊⠙⠀⠊⠙⠀⠨⠎⠀⠨⠞⠀⠨⠍⠀⠨⠎⠀⠨⠎⠀⠊⠙⠀⠨⠍⠀⠨⠞⠀⠨⠞⠀⠨⠞⠀⠨⠍⠀⠊⠙⠀⠨⠎⠀⠨⠍⠀⠨⠍⠀⠨⠞⠀⠨⠎⠀⠊⠙</div></pi:math>
+
+<pi:math context="m" id="m-108"><div class="braille">⠎⠷⠁⠰⠊⠐⠾⠀⠨⠅⠀⠁⠰⠷⠊⠍⠕⠙⠀⠅⠾⠬⠂</div></pi:math>
+
+<pi:math context="m" id="m-109"><div class="braille">⠎⠰⠊⠐⠷⠭⠾⠀⠨⠅⠀⠀⠨⠅⠀⠨⠠⠷⠎⠷⠭⠾⠀⠭⠀⠈⠑⠀⠠⠭⠰⠊⠐⠀⠨⠠⠷⠭⠀⠭⠀⠌⠈⠑⠀⠠⠭⠰⠊⠐⠐⠠</div></pi:math>
+
+<pi:math context="m" id="m-110"><div class="braille">⠈⠠⠕⠰⠭⠠⠀⠨⠎⠐⠀⠨⠅⠀⠨⠷⠽⠒⠀⠭⠈⠱⠽⠨⠾⠨</div></pi:math>
+
+<pi:math context="m" id="m-111"><div class="braille">⠈⠠⠇⠰⠠⠓</div></pi:math>
+
+<pi:math context="m" id="m-112"><div class="braille">⠈⠠⠗⠰⠠⠓</div></pi:math>
+
+<pi:math context="m" id="m-113"><div class="braille">⠏⠌⠳⠁</div></pi:math>
+
+<pi:math context="m" id="m-114"><div class="braille">⠨⠛</div></pi:math>
+
+<pi:math context="m" id="m-115"><div class="braille">⠸⠏⠀⠨⠅⠀⠠⠷⠏⠂⠠⠾⠀⠠⠷⠏⠆⠠⠾⠨</div></pi:math>
+
+<pi:math context="m" id="m-116"><div class="braille">⠋⠷⠸⠏⠾⠀⠨⠅⠀⠠⠁⠸⠏⠬⠸⠃⠠</div></pi:math>
+
+<pi:math context="m" id="m-117"><div class="braille">⠷⠼⠴⠨⠔⠔⠔⠾⠘⠼⠂⠴⠠⠀⠼⠴⠴⠴⠐⠄⡳⠭⠆⠆⠲⠦⠄⠼⠴⠨⠴⠴⠴⠴⠢⠨</div></pi:math>
+
+<pi:math context="m" id="m-118"><div class="braille">⠸⠭⠀⠨⠅⠀⠷⠭⠂⠠⠀⠄⠄⠄⠀⠠⠀⠭⠰⠝⠐⠾</div></pi:math>
+
+<pi:math context="m" id="m-119"><div class="braille">⠸⠽⠀⠨⠅⠀⠷⠽⠂⠠⠀⠄⠄⠄⠀⠠⠀⠽⠰⠝⠐⠾</div></pi:math>
+
+<pi:math context="m" id="m-120"><div class="braille">⠙⠰⠍⠊⠝</div></pi:math>
+
+<pi:math context="m" id="m-121"><div class="braille">⠸⠵⠀⠨⠅⠀⠷⠼⠴⠴⠴⠂⠂⠾</div></pi:math>
+
+<pi:math context="m" id="m-122"><div class="braille">⠸⠉⠂⠀⠨⠅⠀⠷⠼⠴⠴⠴⠴⠴⠾</div></pi:math>
+
+<pi:math context="m" id="m-123"><div class="braille">⠠⠝⠥⠇⠇⠷⠠⠓⠾</div></pi:math>
+
+<pi:math context="m" id="m-124"><div class="braille">⠠⠷⠁⠂⠂⠀⠁⠂⠆⠀⠄⠄⠄⠀⠁⠰⠼⠂⠠⠀⠝⠤⠍⠠⠾⠀⠠⠷⠁⠆⠂⠀⠁⠆⠆⠀⠄⠄⠄⠀⠁⠰⠼⠆⠠⠀⠝⠤⠍⠠⠾⠀⠠⠷⠣⠄⠄⠄⠀⠣⠄⠄⠄⠀⠰⠄⠄⠄⠀⠣⠄⠄⠄⠠⠾⠀⠠⠷⠁⠰⠍⠐⠂⠀⠁⠰⠍⠐⠆⠀⠄⠄⠄⠀⠁⠰⠍⠠⠀⠝⠤⠍⠠⠾</div></pi:math>
+
+<pi:math context="m" id="m-125"><div class="braille">⠷⠼⠴⠴⠴⠴⠴⠴⠾⠀⠷⠴⠴⠂⠂⠴⠂⠾⠀⠷⠴⠂⠴⠂⠂⠴⠾⠀⠷⠴⠂⠂⠴⠂⠂⠾⠀⠷⠂⠴⠴⠴⠂⠂⠾⠀⠷⠂⠴⠂⠂⠂⠴⠾⠀⠷⠂⠂⠴⠂⠴⠂⠾⠀⠷⠼⠂⠂⠂⠴⠴⠴⠾⠨⠐</div></pi:math>
+
+<pi:math context="m" id="m-126"><div class="braille">⠨⠙⠰⠊⠚⠐⠀⠨⠅⠀⠀⠨⠅⠀⠨⠠⠷⠼⠂⠀⠊⠀⠨⠅⠀⠚⠀⠨⠠⠷⠴⠀⠊⠀⠌⠨⠅⠀⠚⠐</div></pi:math>
+
+<pi:math context="m" id="m-127"><div class="braille">⠠⠓⠸⠑⠰⠊</div></pi:math>
+
+<pi:math context="m" id="m-128"><div class="braille">⠸⠗</div></pi:math>
+
+<pi:math context="m" id="m-129"><div class="braille">⠠⠓⠀⠨⠅⠀⠈⠠⠷⠼⠴⠀⠂⠀⠴⠀⠂⠀⠴⠈⠠⠾⠀⠈⠠⠷⠂⠀⠂⠀⠂⠀⠂⠀⠴⠈⠠⠾⠀⠈⠠⠷⠴⠀⠴⠀⠂⠀⠂⠀⠂⠈⠠⠾</div></pi:math>
+
+<pi:math context="m" id="m-130"><div class="braille">⠠⠉⠘⠀⠫⠏⠀⠐⠀⠨⠅⠀⠨⠷⠸⠭⠀⠈⠑⠀⠸⠠⠵⠆⠘⠝⠐⠒⠀⠸⠭⠡⠸⠽⠀⠨⠅⠀⠼⠴⠀⠋⠕⠗⠀⠁⠇⠇⠀⠸⠽⠀⠈⠑⠀⠠⠉⠨⠾⠨</div></pi:math>
+
+<pi:math context="m" id="m-131"><div class="braille">⠨⠓</div></pi:math>
+
+<pi:math context="m" id="m-132"><div class="braille">⠐⠄⡳⠭⠆⠆⠴⠋⠄⠩⠊⠀⠨⠅⠀⠼⠂⠣⠝⠻⠠⠛⠰⠊⠐⠀⠨⠅⠀⠠⠛⠂⠈⠡⠠⠛⠆⠈⠡⠄⠄⠄⠈⠡⠠⠛⠰⠝</div></pi:math>
+
+<pi:math context="m" id="m-133"><div class="braille">⠨⠕⠀⠨⠅⠀⠉⠊⠎⠷⠼⠆⠨⠏⠸⠌⠝⠾</div></pi:math>
+
+<pi:math context="m" id="m-134"><div class="braille">⠠⠁⠥⠞⠷⠠⠛⠾</div></pi:math>
+
+<pi:math context="m" id="m-135"><div class="braille">⠠⠊⠝⠝⠷⠠⠛⠾</div></pi:math>
+
+<pi:math context="m" id="m-136"><div class="braille">⠀⠫⠒⠒⠕⠕⠀</div></pi:math>
+
+<pi:math context="m" id="m-137"><div class="braille">⠊⠰⠛⠐⠒⠀⠠⠛⠀⠫⠕⠀⠠⠛</div></pi:math>
+
+<pi:math context="m" id="m-138"><div class="braille">⠅⠑⠗⠀⠨⠋</div></pi:math>
+
+<pi:math context="m" id="m-139"><div class="braille">⠨⠦⠒⠀⠠⠛⠸⠌⠠⠅⠀⠫⠕⠀⠓⠷⠠⠛⠾</div></pi:math>
+
+<pi:math context="m" id="m-140"><div class="braille">⠀⠫⠇⠀⠸⠭⠀⠫⠇⠀⠀⠨⠅⠀⠜⠨⠨⠷⠸⠭⠠⠀⠸⠭⠨⠨⠾⠻⠀⠨⠅⠀⠜⠭⠂⠘⠆⠐⠬⠄⠄⠄⠬⠭⠰⠝⠘⠆⠐⠻⠨</div></pi:math>
+
+<pi:math context="m" id="m-141"><div class="braille">⠸⠺</div></pi:math>
+
+<pi:math context="m" id="m-142"><div class="braille">⠸⠁⠰⠚⠐⠀⠨⠅⠀⠠⠷⠁⠰⠂⠚⠐⠠⠾⠀⠠⠷⠁⠰⠆⠚⠐⠠⠾⠀⠠⠷⠣⠄⠄⠄⠠⠾⠀⠠⠷⠁⠰⠝⠚⠠⠾</div></pi:math>
+
+<pi:math context="m" id="m-143"><div class="braille">⠈⠇</div></pi:math>
+
+<pi:math context="m" id="m-144"><div class="braille">⠠⠵⠒⠄⡳⠭⠆⠆⠉⠁⠄⠠⠵⠲</div></pi:math>
+
+<pi:math context="m" id="m-145"><div class="braille">⠧⠀⠈⠑⠀⠸⠠⠗⠘⠆</div></pi:math>
+
+<pi:math context="m" id="m-146"><div class="braille">⠠⠽⠀⠨⠅⠀⠨⠷⠠⠃⠠⠀⠠⠺⠨⠾</div></pi:math>
+
+<pi:math context="m" id="m-147"><div class="braille">⠐⠨⠎⠣⠈⠱⠻</div></pi:math>
+
+<pi:math context="m" id="m-148"><div class="braille">⠟⠀⠌⠸⠇⠀⠼⠂⠷⠍⠕⠙⠀⠏⠾</div></pi:math>
+
+<pi:math context="m" id="m-149"><div class="braille">⠼⠂⠀⠨⠅⠀⠠⠷⠼⠂⠀⠴⠠⠾⠀⠠⠷⠴⠀⠂⠠⠾⠠⠀⠸⠊⠀⠨⠅⠀⠠⠷⠼⠴⠀⠂⠠⠾⠀⠠⠷⠤⠼⠂⠀⠴⠠⠾⠠⠀⠸⠚⠀⠨⠅⠀⠠⠷⠼⠴⠀⠊⠠⠾⠀⠠⠷⠊⠀⠴⠠⠾⠠⠀⠸⠅⠀⠨⠅⠀⠠⠷⠊⠀⠴⠠⠾⠀⠠⠷⠴⠀⠤⠊⠠⠾⠠</div></pi:math>
+
+<pi:math context="m" id="m-150"><div class="braille">⠸⠠⠓</div></pi:math>
+
+<pi:math context="m" id="m-151"><div class="braille">⠠⠋⠀⠨⠅⠀⠨⠷⠠⠷⠼⠂⠀⠴⠠⠾⠀⠠⠷⠴⠀⠂⠠⠾⠠⠀⠠⠷⠼⠂⠀⠂⠠⠾⠀⠠⠷⠂⠀⠴⠠⠾⠠⠀⠠⠷⠼⠴⠀⠂⠠⠾⠀⠠⠷⠂⠀⠂⠠⠾⠠⠀⠠⠷⠼⠴⠀⠴⠠⠾⠀⠠⠷⠴⠀⠴⠠⠾⠨⠾</div></pi:math>
+
+<pi:math context="m" id="m-152"><div class="braille">⠉⠓⠁⠗⠠⠗</div></pi:math>
+
+<pi:math context="m" id="m-153"><div class="braille">⠠⠍</div></pi:math>
+
+<pi:math context="m" id="m-154"><div class="braille">⠙⠑⠛⠀⠋⠷⠭⠾⠀⠨⠅⠀⠝</div></pi:math>
+
+<pi:math context="m" id="m-155"><div class="braille">⠠⠋⠈⠷⠭⠈⠾</div></pi:math>
+
+<pi:math context="m" id="m-156"><div class="braille">⠨⠠⠋⠰⠝⠐⠷⠭⠾⠀⠨⠅⠀⠹⠭⠘⠝⠐⠤⠂⠌⠭⠤⠂⠼⠀⠨⠅⠀⠭⠘⠝⠤⠂⠐⠬⠭⠘⠝⠤⠆⠐⠬⠄⠄⠄⠬⠭⠬⠂</div></pi:math>
+
+<pi:math context="m" id="m-157"><div class="braille">⠙⠑⠛⠀⠷⠏⠷⠭⠾⠬⠟⠷⠭⠾⠾⠀⠐⠅⠱⠀⠍⠁⠭⠀⠷⠙⠑⠛⠀⠏⠷⠭⠾⠠⠀⠙⠑⠛⠀⠟⠷⠭⠾⠾</div></pi:math>
+
+<pi:math context="m" id="m-158"><div class="braille">⠨⠠⠙⠀⠨⠅⠀⠃⠘⠆⠐⠤⠲⠁⠉</div></pi:math>
+
+<pi:math context="m" id="m-159"><div class="braille">⠨⠝⠒⠀⠸⠠⠵⠈⠷⠜⠒⠻⠊⠈⠾⠀⠫⠕⠀⠸⠠⠝⠨⠬⠨⠷⠴⠨⠾</div></pi:math>
+
+<pi:math context="m" id="m-160"><div class="braille">⠁⠀⠨⠐⠅⠱⠀⠃</div></pi:math>
+
+<pi:math context="m" id="m-161"><div class="braille">⠁⠈⠬⠃</div></pi:math>
+
+<pi:math context="m" id="m-162"><div class="braille">⠁⠈⠩⠃</div></pi:math>
+
+<pi:math context="m" id="m-163"><div class="braille">⠀⠨⠨⠐⠱⠀</div></pi:math>
+
+<pi:math context="m" id="m-164"><div class="braille">⠃⠀⠨⠐⠅⠱⠀̸⠉</div></pi:math>
+
+<pi:math context="m" id="m-165"><div class="braille">⠷⠀⠫⠪⠪⠒⠒⠀⠾</div></pi:math>
+
+<pi:math context="m" id="m-166"><div class="braille">⠄</div></pi:math>
+
+<pi:math context="m" id="m-167"><div class="braille">⠠⠧</div></pi:math>
+
+<pi:math context="m" id="m-168"><div class="braille">⠙⠊⠍⠀⠠⠧⠀⠨⠅⠀⠝</div></pi:math>
+
+<pi:math context="m" id="m-169"><div class="braille">⠠⠎⠀⠨⠅⠀⠨⠷⠸⠥⠨⠾</div></pi:math>
+
+<pi:math context="m" id="m-170"><div class="braille">⠠⠺⠀⠨⠅⠀⠠⠥⠫⠉⠸⠫⠬⠻⠠⠧</div></pi:math>
+
+<pi:math context="m" id="m-171"><div class="braille">⠠⠓⠕⠍⠷⠠⠧⠠⠀⠠⠺⠾</div></pi:math>
+
+<pi:math context="m" id="m-172"><div class="braille">⠠⠑⠈⠷⠭⠈⠾⠸⠌⠨⠨⠷⠏⠷⠭⠾⠨⠨⠾⠀⠐⠀⠫⠕⠀⠣⠨⠓⠻⠀⠠⠋⠈⠷⠭⠈⠾⠸⠌⠨⠨⠷⠟⠷⠭⠾⠨⠨⠾⠀⠀⠫⠩⠒⠒⠕⠀⠨⠎⠀⠀⠀⠀⠫⠩⠒⠒⠕⠀⠨⠞⠀⠀⠀⠠⠑⠷⠨⠁⠾⠀⠐⠀⠫⠕⠀⠣⠐⠨⠋⠣⠱⠻⠻⠀⠠⠋⠷⠨⠃⠾⠀⠀⠫⠩⠒⠒⠕⠀⠀⠀⠀⠀⠫⠩⠒⠒⠕⠀⠀⠀⠀⠠⠑⠀⠐⠀⠫⠕⠀⠣⠨⠋⠻⠀⠠⠋</div></pi:math>
+
+<pi:math context="m" id="m-173"><div class="braille">⠫⠞⠠⠁⠠⠃⠠⠉</div></pi:math>
+
+<pi:math context="m" id="m-174"><div class="braille">⠠⠛⠠⠋⠷⠏⠘⠝⠐⠾</div></pi:math>
+
+<pi:math context="m" id="m-175"><div class="braille">⠠⠑⠀⠐⠀⠫⠕⠀⠣⠻⠀⠨⠷⠊⠙⠨⠾⠀⠀⠫⠣⠒⠒⠕⠀⠀⠀⠀⠀⠫⠩⠒⠒⠕⠀⠀⠀⠀⠠⠇⠀⠐⠀⠫⠕⠀⠣⠻⠀⠠⠛⠷⠠⠑⠸⠌⠠⠇⠾⠀⠀⠫⠣⠒⠒⠕⠀⠀⠀⠀⠀⠫⠩⠒⠒⠕⠀⠀⠀⠀⠠⠅⠀⠐⠀⠫⠕⠀⠣⠻⠀⠠⠛⠷⠠⠑⠸⠌⠠⠅⠾⠀⠀⠫⠣⠒⠒⠕⠀⠀⠀⠀⠀⠫⠩⠒⠒⠕⠀⠀⠀⠀⠠⠋⠀⠐⠀⠫⠕⠀⠣⠻⠀⠠⠛⠷⠠⠑⠸⠌⠠⠋⠾</div></pi:math>
+
+<pi:math context="m" id="m-176"><div class="braille">⠨⠱</div></pi:math>
+
+<pi:math context="m" id="m-177"><div class="braille">⠠⠅⠀⠨⠂⠱⠀⠠⠑</div></pi:math>
+
+</pi:math-representations>
