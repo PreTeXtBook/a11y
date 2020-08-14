@@ -19,612 +19,208 @@
   <article>
     <p>
       <ol>
-        <li>
-          <m>\mathcal S</m>
-        </li>
-        <li>
-          <m>a \neq 0</m>
-        </li>
-        <li>
-          <m>x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}</m>
-        </li>
-        <li>
-              <m>X = \{ x_1, x_2, \ldots, x_n \}</m>  
-        </li> 
-        <li>
-              <m>X = \{ x :x \text{ satisfies }{\mathcal P}\}</m>
-        </li>
-        <li>
-              <m>-3 \notin E</m> 
-        </li>
-        <li>
-              <m>\{4,5,8\} \subset \{2, 3, 4, 5, 6, 7, 8, 9 \}</m> 
-        </li>
-        <li>
-              <m>{\mathbb N} \subset {\mathbb Z} \subset {\mathbb Q} \subset {\mathbb R} \subset {\mathbb C}</m> 
-        </li>
-        <li>
-          <m>A \notsubset B</m> 
-        </li>
-        <li>
-              <m>\bigcup_{i = 1}^{n} A_{i} = A_{1} \cup \ldots \cup A_n</m> 
-        </li>
-        <li>
-          <m>\bigcap_{i = 1}^{n} A_{i} = A_{1} \cap \ldots \cap A_n</m> 
-        </li>
-        <li>
-          <m>A \setminus B = A \cap B' = \{ x : x \in A \text{ and } x \notin B \}</m> 
-        </li>
-        <li>
-          <m>A \stackrel{f}{\rightarrow} B</m> 
-        </li>
-        <li>
-          <m>f : a \mapsto b</m> 
-        </li>
-        <li>
-          <m>a_1 \neq a_2</m> 
-        </li>
-        <li>
-          <m>(f \circ g )(x) = f(g(x)) = f( \sqrt[3]{x}\, ) = (\sqrt[3]{x}\, )^3 = x</m> 
-        </li>
-        <li>
-          <m>\begin{pmatrix} a &amp; b \\ c &amp; d \end{pmatrix} \begin{pmatrix} x \\ y \end{pmatrix} = \begin{pmatrix} ax + by \\ cx +dy \end{pmatrix}</m> 
-        </li>
-        <li>
-          <m>\begin{pmatrix} 1 &amp; 2 &amp; 3 \\ \pi(1) &amp; \pi(2) &amp; \pi(3) \end{pmatrix} = \begin{pmatrix} 1 &amp; 2 &amp; 3 \\ 2 &amp; 1 &amp; 3 \end{pmatrix}</m>
-        </li>
-        <li>
-          <m>g \circ f = id_A</m> 
-        </li>
-        <li>
-          <m>x \sim y, x\cong y</m> 
-        </li>
-        <li>
-          <m>psu = qru = qst</m> 
-        </li>
-        <li>
-          <m>C = QBQ^{-1} = QPAP^{-1} Q^{-1} = (QP)A(QP)^{-1}</m> 
-        </li>
-        <li>
-          <m>[x] = \{ y \in X : y \sim x \}</m> 
-        </li>
-        <li>
-          <m>r \equiv s \pmod{ n}</m> 
-        </li>
-        <li>
-          <m>A \times D = \emptyset</m> 
-        </li>
-                <li>
-                  <m>\displaystyle f(p/q) = \frac{3p}{3q}</m> 
-                </li>
-                <li>
-                  <m>mn &gt; 0</m> 
-                </li>
-                <li>
-                  <m>|x - y| \leq 4</m> 
-                </li>
-                <li>
-                  <m>a^2 + b^2 \leq c^2 + d^2</m> 
-                </li>
-                <li>
-                  <m>\binom{n}{k} = \frac{n!}{k! (n - k)!}</m>
-                </li>
-                <li>
-                  <m>\gcd( a, b) = ar + bs</m> 
-                </li>
-                <li>
-                  <m>2^{2^5} + 1 = 4{,}294{,}967{,}297</m> 
-                </li>
-                <li>
-                  <m>\sqrt[n]{a_1 a_2 \cdots a_n} \leq \frac{1}{n} \sum_{k = 1}^{n} a_k</m> 
-                </li>
-                <li>
-                  <m>\lim_{n \rightarrow \infty} f_n / f_{n + 1} = (\sqrt{5} - 1)/2</m> 
-                </li>
-                <li>
-                  <m>c=4\,598\,037\,234</m> 
-                </li>
-                <li>
-                  <m>\begin{array}{c|cccccccc} \cdot &amp; 0 &amp; 1 &amp; 2 &amp; 3 &amp; 4 &amp; 5 &amp; 6 &amp; 7 \\ \hline 0 &amp; 0 &amp; 0 &amp; 0 &amp; 0 &amp; 0 &amp; 0 &amp; 0 &amp; 0 \\ 1 &amp; 0 &amp; 1 &amp; 2 &amp; 3 &amp; 4 &amp; 5 &amp; 6 &amp; 7 \\ 2 &amp; 0 &amp; 2 &amp; 4 &amp; 6 &amp; 0 &amp; 2 &amp; 4 &amp; 6 \\ 3 &amp; 0 &amp; 3 &amp; 6 &amp; 1 &amp; 4 &amp; 7 &amp; 2 &amp; 5 \\ 4 &amp; 0 &amp; 4 &amp; 0 &amp; 4 &amp; 0 &amp; 4 &amp; 0 &amp; 4 \\ 5 &amp; 0 &amp; 5 &amp; 2 &amp; 7 &amp; 4 &amp; 1 &amp; 6 &amp; 3 \\ 6 &amp; 0 &amp; 6 &amp; 4 &amp; 2 &amp; 0 &amp; 6 &amp; 4 &amp; 2 \\ 7 &amp; 0 &amp; 7 &amp; 6 &amp; 5 &amp; 4 &amp; 3 &amp; 2 &amp; 1 \end{array}</m>
-                </li>
-                <li>
-                  <m>\bigtriangleup ABC</m> 
-                </li>
-                <li>
-                  <m>120^{\circ}</m> 
-                </li>
-                <li>
-                  <m>\mu_1 \rho_1</m> 
-                </li>
-                <li>
-                  <m>\begin{array}{c|cccccc} \circ &amp; \identity &amp; \rho_1 &amp; \rho_2 &amp; \mu_1 &amp; \mu_2 &amp; \mu_3 \\ \hline \identity &amp; \identity &amp; \rho_1 &amp; \rho_2 &amp; \mu_1 &amp; \mu_2 &amp; \mu_3 \\ \rho_1 &amp; \rho_1 &amp; \rho_2 &amp; \identity &amp; \mu_3 &amp; \mu_1 &amp; \mu_2 \\ \rho_2 &amp; \rho_2 &amp; \identity &amp; \rho_1 &amp; \mu_2 &amp; \mu_3 &amp; \mu_1 \\ \mu_1 &amp; \mu_1 &amp; \mu_2 &amp; \mu_3 &amp; \identity &amp; \rho_1&amp; \rho_2\\ \mu_2 &amp; \mu_2 &amp; \mu_3 &amp; \mu_1 &amp; \rho_2 &amp; \identity &amp; \rho_1\\ \mu_3 &amp; \mu_3 &amp; \mu_1 &amp; \mu_2 &amp; \rho_1 &amp; \rho_2&amp; \identity \end{array}</m> 
-                </li>
-                <li>
-                  <m>\begin{array}{c|ccccc} + &amp; 0 &amp; 1 &amp; 2 &amp; 3 &amp; 4 \\ \hline 0 &amp; 0 &amp; 1 &amp; 2 &amp; 3 &amp; 4 \\ 1 &amp; 1 &amp; 2 &amp; 3 &amp; 4 &amp; 0 \\ 2 &amp; 2 &amp; 3 &amp; 4 &amp; 0 &amp; 1 \\ 3 &amp; 3 &amp; 4 &amp; 0 &amp; 1 &amp; 2 \\ 4 &amp; 4 &amp; 0 &amp; 1 &amp; 2 &amp; 3 \end{array}</m>
-                </li>
-                <li>
-                  <m>a^{-1} (a^{-1})^{-1} = e</m> 
-                </li>
-                <li>
-                  <m>g^{-n} = \underbrace{g^{-1} \cdot g^{-1} \cdots g^{-1}}_{n \; \text{times}}</m> 
-               </li>
-                <li>
-                  <m>{\mathbb Q}^* = \{ p/q : p \, \text{and}\, q\, \text{are nonzero integers} \}</m> 
-                </li>
-                <li>
-                  <m>SL_2( {\mathbb R})</m> 
-                </li>
-                <li>
-                  <m>\begin{pmatrix} 1 &amp; 0 \\ 0 &amp; 1 \end{pmatrix} + \begin{pmatrix} -1 &amp; 0 \\ 0 &amp; -1 \end{pmatrix} = \begin{pmatrix} 0 &amp; 0 \\ 0 &amp; 0 \end{pmatrix}</m>
-                </li>                  
-                <li>
-                  <m>\begin{array}{c|cccc} + &amp; (0,0) &amp; (0,1) &amp; (1,0) &amp; (1,1) \\ \hline (0,0) &amp; (0,0) &amp; (0,1) &amp; (1,0) &amp; (1,1) \\ (0,1) &amp; (0,1) &amp; (0,0) &amp; (1,1) &amp; (1,0) \\ (1,0) &amp; (1,0) &amp; (1,1) &amp; (0,0) &amp; (0,1) \\ (1,1) &amp; (1,1) &amp; (1,0) &amp; (0,1) &amp; (0,0) \end{array}</m>
-                </li>
-                <li>
-                  <m>\begin{array}{c|cccc} \circ &amp; a &amp; b &amp; c &amp; d \\ \hline a &amp; a &amp; c &amp; d &amp; a \\ b &amp; b &amp; b &amp; c &amp; d \\ c &amp; c &amp; d &amp; a &amp; b \\ d &amp; d &amp; a &amp; b &amp; c \end{array}</m> 
-                </li>
-                <li>
-                  <m>\begin{array}{c|cccc} \circ &amp; a &amp; b &amp; c &amp; d \\ \hline a &amp; a &amp; b &amp; c &amp; d \\ b &amp; b &amp; a &amp; d &amp; c \\ c &amp; c &amp; d &amp; a &amp; b \\ d &amp; d &amp; c &amp; b &amp; a \end{array}</m>
-                </li>
-                <li>
-                  <m>\begin{array}{c|cccc} \circ &amp; a &amp; b &amp; c &amp; d \\ \hline a &amp; a &amp; b &amp; c &amp; d \\ b &amp; b &amp; c &amp; d &amp; a \\ c &amp; c &amp; d &amp; a &amp; b \\ d &amp; d &amp; a &amp; b &amp; c \end{array}</m>
-                </li>
-                <li>
-                  <m>\begin{array}{c|cccc} \circ &amp; a &amp; b &amp; c &amp; d \\ \hline a &amp; a &amp; b &amp; c &amp; d \\ b &amp; b &amp; a &amp; c &amp; d \\ c &amp; c &amp; b &amp; a &amp; d \\ d &amp; d &amp; d &amp; b &amp; c \end{array}</m>
-                </li>
-                <li>
-                  <m>\begin{array}{c|cccc} \cdot &amp; 1 &amp; 5 &amp; 7 &amp; 11 \\ \hline 1 &amp; 1 &amp; 5 &amp; 7 &amp; 11 \\ 5 &amp; 5 &amp; 1 &amp; 11 &amp; 7 \\ 7 &amp; 7 &amp; 11 &amp; 1 &amp; 5 \\ 11 &amp; 11 &amp; 7 &amp; 5 &amp; 1 \end{array}</m> 
-                </li>
-                <li>
-                  <m>\begin{pmatrix} 1 &amp; x &amp; y \\ 0 &amp; 1 &amp; z \\ 0 &amp; 0 &amp; 1 \end{pmatrix}</m>
-                </li>
-                <li>
-                  <m>\begin{pmatrix} 1 &amp; x &amp; y \\ 0 &amp; 1 &amp; z \\ 0 &amp; 0 &amp; 1 \end{pmatrix} \begin{pmatrix} 1 &amp; x' &amp; y' \\ 0 &amp; 1 &amp; z' \\ 0 &amp; 0 &amp; 1 \end{pmatrix} = \begin{pmatrix} 1 &amp; x+x' &amp; y+y'+xz' \\ 0 &amp; 1 &amp; z+z' \\ 0 &amp; 0 &amp; 1 \end{pmatrix}</m>
-                </li>
-                <li>
-                  <m>\sigma = \begin{pmatrix} 1 &amp; 2 &amp; \cdots &amp; n \\ a_1 &amp; a_2 &amp; \cdots &amp; a_n \end{pmatrix}</m>
-                </li>
-                <li>
-                  <m>H_2 = \{ \identity, \rho_1, \rho_2 \}</m> 
-                </li>
-                <li>
-                  <m>\begin{pmatrix} \cos \theta &amp; -\sin \theta \\ \sin \theta &amp; \cos \theta \end{pmatrix}</m> 
-                </li>
-                <li>
-                  <m>G = \{ a + b \sqrt{2} : a, b \in {\mathbb Q} \text{ and } a \text{ and } b \text{ are not both zero} \}</m>
-                </li>
-                <li>
-                  <m>H = \left\{ \begin{pmatrix} a &amp; b \\ c &amp; d \end{pmatrix} : a + d = 0 \right\}</m>
-                </li>
-                <li>
-                  <m>(d_1, d_2, \ldots, d_{10} ) \cdot (10, 9, \ldots, 1 ) \equiv 0 \pmod{11}</m> 
-                </li>
-                <li>
-                  <m>6.00000+0.00000i</m>
-                </li>
-
-                <li>
-                  <m>\langle a \rangle = \{ a^k : k \in {\mathbb Z} \}</m> 
-                </li>
-                <li>
-                  <m>z^{-1} = \frac{a-bi}{ a^2 + b^2 }</m>
-                </li>
-                <li>
-                  <m>\overline{z} = a- bi</m>
-                </li>
-                <li>
-                  <m>z = \cis\left( \frac{2 k \pi}{n } \right)</m> 
-                </li>
-                <li>
-                  <m>\ast</m> 
-                </li>
-                <li>
-                  <m>A = \begin{pmatrix} 0 &amp; 1 \\ -1 &amp; 0 \end{pmatrix} \qquad \text{and} \qquad B = \begin{pmatrix} 0 &amp; -1 \\ 1 &amp; -1 \end{pmatrix}</m> 
-                </li>
-                <li>
-                  <m>\begin{array}{c|cccc} \circ &amp; \identity &amp; \sigma &amp; \tau &amp; \mu \\ \hline \identity &amp; \identity &amp; \sigma &amp; \tau &amp; \mu \\ \sigma &amp; \sigma &amp; \identity &amp; \mu &amp; \tau \\ \tau &amp; \tau &amp; \mu &amp; \identity &amp; \sigma \\ \mu &amp; \mu &amp; \tau &amp; \sigma &amp; \identity \end{array}</m> 
-                </li>
-                <li>
-                  <m>\sigma = \begin{pmatrix} 1 &amp; 2 &amp; 3 &amp; 4 &amp; 5 &amp; 6 &amp; 7\\ 6 &amp; 3 &amp; 5 &amp; 1 &amp; 4 &amp; 2 &amp; 7 \end{pmatrix} = (1 6 2 3 5 4 )</m> 
-                </li>
-                <li>
-                  <m>\tau = \begin{pmatrix} 1 &amp; 2 &amp; 3 &amp; 4 &amp; 5 &amp; 6 \\ 1 &amp; 4 &amp; 2 &amp; 3 &amp; 5 &amp; 6 \end{pmatrix} = (2 4 3)</m> 
-                </li>
-                <li>
-                  <m>\begin{pmatrix} 1 &amp; 2 &amp; 3 &amp; 4 &amp; 5 &amp; 6 \\ 2 &amp; 4 &amp; 1 &amp; 3 &amp; 6 &amp; 5 \end{pmatrix} = (1 2 4 3)(5 6)</m> 
-                </li>
-                <li>
-                  <m>1 \mapsto 3, \qquad 3 \mapsto 5, \qquad 5 \mapsto 2, \qquad 2 \mapsto 1</m> 
-                </li>
-                <li>
-                  <m>( 1 6 ) (2 5 3) = (1 6 )( 2 3 )( 2 5 ) = (1 6 )( 4 5 )(2 3 )( 4 5 )(2 5 )</m> 
-                </li>
-                <li>
-                  <m>\lambda_{\sigma} : A_n \rightarrow B_n</m> 
-                </li>
-                <li>
-                  <m>\identity, \frac{360^{\circ} }{n}, 2 \cdot \frac{360^{\circ} }{n}, \ldots, (n-1) \cdot \frac{360^{\circ} }{n}</m> 
-                </li>
-                <li>
-                  <m>D_n = \{1, r, r^2, \ldots, r^{n-1}, s, sr, sr^2, \ldots, sr^{n-1}\}</m> 
-                </li>
-                <li>
-                  <m>Z(G) = \{ g \in G : gx = xg \text{ for all } x \in G \}</m> 
-                </li>
-                <li>
-                  <m>{\mathcal O}_{x, \sigma} = \{ y : x \sim y \}</m> 
-                </li>
-                <li>
-                  <m>\phi : {\mathcal L}_H \rightarrow {\mathcal R}_H</m> 
-                </li>
-                <li>
-                  <m>[G:K] = \frac{|G|}{|K|} = \frac{|G|}{|H|} \cdot \frac{|H|}{|K|} = [G:H][H:K]</m> 
-                </li>
-                <li>
-                  <m>(1), (123), (132), (243), (243)^{-1} = (234), (142), (142)^{-1} = (124)</m> 
-                </li>
-                <li>
-                  <m>p \notdivide a</m> 
-                </li>
-                <li>
-                  <m>\phi(n) = n \left( 1 - \frac{1}{p_1} \right) \left( 1 - \frac{1}{p_2} \right)\cdots \left( 1 - \frac{1}{p_k} \right)</m> 
-                </li>
-                <li>
-                  <m>{\mathbf b} = ( 2, 2)^\transpose</m>
-                </li>
-                <li>
-                  <m>\text{A} = 00, \text{B} = 02, \ldots, \text{Z}= 25</m> 
-                </li>
-                <li>
-                  <m>169^{191} \bmod 667 = 25</m>
-                </li>
-                <li>
-                  <m>y^D = x^{km + 1} = x^{km} x = (1 + tq) x = x + tq(rp) = x + trn = x \bmod n</m>
-                </li>
-                <li>
-                  <m>n = 3551, E = 629, x = 31</m>
-                </li>
-                <li>
-                  <m>2^{15-1} \equiv 2^{14} \equiv 4 \pmod{15}</m> 
-                </li>
-                <li>
-                  <m>(x_{1}, x_{2}, \ldots, x_{n}) \mapsto (x_{1}, x_{2}, \ldots, x_{n}, x_{1}, x_{2}, \ldots, x_{n}, x_{1}, x_{2}, \ldots, x_{n})</m>
-                </li>
-                <li>
-                  <m>(0.999)^{10,000} \approx 0.00005</m>
-                </li>
-                <li>
-                  <m>\binom{n}{k} q^kp^{n - k}</m>
-                </li>
-                <li>
-                  <m>\binom{n}{1} qp^{n - 1}= 500(0.005)(0.995)^{499} \approx 0.204</m>
-                </li>
-                <li>
-                  <m>\binom{n}{2} q^{2}p^{n - 2}= \frac{500 \cdot 499}{2}(0.005)^{2}(0.995)^{498} \approx 0.257</m>
-                </li>
-                <li>
-                  <m>H \in {\mathbb M}_{m \times n}({\mathbb Z}_2)</m>
-                </li>
-                <li>
-                  <m>H{\mathbf x} = {\mathbf 0}</m>
-                </li>
-                <li>
-                  <m>\Null(H)</m>
-                </li>
-                <li>
-                  <m>\begin{pmatrix} a_{11} &amp; a_{12} &amp; \cdots &amp; a_{1,n-m} \\ a_{21} &amp; a_{22} &amp; \cdots &amp; a_{2,n-m} \\ \vdots &amp; \vdots &amp; \ddots &amp; \vdots \\ a_{m1} &amp; a_{m2} &amp; \cdots &amp; a_{m,n-m} \end{pmatrix}</m>
-                </li>
-                <li>
-                  <m>G = \left( \frac{I_{n-m}}{A} \right)</m>
-                </li>
-                <li>
-                  <m>G= \begin{pmatrix} 1 &amp; 0 &amp; 0 \\ 0 &amp; 1 &amp; 0 \\ 0 &amp; 0 &amp; 1 \\ 0 &amp; 1 &amp; 1 \\ 1 &amp; 1 &amp; 0 \\ 1 &amp; 0 &amp; 1 \end{pmatrix}</m>
-                </li>
-                <li>
-                  <m>{\mathbf x} = (x_1, x_2, x_3, x_4, x_5, x_6)</m>
-                </li>
-                <li>
-                  <m>\begin{array}{cccc} (000000) &amp; (001101) &amp; (010110) &amp; (011011) \\ (100011) &amp; (101110) &amp; (110101) &amp; (111000). \end{array}</m>
-                </li>
-                <li>
-                  <m>\delta_{ij} = \begin{cases} 1 &amp; i = j \\ 0 &amp; i \neq j \end{cases}</m>
-                </li>
-                <li>
-                  <m>\begin{pmatrix} 1 &amp; 1 &amp; 1 &amp; 0 &amp; 0 \\ 1 &amp; 0 &amp; 0 &amp; 1 &amp; 0 \\ 1 &amp; 1 &amp; 0 &amp; 0 &amp; 1 \end{pmatrix} \begin{pmatrix} 0 \\ 1 \\ 0 \\ 0 \\ 0 \end{pmatrix} = \begin{pmatrix} 1 \\ 0 \\ 1 \end{pmatrix}</m>
-                </li>
-                <li>
-                  <m>H{\mathbf x} = \begin{pmatrix} 1 \\ 1 \\ 1 \end{pmatrix}, H{\mathbf y} = \begin{pmatrix} 1 \\ 1 \\ 0 \end{pmatrix}, H{\mathbf z} = \begin{pmatrix} 1 \\ 0 \\ 0 \end{pmatrix}</m>
-                </li>
-                <li>
-                  <m>\begin{pmatrix} 0 &amp; 0 &amp; 0 &amp; 1 &amp; 1 &amp; 1 &amp; 1 \\ 0 &amp; 1 &amp; 1 &amp; 0 &amp; 0 &amp; 1 &amp; 1 \\ 1 &amp; 0 &amp; 1 &amp; 0 &amp; 1 &amp; 0 &amp; 1 \\ 0 &amp; 1 &amp; 1 &amp; 0 &amp; 0 &amp; 1 &amp; 1 \end{pmatrix}</m>
-                </li>
-                <li>
-                  <m>G = \begin{pmatrix} 1 &amp; 0 \\ 0 &amp; 1 \\ 1 &amp; 0 \\ 1 &amp; 1 \\ 0 &amp; 1 \\ 1 &amp; 1 \end{pmatrix}</m>
-                </li>
-                <li>
-                  <m>C^\perp = \{ {\mathbf x} \in {\mathbb Z}_2^n : {\mathbf x} \cdot {\mathbf y} = 0 \text{ for all } {\mathbf y} \in C \}</m> 
-                </li>
-                <li>
-                  <m>2^k\left({n\choose 0} + {n\choose 1} + {n\choose 2} + \cdots + {n\choose \frac{d-1}{2}}\right) = 2^n</m>
-                </li>
-                <li>
-                  <m>\phi( a \cdot b) = \phi( a) \circ \phi( b)</m>
-                </li>
-                <li>
-                  <m>G \cong H</m>
-                </li>
-                <li>
-                  <m>\begin{array}{c|ccc} + &amp; 0 &amp; 1 &amp; 2 \\ \hline 0 &amp; 0 &amp; 1 &amp; 2 \\ 1 &amp; 1 &amp; 2 &amp; 0 \\ 2 &amp; 2 &amp; 0 &amp; 1 \end{array}</m>
-                </li>
-                <li>
-                  <m>\prod_{i = 1}^n G_i = G_1 \times G_2 \times \cdots \times G_n</m>
-                </li>
-                <li>
-                  <m>\prod G_i</m>
-                </li>
-
-        <li>
-                  <m>\underbrace{(a,b) + (a,b)+ \cdots + (a,b)}_{mn/d \; \text{times}} = (0, 0)</m> 
-                </li>
-                <li>
-                  <m>{\mathbb Z}_{p_1^{e_1}} \times \cdots \times {\mathbb Z}_{p_k^{e_k}}</m>
-                </li>
-                <li>
-                  <m>a \ast b = a + b + ab</m> 
-                </li>
-                <li>
-                  <m>A = \begin{pmatrix} \omega &amp; 0 \\ 0 &amp; \omega^{-1} \end{pmatrix} \quad \text{and} \quad B = \begin{pmatrix} 0 &amp; 1 \\ 1 &amp; 0 \end{pmatrix}</m> 
-                </li>
-                <li>
-                  <m>\begin{pmatrix} \pm 1 &amp; k \\ 0 &amp; 1 \end{pmatrix}</m> 
-                </li>
-                <li>
-                  <m>\inn(G) = \aut(G)</m> 
-                </li>
-                <li>
-                  <m>g \mapsto \rho_g</m> 
-                </li>
-                <li>
-                  <m>G \times H \cong \overline{G} \times \overline{H}</m> 
-                </li>
-                <li>
-                  <m>\langle m \rangle \cap \langle n \rangle = \langle l \rangle</m> 
-                </li>
-                <li>
-                  <m>\{z^iy^j\mid 0\leq i \lt p, 0\leq j \lt 2\}</m>
-                </li>
-                <li>
-                  <m>\begin{array}{c|cc} &amp; N &amp; (12) N \\ \hline N &amp; N &amp; (12) N \\ (12) N &amp; (12) N &amp; N \end{array}</m>
-                </li>
-                <li>
-                  <m>\begin{array}{c|ccc} + &amp; 0 + 3{\mathbb Z} &amp; 1 + 3{\mathbb Z} &amp; 2 + 3{\mathbb Z} \\\hline 0 + 3{\mathbb Z} &amp; 0 + 3{\mathbb Z} &amp; 1 + 3{\mathbb Z} &amp; 2 + 3{\mathbb Z} \\ 1 + 3{\mathbb Z} &amp; 1 + 3{\mathbb Z} &amp; 2 + 3{\mathbb Z} &amp; 0 + 3{\mathbb Z} \\ 2 + 3{\mathbb Z} &amp; 2 + 3{\mathbb Z} &amp; 0 + 3{\mathbb Z} &amp; 1 + 3{\mathbb Z} \end{array}</m> 
-                </li>
-                <li>
-                  <m>[(i j)(a k)](i j a)^2 [(i j)(a k)]^{-1} = (i j k)</m> 
-                </li>
-                <li>
-                  <m>\sigma^{-1}(a_1 a_2 a_4)\sigma(a_1 a_2 a_4)^{-1} \in N</m> 
-                </li>
-                <li>
-                  <m>(a_1 a_2 a_4)\sigma(a_1 a_2 a_4)^{-1} \in N</m> 
-                </li>
-               <li>
-                  <m>\ker \phi = SL_2( {\mathbb R })</m>
-                </li>
-                <li>
-                  <m>\eta(g_1 K) = \psi(g_1) = \psi(g_1) \psi(k) = \psi(g_1k) = \psi(g_2) = \eta(g_2 K)</m> 
-                </li>
-                <li>
-                  <m>{\mathbb Z} / \ker \phi = {\mathbb Z} / m {\mathbb Z} \cong G</m>
-                </li>
-                <li>
-                  <m>( hn )^{-1} = n^{-1 } h^{-1} = h^{-1} (h n^{-1} h^{-1} )</m> 
-                </li>
-                <li>
-                  <m>G \rightarrow G/N \rightarrow \frac{G/N}{H/N} </m>
-                </li>
-                <li>
-                  <m>\begin{pmatrix} 3/5 &amp; -4/5 \\ 4/5 &amp; 3/5 \end{pmatrix}, \quad \begin{pmatrix} 1/2 &amp; -\sqrt{3}/2 \\ \sqrt{3}/2 &amp; 1/2 \end{pmatrix}, \quad \begin{pmatrix} -1/\sqrt{2} &amp; 0 &amp; 1/ \sqrt{2} \\ 1/\sqrt{6} &amp; -2/\sqrt{6} &amp; 1/\sqrt{6} \\ 1/ \sqrt{3} &amp; 1/ \sqrt{3} &amp; 1/ \sqrt{3} \end{pmatrix}</m>
-                </li>
-                <li>
-                  <m>\| {\mathbf x} \| = \sqrt{\langle {\mathbf x}, {\mathbf x} \rangle} = \sqrt{x_1^2 + \cdots + x_n^2}</m>
-                </li>
-                <li>
-                  <m>\langle A{\mathbf x}, A{\mathbf y} \rangle = \langle {\mathbf x},{\mathbf y} \rangle</m>
-                </li>
-                <li>
-                  <m>(2) \Rightarrow (3)</m>
-                </li>
-                <li>
-                  <m>\langle {\mathbf x}, {\mathbf y} \rangle = \frac{1}{2} \left[ \|{\mathbf x} +{\mathbf y}\|^2 - \|{\mathbf x}\|^2 - \|{\mathbf y}\|^2 \right]</m>
-                </li>
-                <li>
-                  <m>T_{\phi} = \begin{pmatrix} \cos \phi &amp; - \sin \phi \\ \sin \phi &amp; \cos \phi \end{pmatrix} \begin{pmatrix} 1 &amp; 0 \\ 0 &amp; -1 \end{pmatrix} = \begin{pmatrix} \cos \phi &amp; \sin \phi \\ \sin \phi &amp; - \cos \phi \end{pmatrix}</m>
-                </li>
-                <li>
-                  <m>\begin{pmatrix} 4/ \sqrt{5} &amp; 0 &amp; 3 / \sqrt{5} \\ -3 / \sqrt{5} &amp; 0 &amp; 4 / \sqrt{5} \\ 0 &amp; -1 &amp; 0 \end{pmatrix}</m>
-                </li>
-                <li>
-                  <m>E(n) = \{(A, {\mathbf x}) : A \in O(n) \text{ and } {\mathbf x} \in {\mathbb R}^n \}</m>
-                </li>
-                <li>
-                  <m>G = H_n \supset H_{n - 1} \supset \cdots \supset H_1 \supset H_0 = \{ e \}</m>
-                </li>
-                <li>
-                  <m>{\mathbb Z}_{p_1^{\alpha_1}} \times \cdots \times {\mathbb Z}_{p_n^{\alpha_n}}</m>
-                </li>
-                <li>
-                  <m>\{ g_i \in G : i \in I \}</m>
-                </li>
-                <li>
-                  <m>g^{-1} = (g_{i_1}^{k_{1}} \cdots g_{i_n}^{k_n})^{-1} = (g_{i_n}^{-k_n} \cdots g_{i_{1}}^{-k_{1}})</m>
-                </li>
-                <li>
-                  <m>(gh)^{p_i^t} = g^{p_i^t} h^{p_i^t} = 1 \cdot 1 = 1</m>
-                </li>   
-                <li>
-                  <m>|g| = p_1^{\beta_1} p_2^{\beta_2} \cdots p_k^{\beta_k}</m>
-                </li>
-                <li>
-                  <m>g = g^{a_1 b_1 + \cdots + a_k b_k} = g^{a_1 b_1} \cdots g^{a_k b_k}</m>
-                </li>
-                <li>
-                  <m>g^{(a_i b_i ) p_i^{\beta_i}} = g^{b_i |g|} = e</m>
-                </li>
-                <li>
-                  <m>G^{(0)} = G \supset G^{(1)} \supset G^{(2)} \supset \cdots</m>
-                </li>
-                <li>
-                  <m>Z_3\rtimes Z_4</m>
-                </li>
-                <li>
-                  <m>\phi(ab) = gabg^{-1} = gag^{-1} gbg^{-1} = \phi(a) \phi(b)</m>
-                </li>      
-                <li>
-                  <m>\sum_{y \in {\mathcal O}_x} |G_y| = | {\mathcal O}_x| \cdot |G_x|</m>
-                </li>       
-                <li>
-                  <m>|\widetilde{X}_{(13)(24)}| = 2^2 = 4</m>
-                </li>
-                <li>
-                  <m>|{\mathcal S}| = |\text{orbit of }P| = [G : N(P)]</m>
-                </li>
-                <li>
-                  <m>q \not\equiv 1 \pmod{p}</m>
-                </li>
-                <li>
-                  <m>p \nmid \binom{p^k m}{p^k}</m>
-                </li>      
-                <li>
-                  <m>44\,352\,000</m>
-                </li>
-                <li>
-                  <m>\begin{pmatrix} \alpha &amp; \beta \\ -\overline{\beta} &amp; \overline{\alpha } \end{pmatrix}</m>
-                </li>
-                <li>
-                  <m>(a_1 + b_1 {\mathbf i} + c_1 {\mathbf j} +d_1 {\mathbf k} ) ( a_2 + b_2 {\mathbf i} + c_2 {\mathbf j} +d_2 {\mathbf k} ) = \alpha + \beta {\mathbf i} + \gamma {\mathbf j} + \delta {\mathbf k}</m>
-                </li>
-                <li>
-                  <m>T = \left\{ \begin{pmatrix} a &amp; b \\ 0 &amp; c \end{pmatrix} : a, b, c \in {\mathbb R} \right\}</m>
-                </li>
-                <li>
-                  <m>A = \begin{pmatrix} a &amp; b \\ 0 &amp; c \end{pmatrix} \quad \text{and} \quad B = \begin{pmatrix} a' &amp; b' \\ 0 &amp; c' \end{pmatrix}</m>
-                </li>
-                <li>
-                  <m>F = \left\{ \begin{pmatrix} 1 &amp; 0 \\ 0 &amp; 1 \end{pmatrix}, \begin{pmatrix} 1 &amp; 1 \\ 1 &amp; 0 \end{pmatrix}, \begin{pmatrix} 0 &amp; 1 \\ 1 &amp; 1 \end{pmatrix}, \begin{pmatrix} 0 &amp; 0 \\ 0 &amp; 0 \end{pmatrix} \right\}</m>
-                </li>
-                <li>
-                  <m>\frac{a}{a^2 - 2 b^2} +\frac{- b}{ a^2 - 2 b^2} \sqrt{2}</m>
-                </li>
-                <li>
-                  <m>R/I \cong \frac{R/J}{I/J}</m>
-                </li>       
-                <li>
-                  <m>\left\{ \begin{pmatrix} 1 &amp; 0 \\ 0 &amp; 1 \end{pmatrix}, \begin{pmatrix} 1 &amp; 1 \\ 0 &amp; 1 \end{pmatrix}, \begin{pmatrix} 1 &amp; 0 \\ 1 &amp; 1 \end{pmatrix}, \begin{pmatrix} 0 &amp; 1 \\ 1 &amp; 0 \end{pmatrix}, \begin{pmatrix} 1 &amp; 1 \\ 1 &amp; 0 \end{pmatrix}, \begin{pmatrix} 0 &amp; 1 \\ 1 &amp; 1 \end{pmatrix}, \right\}</m>
-                </li>      
-                <li>
-                  <m>f(x) = \sum^{n}_{i=0} a_i x^i = a_0 + a_1 x +a_2 x^2 + \cdots + a_n x^n</m>
-                </li>
-                <li>
-                  <m>c_i = \sum_{k = 0}^i a_k b_{i - k} = a_0 b_i + a_1 b_{i -1} + \cdots + a_{i -1} b _1 + a_i b_0</m>
-                </li>
-                <li>
-                  <m>p(x) = \frac{b_0}{c_0} + \frac{b_1}{c_1} x + \cdots + \frac{b_n}{c_n} x^n</m>
-                </li>
-                <li>
-                  <m>p(x) = \alpha(x) \beta(x) = \frac{c_1 c_2}{d_1 d_2} \alpha_1(x) \beta_1(x) = \frac{c}{d} \alpha_1(x) \beta_1(x)</m>
-                </li>
-                <li>
-                  <m>\omega^i \sqrt[3]{-\frac{q}{2}+ \sqrt{\ \frac{p^3}{27} + \frac{q^2}{4}} } + \omega^{2i} \sqrt[3]{-\frac{q}{2}- \sqrt{\ \frac{p^3}{27} + \frac{q^2}{4}} }</m>
-                </li>
-                <li>
-                  <m>D\lbrack x \rbrack</m>
-                </li>
-                <li>
-                  <m>c_{r + s} = a_0 b_{r + s} + a_1 b_{r + s - 1} + \cdots + a_{r + s - 1} b_1 + a_{r + s} b_0</m>
-                </li>
-                <li>
-                  <m>O \preceq \cdots \preceq b_3 \preceq b_2 \preceq b_1 \preceq b</m>
-                </li>
-                <li>
-                  <m>a \not\preceq c</m>
-                </li>
-                <li>
-                  <m>a = a \wedge b = a \wedge( a_1 \vee \cdots \vee a_n ) = (a \wedge a_1) \vee \cdots \vee ( a \wedge a_n )</m>
-                </li>
-                <li>
-                  <m>( a \wedge b') \vee (a' \wedge b) = O \Rightarrow a \vee b = (a \vee a) \vee b = a \vee (a \vee b) = a \vee [I \wedge (a \vee b)] = a \vee [(a \vee a') \wedge (a \vee b)] = [a \vee (a \wedge b')] \vee [a \vee (a' \wedge b)] = a \vee [(a \wedge b') \vee (a' \wedge b)] = a \vee 0 = a</m>
-                </li>
-                <li>
-                  <m>u + v = (u_1, \ldots, u_n) + (v_1, \ldots, v_n) = (u_1 + v_1, \ldots, u_n + v_n)</m>
-                </li>
-                <li>
-                  <m>u + v =( \alpha_1 + \beta_1) v_1 + (\alpha_2+ \beta_2) v_2 + \cdots + (\alpha_n + \beta_n) v_n</m>
-                </li>
-                <li>
-                  <m>v_k = - \frac{\alpha_1}{\alpha_k} v_1 - \cdots - \frac{\alpha_{k - 1}}{\alpha_k} v_{k-1} - \frac{\alpha_{k + 1}}{\alpha_k} v_{k + 1} - \cdots - \frac{\alpha_n}{\alpha_k} v_n</m>
-                </li>
-                <li>
-                  <m>E = {\mathbb Z}_2[x] / \langle x^2 + x + 1 \rangle</m>
-                </li>
-                <li>
-                  <m>\begin{array}{c|cccc} + &amp; 0 &amp; 1 &amp; \alpha &amp; 1 + \alpha \\ \hline 0 &amp; 0 &amp; 1 &amp; \alpha &amp; 1 + \alpha \\ 1 &amp; 1 &amp; 0 &amp; 1 + \alpha &amp; \alpha \\ \alpha &amp; \alpha &amp; 1 + \alpha &amp; 0 &amp; 1 \\ 1 + \alpha &amp; 1 + \alpha &amp; \alpha &amp; 1 &amp; 0 \end{array}</m>
-                </li>
-                <li>
-                  <m>\begin{array}{c|cccc} \cdot &amp; 0 &amp; 1 &amp; \alpha &amp; 1 + \alpha \\ \hline 0 &amp; 0 &amp; 0 &amp; 0 &amp; 0 \\ 1 &amp; 0 &amp; 1 &amp; \alpha &amp; 1 + \alpha \\ \alpha &amp; 0 &amp; \alpha &amp; 1 + \alpha &amp; 1 \\ 1 + \alpha &amp; 0 &amp; 1 + \alpha &amp; 1 &amp; \alpha \end{array}</m>
-                </li>
-                <li>
-                  <m>\{ 1, \sqrt{5}\, i, \sqrt[3]{5}, (\sqrt[3]{5}\, )^2, (\sqrt[6]{5}\, )^5 i, (\sqrt[6]{5}\, )^7 i = 5 \sqrt[6]{5}\, i \text{ or } \sqrt[6]{5}\, i \}</m>
-                </li>
-                <li>
-                  <m>0 = f(\beta) = f\left( \frac{p(\alpha)}{q(\alpha)} \right) = a_0 + a_1 \left( \frac{p(\alpha)}{q(\alpha)} \right) + \cdots + a_n \left( \frac{p(\alpha)}{q(\alpha)} \right)^n</m>
-                </li>
-                <li>
-                  <m>(a + b)^p = \sum_{k = 0}^{p} \binom{p}{k} a^k b^{p - k}</m>
-                </li>
-                <li>
-                  <m>(a + b)^{p^{n + 1}} = ((a + b)^p)^{p^{n}} = (a^p + b^p)^{p^{n}} = (a^p)^{p^{n}} + (b^p)^{p^{n}} = a^{p^{n + 1}} + b^{p^{n + 1}}</m>
-                </li>
-                <li>
-                  <m>G_1 = \begin{pmatrix} 1 &amp; 0 &amp; 0 \\ 0 &amp; 1 &amp; 0 \\ 0 &amp; 0 &amp; 1 \\ 1 &amp; 0 &amp; 0 \\ 0 &amp; 1 &amp; 0 \\ 0 &amp; 0 &amp; 1 \end{pmatrix} \quad \text{and} \quad G_2 = \begin{pmatrix} 1 &amp; 0 &amp; 0 \\ 1 &amp; 1 &amp; 0 \\ 1 &amp; 1 &amp; 1 \\ 1 &amp; 1 &amp; 1 \\ 0 &amp; 1 &amp; 1 \\ 0 &amp; 0 &amp; 1 \end{pmatrix}</m>
-                </li>
-                <li>
-                  <m>\begin{array}{rclccrcl} (000) &amp; \mapsto &amp; (000000) &amp; &amp; &amp; (100) &amp; \mapsto &amp; (100100) \\ (001) &amp; \mapsto &amp; (001001) &amp; &amp; &amp; (101) &amp; \mapsto &amp; (101101) \\ (010) &amp; \mapsto &amp; (010010) &amp; &amp; &amp; (110) &amp; \mapsto &amp; (110110) \\ (011) &amp; \mapsto &amp; (011011) &amp; &amp; &amp; (111) &amp; \mapsto &amp; (111111). \end{array}</m>
-                </li>
-                <li>
-                  <m>\begin{array}{rclccrcl} (000) &amp; \mapsto &amp; (000000) &amp; &amp; &amp; (100) &amp; \mapsto &amp; (111100) \\ (001) &amp; \mapsto &amp; (001111) &amp; &amp; &amp; (101) &amp; \mapsto &amp; (110011) \\ (010) &amp; \mapsto &amp; (011110) &amp; &amp; &amp; (110) &amp; \mapsto &amp; (100010) \\ (011) &amp; \mapsto &amp; (010001) &amp; &amp; &amp; (111) &amp; \mapsto &amp; (101101). \end{array}</m>
-                </li>
-                <li>
-                  <m>G = \begin{pmatrix} 1 &amp; 0 &amp; 0 &amp; 0 \\ 1 &amp; 1 &amp; 0 &amp; 0 \\ 0 &amp; 1 &amp; 1 &amp; 0 \\ 1 &amp; 0 &amp; 1 &amp; 1 \\ 0 &amp; 1 &amp; 0 &amp; 1 \\ 0 &amp; 0 &amp; 1 &amp; 0 \\ 0 &amp; 0 &amp; 0 &amp; 1 \end{pmatrix}</m>
-                </li>
-                <li>
-                  <m>G = \begin{pmatrix} g_0 &amp; 0 &amp; \cdots &amp; 0 \\ g_1 &amp; g_0 &amp; \cdots &amp; 0 \\ \vdots &amp; \vdots &amp;\ddots &amp; \vdots \\ g_{n-k} &amp; g_{n-k-1} &amp; \cdots &amp; g_0 \\ 0 &amp; g_{n-k} &amp; \cdots &amp; g_{1} \\ \vdots &amp; \vdots &amp; \ddots &amp; \vdots \\ 0 &amp; 0 &amp; \cdots &amp; g_{n-k} \end{pmatrix}</m>
-                </li>
-        <li>
-          <m>H = \begin{pmatrix} 0 &amp; \cdots &amp; 0 &amp; 0 &amp; h_k &amp; \cdots &amp; h_0 \\ 0 &amp; \cdots &amp; 0 &amp; h_k &amp; \cdots &amp; h_0 &amp; 0 \\ \cdots &amp; \cdots &amp; \cdots &amp; \cdots &amp; \cdots &amp; \cdots &amp; \cdots \\ h_k &amp; \cdots &amp; h_0 &amp; 0 &amp; 0 &amp; \cdots &amp; 0 \end{pmatrix}</m>
-        </li>
-                <li>
-                  <m>\det \begin{pmatrix} 1 &amp; 1 &amp; \cdots &amp; 1 \\ \alpha_1 &amp; \alpha_2 &amp; \cdots &amp; \alpha_n \\ \alpha_1^2 &amp; \alpha_2^2 &amp; \cdots &amp; \alpha_n^2 \\ \vdots &amp; \vdots &amp; \ddots &amp; \vdots \\ \alpha_1^{n-1} &amp; \alpha_2^{n-1} &amp; \cdots &amp; \alpha_n^{n-1} \end{pmatrix} = \prod_{1 \leq j \lt i \leq n} (\alpha_i - \alpha_j)</m>
-                </li>
-                <li>
-                  <m>p(x) = \det \begin{pmatrix} 1 &amp; 1 &amp; \cdots &amp; 1 &amp; 1 \\ \alpha_1 &amp; \alpha_2 &amp; \cdots &amp; \alpha_{n-1} &amp; x \\ \alpha_1^2 &amp; \alpha_2^2 &amp; \cdots &amp; \alpha_{n-1}^2 &amp; x^2 \\ \vdots &amp; \vdots &amp; \ddots &amp; \vdots &amp; \vdots \\ \alpha_1^{n-1} &amp; \alpha_2^{n-1} &amp; \cdots &amp; \alpha_{n-1}^{n-1} &amp; x^{n-1} \end{pmatrix}</m>
-                </li>
-                <li>
-                  <m>\beta = (-1)^{n + n} \det \begin{pmatrix} 1 &amp; 1 &amp; \cdots &amp; 1 \\ \alpha_1 &amp; \alpha_2 &amp; \cdots &amp; \alpha_{n-1} \\ \alpha_1^2 &amp; \alpha_2^2 &amp; \cdots &amp; \alpha_{n-1}^2 \\ \vdots &amp; \vdots &amp; \ddots &amp; \vdots \\ \alpha_1^{n-2} &amp; \alpha_2^{n-2} &amp; \cdots &amp; \alpha_{n-1}^{n-2} \end{pmatrix}</m>
-                </li>
-                <li>
-                  <m>\beta = (-1)^{n+n} \prod_{1 \leq j \lt i \leq n - 1} (\alpha_i - \alpha_j)</m>
-                </li>
-                <li>
-                  <m>\begin{pmatrix} (\omega^{i_0})^r &amp; (\omega^{i_1})^r &amp; \cdots &amp; (\omega^{i_{s-1}})^r \\ (\omega^{i_0})^{r+1} &amp; (\omega^{i_1})^{r+1} &amp; \cdots &amp; (\omega^{i_{s-1}})^{r+1} \\ \vdots &amp; \vdots &amp; \ddots &amp; \vdots \\ (\omega^{i_0})^{r+s-1} &amp; (\omega^{i_1})^{r+s-1} &amp; \cdots &amp; (\omega^{i_{s-1}})^{r+s-1} \end{pmatrix}</m>
-                </li>
-                <li>
-                  <m>H = \begin{pmatrix} 1 &amp; \omega &amp; \omega^2 &amp; \cdots &amp; \omega^{n-1}\\ 1 &amp; \omega^2 &amp; \omega^{4} &amp; \cdots &amp; \omega^{(n-1)(2)} \\ 1 &amp; \omega^3 &amp; \omega^{6} &amp; \cdots &amp; \omega^{(n-1)(3)} \\ \vdots &amp; \vdots &amp; \vdots &amp; \ddots &amp; \vdots \\ 1 &amp; \omega^{2r} &amp; \omega^{4r} &amp; \cdots &amp; \omega^{(n-1)(2r)} \end{pmatrix}</m>
-                </li>
-                <li>
-                  <m>H {\mathbf x} = \begin{pmatrix} a_0 + a_1 \omega + \cdots + a_{n-1} \omega^{n-1} \\ a_0 + a_1 \omega^2 + \cdots + a_{n-1} (\omega^2)^{n-1} \\ \vdots \\ a_0 + a_1 \omega^{2r} + \cdots + a_{n-1} (\omega^{2r})^{n-1} \end{pmatrix} = \begin{pmatrix} f(\omega) \\ f(\omega^2) \\ \vdots \\ f(\omega^{2r}) \end{pmatrix} = 0</m>
-                </li>
-              </ol>
+        <li><m>\mathcal S</m></li>
+        <li><m>a \neq 0</m></li>
+        <li><m>x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}</m></li>
+        <li><m>X = \{ x_1, x_2, \ldots, x_n \}</m></li>
+        <li><m>X = \{ x :x \text{ satisfies }{\mathcal P}\}</m></li>
+        <li><m>-3 \notin E</m></li>
+        <li><m>\{4,5,8\} \subset \{2, 3, 4, 5, 6, 7, 8, 9 \}</m></li>
+        <li><m>{\mathbb N} \subset {\mathbb Z} \subset {\mathbb Q} \subset {\mathbb R} \subset {\mathbb C}</m></li>
+        <li><m>A \notsubset B</m></li>
+        <li><m>\bigcup_{i = 1}^{n} A_{i} = A_{1} \cup \ldots \cup A_n</m></li>
+        <li><m>\bigcap_{i = 1}^{n} A_{i} = A_{1} \cap \ldots \cap A_n</m></li>
+        <li><m>A \setminus B = A \cap B' = \{ x : x \in A \text{ and } x \notin B \}</m></li>
+        <li><m>A \stackrel{f}{\rightarrow} B</m></li>
+        <li><m>f : a \mapsto b</m></li>
+        <li><m>a_1 \neq a_2</m></li>
+        <li><m>(f \circ g )(x) = f(g(x)) = f( \sqrt[3]{x}\, ) = (\sqrt[3]{x}\, )^3 = x</m></li>
+        <li><m>\begin{pmatrix} a &amp; b \\ c &amp; d \end{pmatrix} \begin{pmatrix} x \\ y \end{pmatrix} = \begin{pmatrix} ax + by \\ cx +dy \end{pmatrix}</m></li>
+        <li><m>\begin{pmatrix} 1 &amp; 2 &amp; 3 \\ \pi(1) &amp; \pi(2) &amp; \pi(3) \end{pmatrix} = \begin{pmatrix} 1 &amp; 2 &amp; 3 \\ 2 &amp; 1 &amp; 3 \end{pmatrix}</m></li>
+        <li><m>g \circ f = id_A</m></li>
+        <li><m>x \sim y, x\cong y</m></li>
+        <li><m>psu = qru = qst</m></li>
+        <li><m>C = QBQ^{-1} = QPAP^{-1} Q^{-1} = (QP)A(QP)^{-1}</m></li>
+        <li><m>[x] = \{ y \in X : y \sim x \}</m></li>
+        <li><m>r \equiv s \pmod{ n}</m></li>
+        <li><m>A \times D = \emptyset</m></li>
+        <li><m>\displaystyle f(p/q) = \frac{3p}{3q}</m></li>
+        <li><m>mn &gt; 0</m></li>
+        <li><m>|x - y| \leq 4</m></li>
+        <li><m>a^2 + b^2 \leq c^2 + d^2</m></li>
+        <li><m>\binom{n}{k} = \frac{n!}{k! (n - k)!}</m></li>
+        <li><m>\gcd( a, b) = ar + bs</m></li>
+        <li><m>2^{2^5} + 1 = 4{,}294{,}967{,}297</m></li>
+        <li><m>\sqrt[n]{a_1 a_2 \cdots a_n} \leq \frac{1}{n} \sum_{k = 1}^{n} a_k</m></li>
+        <li><m>\lim_{n \rightarrow \infty} f_n / f_{n + 1} = (\sqrt{5} - 1)/2</m></li>
+        <li><m>c=4\,598\,037\,234</m></li>
+        <li><m>\begin{array}{c|cccccccc} \cdot &amp; 0 &amp; 1 &amp; 2 &amp; 3 &amp; 4 &amp; 5 &amp; 6 &amp; 7 \\ \hline 0 &amp; 0 &amp; 0 &amp; 0 &amp; 0 &amp; 0 &amp; 0 &amp; 0 &amp; 0 \\ 1 &amp; 0 &amp; 1 &amp; 2 &amp; 3 &amp; 4 &amp; 5 &amp; 6 &amp; 7 \\ 2 &amp; 0 &amp; 2 &amp; 4 &amp; 6 &amp; 0 &amp; 2 &amp; 4 &amp; 6 \\ 3 &amp; 0 &amp; 3 &amp; 6 &amp; 1 &amp; 4 &amp; 7 &amp; 2 &amp; 5 \\ 4 &amp; 0 &amp; 4 &amp; 0 &amp; 4 &amp; 0 &amp; 4 &amp; 0 &amp; 4 \\ 5 &amp; 0 &amp; 5 &amp; 2 &amp; 7 &amp; 4 &amp; 1 &amp; 6 &amp; 3 \\ 6 &amp; 0 &amp; 6 &amp; 4 &amp; 2 &amp; 0 &amp; 6 &amp; 4 &amp; 2 \\ 7 &amp; 0 &amp; 7 &amp; 6 &amp; 5 &amp; 4 &amp; 3 &amp; 2 &amp; 1 \end{array}</m></li>
+        <li><m>\bigtriangleup ABC</m></li>
+        <li><m>120^{\circ}</m></li>
+        <li><m>\mu_1 \rho_1</m></li>
+        <li><m>\begin{array}{c|cccccc} \circ &amp; \identity &amp; \rho_1 &amp; \rho_2 &amp; \mu_1 &amp; \mu_2 &amp; \mu_3 \\ \hline \identity &amp; \identity &amp; \rho_1 &amp; \rho_2 &amp; \mu_1 &amp; \mu_2 &amp; \mu_3 \\ \rho_1 &amp; \rho_1 &amp; \rho_2 &amp; \identity &amp; \mu_3 &amp; \mu_1 &amp; \mu_2 \\ \rho_2 &amp; \rho_2 &amp; \identity &amp; \rho_1 &amp; \mu_2 &amp; \mu_3 &amp; \mu_1 \\ \mu_1 &amp; \mu_1 &amp; \mu_2 &amp; \mu_3 &amp; \identity &amp; \rho_1&amp; \rho_2\\ \mu_2 &amp; \mu_2 &amp; \mu_3 &amp; \mu_1 &amp; \rho_2 &amp; \identity &amp; \rho_1\\ \mu_3 &amp; \mu_3 &amp; \mu_1 &amp; \mu_2 &amp; \rho_1 &amp; \rho_2&amp; \identity \end{array}</m></li>
+        <li><m>\begin{array}{c|ccccc} + &amp; 0 &amp; 1 &amp; 2 &amp; 3 &amp; 4 \\ \hline 0 &amp; 0 &amp; 1 &amp; 2 &amp; 3 &amp; 4 \\ 1 &amp; 1 &amp; 2 &amp; 3 &amp; 4 &amp; 0 \\ 2 &amp; 2 &amp; 3 &amp; 4 &amp; 0 &amp; 1 \\ 3 &amp; 3 &amp; 4 &amp; 0 &amp; 1 &amp; 2 \\ 4 &amp; 4 &amp; 0 &amp; 1 &amp; 2 &amp; 3 \end{array}</m></li>
+        <li><m>a^{-1} (a^{-1})^{-1} = e</m></li>
+        <li><m>g^{-n} = \underbrace{g^{-1} \cdot g^{-1} \cdots g^{-1}}_{n \; \text{times}}</m></li>
+        <li><m>{\mathbb Q}^* = \{ p/q : p \, \text{and}\, q\, \text{are nonzero integers} \}</m></li>
+        <li><m>SL_2( {\mathbb R})</m></li>
+        <li><m>\begin{pmatrix} 1 &amp; 0 \\ 0 &amp; 1 \end{pmatrix} + \begin{pmatrix} -1 &amp; 0 \\ 0 &amp; -1 \end{pmatrix} = \begin{pmatrix} 0 &amp; 0 \\ 0 &amp; 0 \end{pmatrix}</m></li>
+        <li><m>\begin{array}{c|cccc} + &amp; (0,0) &amp; (0,1) &amp; (1,0) &amp; (1,1) \\ \hline (0,0) &amp; (0,0) &amp; (0,1) &amp; (1,0) &amp; (1,1) \\ (0,1) &amp; (0,1) &amp; (0,0) &amp; (1,1) &amp; (1,0) \\ (1,0) &amp; (1,0) &amp; (1,1) &amp; (0,0) &amp; (0,1) \\ (1,1) &amp; (1,1) &amp; (1,0) &amp; (0,1) &amp; (0,0) \end{array}</m></li>
+        <li><m>\begin{array}{c|cccc} \circ &amp; a &amp; b &amp; c &amp; d \\ \hline a &amp; a &amp; c &amp; d &amp; a \\ b &amp; b &amp; b &amp; c &amp; d \\ c &amp; c &amp; d &amp; a &amp; b \\ d &amp; d &amp; a &amp; b &amp; c \end{array}</m></li>
+        <li><m>\begin{array}{c|cccc} \circ &amp; a &amp; b &amp; c &amp; d \\ \hline a &amp; a &amp; b &amp; c &amp; d \\ b &amp; b &amp; a &amp; d &amp; c \\ c &amp; c &amp; d &amp; a &amp; b \\ d &amp; d &amp; c &amp; b &amp; a \end{array}</m></li>
+        <li><m>\begin{array}{c|cccc} \circ &amp; a &amp; b &amp; c &amp; d \\ \hline a &amp; a &amp; b &amp; c &amp; d \\ b &amp; b &amp; c &amp; d &amp; a \\ c &amp; c &amp; d &amp; a &amp; b \\ d &amp; d &amp; a &amp; b &amp; c \end{array}</m></li>
+        <li><m>\begin{array}{c|cccc} \circ &amp; a &amp; b &amp; c &amp; d \\ \hline a &amp; a &amp; b &amp; c &amp; d \\ b &amp; b &amp; a &amp; c &amp; d \\ c &amp; c &amp; b &amp; a &amp; d \\ d &amp; d &amp; d &amp; b &amp; c \end{array}</m></li>
+        <li><m>\begin{array}{c|cccc} \cdot &amp; 1 &amp; 5 &amp; 7 &amp; 11 \\ \hline 1 &amp; 1 &amp; 5 &amp; 7 &amp; 11 \\ 5 &amp; 5 &amp; 1 &amp; 11 &amp; 7 \\ 7 &amp; 7 &amp; 11 &amp; 1 &amp; 5 \\ 11 &amp; 11 &amp; 7 &amp; 5 &amp; 1 \end{array}</m></li>
+        <li><m>\begin{pmatrix} 1 &amp; x &amp; y \\ 0 &amp; 1 &amp; z \\ 0 &amp; 0 &amp; 1 \end{pmatrix}</m></li>
+        <li><m>\begin{pmatrix} 1 &amp; x &amp; y \\ 0 &amp; 1 &amp; z \\ 0 &amp; 0 &amp; 1 \end{pmatrix} \begin{pmatrix} 1 &amp; x' &amp; y' \\ 0 &amp; 1 &amp; z' \\ 0 &amp; 0 &amp; 1 \end{pmatrix} = \begin{pmatrix} 1 &amp; x+x' &amp; y+y'+xz' \\ 0 &amp; 1 &amp; z+z' \\ 0 &amp; 0 &amp; 1 \end{pmatrix}</m></li>
+        <li><m>\sigma = \begin{pmatrix} 1 &amp; 2 &amp; \cdots &amp; n \\ a_1 &amp; a_2 &amp; \cdots &amp; a_n \end{pmatrix}</m></li>
+        <li><m>H_2 = \{ \identity, \rho_1, \rho_2 \}</m></li>
+        <li><m>\begin{pmatrix} \cos \theta &amp; -\sin \theta \\ \sin \theta &amp; \cos \theta \end{pmatrix}</m></li>
+        <li><m>G = \{ a + b \sqrt{2} : a, b \in {\mathbb Q} \text{ and } a \text{ and } b \text{ are not both zero} \}</m></li>
+        <li><m>H = \left\{ \begin{pmatrix} a &amp; b \\ c &amp; d \end{pmatrix} : a + d = 0 \right\}</m></li>
+        <li><m>(d_1, d_2, \ldots, d_{10} ) \cdot (10, 9, \ldots, 1 ) \equiv 0 \pmod{11}</m></li>
+        <li><m>6.00000+0.00000i</m></li>
+        <li><m>\langle a \rangle = \{ a^k : k \in {\mathbb Z} \}</m></li>
+        <li><m>z^{-1} = \frac{a-bi}{ a^2 + b^2 }</m></li>
+        <li><m>\overline{z} = a- bi</m></li>
+        <li><m>z = \cis\left( \frac{2 k \pi}{n } \right)</m></li>
+        <li><m>\ast</m></li>
+        <li><m>A = \begin{pmatrix} 0 &amp; 1 \\ -1 &amp; 0 \end{pmatrix} \qquad \text{and} \qquad B = \begin{pmatrix} 0 &amp; -1 \\ 1 &amp; -1 \end{pmatrix}</m></li>
+        <li><m>\begin{array}{c|cccc} \circ &amp; \identity &amp; \sigma &amp; \tau &amp; \mu \\ \hline \identity &amp; \identity &amp; \sigma &amp; \tau &amp; \mu \\ \sigma &amp; \sigma &amp; \identity &amp; \mu &amp; \tau \\ \tau &amp; \tau &amp; \mu &amp; \identity &amp; \sigma \\ \mu &amp; \mu &amp; \tau &amp; \sigma &amp; \identity \end{array}</m></li>
+        <li><m>\sigma = \begin{pmatrix} 1 &amp; 2 &amp; 3 &amp; 4 &amp; 5 &amp; 6 &amp; 7\\ 6 &amp; 3 &amp; 5 &amp; 1 &amp; 4 &amp; 2 &amp; 7 \end{pmatrix} = (1 6 2 3 5 4 )</m></li>
+        <li><m>\tau = \begin{pmatrix} 1 &amp; 2 &amp; 3 &amp; 4 &amp; 5 &amp; 6 \\ 1 &amp; 4 &amp; 2 &amp; 3 &amp; 5 &amp; 6 \end{pmatrix} = (2 4 3)</m></li>
+        <li><m>\begin{pmatrix} 1 &amp; 2 &amp; 3 &amp; 4 &amp; 5 &amp; 6 \\ 2 &amp; 4 &amp; 1 &amp; 3 &amp; 6 &amp; 5 \end{pmatrix} = (1 2 4 3)(5 6)</m></li>
+        <li><m>1 \mapsto 3, \qquad 3 \mapsto 5, \qquad 5 \mapsto 2, \qquad 2 \mapsto 1</m></li>
+        <li><m>( 1 6 ) (2 5 3) = (1 6 )( 2 3 )( 2 5 ) = (1 6 )( 4 5 )(2 3 )( 4 5 )(2 5 )</m></li>
+        <li><m>\lambda_{\sigma} : A_n \rightarrow B_n</m></li>
+        <li><m>\identity, \frac{360^{\circ} }{n}, 2 \cdot \frac{360^{\circ} }{n}, \ldots, (n-1) \cdot \frac{360^{\circ} }{n}</m></li>
+        <li><m>D_n = \{1, r, r^2, \ldots, r^{n-1}, s, sr, sr^2, \ldots, sr^{n-1}\}</m></li>
+        <li><m>Z(G) = \{ g \in G : gx = xg \text{ for all } x \in G \}</m></li>
+        <li><m>{\mathcal O}_{x, \sigma} = \{ y : x \sim y \}</m></li>
+        <li><m>\phi : {\mathcal L}_H \rightarrow {\mathcal R}_H</m></li>
+        <li><m>[G:K] = \frac{|G|}{|K|} = \frac{|G|}{|H|} \cdot \frac{|H|}{|K|} = [G:H][H:K]</m></li>
+        <li><m>(1), (123), (132), (243), (243)^{-1} = (234), (142), (142)^{-1} = (124)</m></li>
+        <li><m>p \notdivide a</m></li>
+        <li><m>\phi(n) = n \left( 1 - \frac{1}{p_1} \right) \left( 1 - \frac{1}{p_2} \right)\cdots \left( 1 - \frac{1}{p_k} \right)</m></li>
+        <li><m>{\mathbf b} = ( 2, 2)^\transpose</m></li>
+        <li><m>\text{A} = 00, \text{B} = 02, \ldots, \text{Z}= 25</m></li>
+        <li><m>169^{191} \bmod 667 = 25</m></li>
+        <li><m>y^D = x^{km + 1} = x^{km} x = (1 + tq) x = x + tq(rp) = x + trn = x \bmod n</m></li>
+        <li><m>n = 3551, E = 629, x = 31</m></li>
+        <li><m>2^{15-1} \equiv 2^{14} \equiv 4 \pmod{15}</m></li>
+        <li><m>(x_{1}, x_{2}, \ldots, x_{n}) \mapsto (x_{1}, x_{2}, \ldots, x_{n}, x_{1}, x_{2}, \ldots, x_{n}, x_{1}, x_{2}, \ldots, x_{n})</m></li>
+        <li><m>(0.999)^{10,000} \approx 0.00005</m></li>
+        <li><m>\binom{n}{k} q^kp^{n - k}</m></li>
+        <li><m>\binom{n}{1} qp^{n - 1}= 500(0.005)(0.995)^{499} \approx 0.204</m></li>
+        <li><m>\binom{n}{2} q^{2}p^{n - 2}= \frac{500 \cdot 499}{2}(0.005)^{2}(0.995)^{498} \approx 0.257</m></li>
+        <li><m>H \in {\mathbb M}_{m \times n}({\mathbb Z}_2)</m></li>
+        <li><m>H{\mathbf x} = {\mathbf 0}</m></li>
+        <li><m>\Null(H)</m></li>
+        <li><m>\begin{pmatrix} a_{11} &amp; a_{12} &amp; \cdots &amp; a_{1,n-m} \\ a_{21} &amp; a_{22} &amp; \cdots &amp; a_{2,n-m} \\ \vdots &amp; \vdots &amp; \ddots &amp; \vdots \\ a_{m1} &amp; a_{m2} &amp; \cdots &amp; a_{m,n-m} \end{pmatrix}</m></li>
+        <li><m>G = \left( \frac{I_{n-m}}{A} \right)</m></li>
+        <li><m>G= \begin{pmatrix} 1 &amp; 0 &amp; 0 \\ 0 &amp; 1 &amp; 0 \\ 0 &amp; 0 &amp; 1 \\ 0 &amp; 1 &amp; 1 \\ 1 &amp; 1 &amp; 0 \\ 1 &amp; 0 &amp; 1 \end{pmatrix}</m></li>
+        <li><m>{\mathbf x} = (x_1, x_2, x_3, x_4, x_5, x_6)</m></li>
+        <li><m>\begin{array}{cccc} (000000) &amp; (001101) &amp; (010110) &amp; (011011) \\ (100011) &amp; (101110) &amp; (110101) &amp; (111000). \end{array}</m></li>
+        <li><m>\delta_{ij} = \begin{cases} 1 &amp; i = j \\ 0 &amp; i \neq j \end{cases}</m></li>
+        <li><m>\begin{pmatrix} 1 &amp; 1 &amp; 1 &amp; 0 &amp; 0 \\ 1 &amp; 0 &amp; 0 &amp; 1 &amp; 0 \\ 1 &amp; 1 &amp; 0 &amp; 0 &amp; 1 \end{pmatrix} \begin{pmatrix} 0 \\ 1 \\ 0 \\ 0 \\ 0 \end{pmatrix} = \begin{pmatrix} 1 \\ 0 \\ 1 \end{pmatrix}</m></li>
+        <li><m>H{\mathbf x} = \begin{pmatrix} 1 \\ 1 \\ 1 \end{pmatrix}, H{\mathbf y} = \begin{pmatrix} 1 \\ 1 \\ 0 \end{pmatrix}, H{\mathbf z} = \begin{pmatrix} 1 \\ 0 \\ 0 \end{pmatrix}</m></li>
+        <li><m>\begin{pmatrix} 0 &amp; 0 &amp; 0 &amp; 1 &amp; 1 &amp; 1 &amp; 1 \\ 0 &amp; 1 &amp; 1 &amp; 0 &amp; 0 &amp; 1 &amp; 1 \\ 1 &amp; 0 &amp; 1 &amp; 0 &amp; 1 &amp; 0 &amp; 1 \\ 0 &amp; 1 &amp; 1 &amp; 0 &amp; 0 &amp; 1 &amp; 1 \end{pmatrix}</m></li>
+        <li><m>G = \begin{pmatrix} 1 &amp; 0 \\ 0 &amp; 1 \\ 1 &amp; 0 \\ 1 &amp; 1 \\ 0 &amp; 1 \\ 1 &amp; 1 \end{pmatrix}</m></li>
+        <li><m>C^\perp = \{ {\mathbf x} \in {\mathbb Z}_2^n : {\mathbf x} \cdot {\mathbf y} = 0 \text{ for all } {\mathbf y} \in C \}</m></li>
+        <li><m>2^k\left({n\choose 0} + {n\choose 1} + {n\choose 2} + \cdots + {n\choose \frac{d-1}{2}}\right) = 2^n</m></li>
+        <li><m>\phi( a \cdot b) = \phi( a) \circ \phi( b)</m></li>
+        <li><m>G \cong H</m></li>
+        <li><m>\begin{array}{c|ccc} + &amp; 0 &amp; 1 &amp; 2 \\ \hline 0 &amp; 0 &amp; 1 &amp; 2 \\ 1 &amp; 1 &amp; 2 &amp; 0 \\ 2 &amp; 2 &amp; 0 &amp; 1 \end{array}</m></li>
+        <li><m>\prod_{i = 1}^n G_i = G_1 \times G_2 \times \cdots \times G_n</m></li>
+        <li><m>\prod G_i</m></li>
+        <li><m>\underbrace{(a,b) + (a,b)+ \cdots + (a,b)}_{mn/d \; \text{times}} = (0, 0)</m></li>
+        <li><m>{\mathbb Z}_{p_1^{e_1}} \times \cdots \times {\mathbb Z}_{p_k^{e_k}}</m></li>
+        <li><m>a \ast b = a + b + ab</m></li>
+        <li><m>A = \begin{pmatrix} \omega &amp; 0 \\ 0 &amp; \omega^{-1} \end{pmatrix} \quad \text{and} \quad B = \begin{pmatrix} 0 &amp; 1 \\ 1 &amp; 0 \end{pmatrix}</m></li>
+        <li><m>\begin{pmatrix} \pm 1 &amp; k \\ 0 &amp; 1 \end{pmatrix}</m></li>
+        <li><m>\inn(G) = \aut(G)</m></li>
+        <li><m>g \mapsto \rho_g</m></li>
+        <li><m>G \times H \cong \overline{G} \times \overline{H}</m></li>
+        <li><m>\langle m \rangle \cap \langle n \rangle = \langle l \rangle</m></li>
+        <li><m>\{z^iy^j\mid 0\leq i \lt p, 0\leq j \lt 2\}</m></li>
+        <li><m>\begin{array}{c|cc} &amp; N &amp; (12) N \\ \hline N &amp; N &amp; (12) N \\ (12) N &amp; (12) N &amp; N \end{array}</m></li>
+        <li><m>\begin{array}{c|ccc} + &amp; 0 + 3{\mathbb Z} &amp; 1 + 3{\mathbb Z} &amp; 2 + 3{\mathbb Z} \\\hline 0 + 3{\mathbb Z} &amp; 0 + 3{\mathbb Z} &amp; 1 + 3{\mathbb Z} &amp; 2 + 3{\mathbb Z} \\ 1 + 3{\mathbb Z} &amp; 1 + 3{\mathbb Z} &amp; 2 + 3{\mathbb Z} &amp; 0 + 3{\mathbb Z} \\ 2 + 3{\mathbb Z} &amp; 2 + 3{\mathbb Z} &amp; 0 + 3{\mathbb Z} &amp; 1 + 3{\mathbb Z} \end{array}</m></li>
+        <li><m>[(i j)(a k)](i j a)^2 [(i j)(a k)]^{-1} = (i j k)</m></li>
+        <li><m>\sigma^{-1}(a_1 a_2 a_4)\sigma(a_1 a_2 a_4)^{-1} \in N</m></li>
+        <li><m>(a_1 a_2 a_4)\sigma(a_1 a_2 a_4)^{-1} \in N</m></li>
+        <li><m>\ker \phi = SL_2( {\mathbb R })</m></li>
+        <li><m>\eta(g_1 K) = \psi(g_1) = \psi(g_1) \psi(k) = \psi(g_1k) = \psi(g_2) = \eta(g_2 K)</m></li>
+        <li><m>{\mathbb Z} / \ker \phi = {\mathbb Z} / m {\mathbb Z} \cong G</m></li>
+        <li><m>( hn )^{-1} = n^{-1 } h^{-1} = h^{-1} (h n^{-1} h^{-1} )</m></li>
+        <li><m>G \rightarrow G/N \rightarrow \frac{G/N}{H/N} </m></li>
+        <li><m>\begin{pmatrix} 3/5 &amp; -4/5 \\ 4/5 &amp; 3/5 \end{pmatrix}, \quad \begin{pmatrix} 1/2 &amp; -\sqrt{3}/2 \\ \sqrt{3}/2 &amp; 1/2 \end{pmatrix}, \quad \begin{pmatrix} -1/\sqrt{2} &amp; 0 &amp; 1/ \sqrt{2} \\ 1/\sqrt{6} &amp; -2/\sqrt{6} &amp; 1/\sqrt{6} \\ 1/ \sqrt{3} &amp; 1/ \sqrt{3} &amp; 1/ \sqrt{3} \end{pmatrix}</m></li>
+        <li><m>\| {\mathbf x} \| = \sqrt{\langle {\mathbf x}, {\mathbf x} \rangle} = \sqrt{x_1^2 + \cdots + x_n^2}</m></li>
+        <li><m>\langle A{\mathbf x}, A{\mathbf y} \rangle = \langle {\mathbf x},{\mathbf y} \rangle</m></li>
+        <li><m>(2) \Rightarrow (3)</m></li>
+        <li><m>\langle {\mathbf x}, {\mathbf y} \rangle = \frac{1}{2} \left[ \|{\mathbf x} +{\mathbf y}\|^2 - \|{\mathbf x}\|^2 - \|{\mathbf y}\|^2 \right]</m></li>
+        <li><m>T_{\phi} = \begin{pmatrix} \cos \phi &amp; - \sin \phi \\ \sin \phi &amp; \cos \phi \end{pmatrix} \begin{pmatrix} 1 &amp; 0 \\ 0 &amp; -1 \end{pmatrix} = \begin{pmatrix} \cos \phi &amp; \sin \phi \\ \sin \phi &amp; - \cos \phi \end{pmatrix}</m></li>
+        <li><m>\begin{pmatrix} 4/ \sqrt{5} &amp; 0 &amp; 3 / \sqrt{5} \\ -3 / \sqrt{5} &amp; 0 &amp; 4 / \sqrt{5} \\ 0 &amp; -1 &amp; 0 \end{pmatrix}</m></li>
+        <li><m>E(n) = \{(A, {\mathbf x}) : A \in O(n) \text{ and } {\mathbf x} \in {\mathbb R}^n \}</m></li>
+        <li><m>G = H_n \supset H_{n - 1} \supset \cdots \supset H_1 \supset H_0 = \{ e \}</m></li>
+        <li><m>{\mathbb Z}_{p_1^{\alpha_1}} \times \cdots \times {\mathbb Z}_{p_n^{\alpha_n}}</m></li>
+        <li><m>\{ g_i \in G : i \in I \}</m></li>
+        <li><m>g^{-1} = (g_{i_1}^{k_{1}} \cdots g_{i_n}^{k_n})^{-1} = (g_{i_n}^{-k_n} \cdots g_{i_{1}}^{-k_{1}})</m></li>
+        <li><m>(gh)^{p_i^t} = g^{p_i^t} h^{p_i^t} = 1 \cdot 1 = 1</m></li>
+        <li><m>|g| = p_1^{\beta_1} p_2^{\beta_2} \cdots p_k^{\beta_k}</m></li>
+        <li><m>g = g^{a_1 b_1 + \cdots + a_k b_k} = g^{a_1 b_1} \cdots g^{a_k b_k}</m></li>
+        <li><m>g^{(a_i b_i ) p_i^{\beta_i}} = g^{b_i |g|} = e</m></li>
+        <li><m>G^{(0)} = G \supset G^{(1)} \supset G^{(2)} \supset \cdots</m></li>
+        <li><m>Z_3\rtimes Z_4</m></li>
+        <li><m>\phi(ab) = gabg^{-1} = gag^{-1} gbg^{-1} = \phi(a) \phi(b)</m></li>
+        <li><m>\sum_{y \in {\mathcal O}_x} |G_y| = | {\mathcal O}_x| \cdot |G_x|</m></li>
+        <li><m>|\widetilde{X}_{(13)(24)}| = 2^2 = 4</m></li>
+        <li><m>|{\mathcal S}| = |\text{orbit of }P| = [G : N(P)]</m></li>
+        <li><m>q \not\equiv 1 \pmod{p}</m></li>
+        <li><m>p \nmid \binom{p^k m}{p^k}</m></li>
+        <li><m>44\,352\,000</m></li>
+        <li><m>\begin{pmatrix} \alpha &amp; \beta \\ -\overline{\beta} &amp; \overline{\alpha } \end{pmatrix}</m></li>
+        <li><m>(a_1 + b_1 {\mathbf i} + c_1 {\mathbf j} +d_1 {\mathbf k} ) ( a_2 + b_2 {\mathbf i} + c_2 {\mathbf j} +d_2 {\mathbf k} ) = \alpha + \beta {\mathbf i} + \gamma {\mathbf j} + \delta {\mathbf k}</m></li>
+        <li><m>T = \left\{ \begin{pmatrix} a &amp; b \\ 0 &amp; c \end{pmatrix} : a, b, c \in {\mathbb R} \right\}</m></li>
+        <li><m>A = \begin{pmatrix} a &amp; b \\ 0 &amp; c \end{pmatrix} \quad \text{and} \quad B = \begin{pmatrix} a' &amp; b' \\ 0 &amp; c' \end{pmatrix}</m></li>
+        <li><m>F = \left\{ \begin{pmatrix} 1 &amp; 0 \\ 0 &amp; 1 \end{pmatrix}, \begin{pmatrix} 1 &amp; 1 \\ 1 &amp; 0 \end{pmatrix}, \begin{pmatrix} 0 &amp; 1 \\ 1 &amp; 1 \end{pmatrix}, \begin{pmatrix} 0 &amp; 0 \\ 0 &amp; 0 \end{pmatrix} \right\}</m></li>
+        <li><m>\frac{a}{a^2 - 2 b^2} +\frac{- b}{ a^2 - 2 b^2} \sqrt{2}</m></li>
+        <li><m>R/I \cong \frac{R/J}{I/J}</m></li>
+        <li><m>\left\{ \begin{pmatrix} 1 &amp; 0 \\ 0 &amp; 1 \end{pmatrix}, \begin{pmatrix} 1 &amp; 1 \\ 0 &amp; 1 \end{pmatrix}, \begin{pmatrix} 1 &amp; 0 \\ 1 &amp; 1 \end{pmatrix}, \begin{pmatrix} 0 &amp; 1 \\ 1 &amp; 0 \end{pmatrix}, \begin{pmatrix} 1 &amp; 1 \\ 1 &amp; 0 \end{pmatrix}, \begin{pmatrix} 0 &amp; 1 \\ 1 &amp; 1 \end{pmatrix}, \right\}</m></li>
+        <li><m>f(x) = \sum^{n}_{i=0} a_i x^i = a_0 + a_1 x +a_2 x^2 + \cdots + a_n x^n</m></li>
+        <li><m>c_i = \sum_{k = 0}^i a_k b_{i - k} = a_0 b_i + a_1 b_{i -1} + \cdots + a_{i -1} b _1 + a_i b_0</m></li>
+        <li><m>p(x) = \frac{b_0}{c_0} + \frac{b_1}{c_1} x + \cdots + \frac{b_n}{c_n} x^n</m></li>
+        <li><m>p(x) = \alpha(x) \beta(x) = \frac{c_1 c_2}{d_1 d_2} \alpha_1(x) \beta_1(x) = \frac{c}{d} \alpha_1(x) \beta_1(x)</m></li>
+        <li><m>\omega^i \sqrt[3]{-\frac{q}{2}+ \sqrt{\ \frac{p^3}{27} + \frac{q^2}{4}} } + \omega^{2i} \sqrt[3]{-\frac{q}{2}- \sqrt{\ \frac{p^3}{27} + \frac{q^2}{4}} }</m></li>
+        <li><m>D\lbrack x \rbrack</m></li>
+        <li><m>c_{r + s} = a_0 b_{r + s} + a_1 b_{r + s - 1} + \cdots + a_{r + s - 1} b_1 + a_{r + s} b_0</m></li>
+        <li><m>O \preceq \cdots \preceq b_3 \preceq b_2 \preceq b_1 \preceq b</m></li>
+        <li><m>a \not\preceq c</m></li>
+        <li><m>a = a \wedge b = a \wedge( a_1 \vee \cdots \vee a_n ) = (a \wedge a_1) \vee \cdots \vee ( a \wedge a_n )</m></li>
+        <li><m>( a \wedge b') \vee (a' \wedge b) = O \Rightarrow a \vee b = (a \vee a) \vee b = a \vee (a \vee b) = a \vee [I \wedge (a \vee b)] = a \vee [(a \vee a') \wedge (a \vee b)] = [a \vee (a \wedge b')] \vee [a \vee (a' \wedge b)] = a \vee [(a \wedge b') \vee (a' \wedge b)] = a \vee 0 = a</m></li>
+        <li><m>u + v = (u_1, \ldots, u_n) + (v_1, \ldots, v_n) = (u_1 + v_1, \ldots, u_n + v_n)</m></li>
+        <li><m>u + v =( \alpha_1 + \beta_1) v_1 + (\alpha_2+ \beta_2) v_2 + \cdots + (\alpha_n + \beta_n) v_n</m></li>
+        <li><m>v_k = - \frac{\alpha_1}{\alpha_k} v_1 - \cdots - \frac{\alpha_{k - 1}}{\alpha_k} v_{k-1} - \frac{\alpha_{k + 1}}{\alpha_k} v_{k + 1} - \cdots - \frac{\alpha_n}{\alpha_k} v_n</m></li>
+        <li><m>E = {\mathbb Z}_2[x] / \langle x^2 + x + 1 \rangle</m></li>
+        <li><m>\begin{array}{c|cccc} + &amp; 0 &amp; 1 &amp; \alpha &amp; 1 + \alpha \\ \hline 0 &amp; 0 &amp; 1 &amp; \alpha &amp; 1 + \alpha \\ 1 &amp; 1 &amp; 0 &amp; 1 + \alpha &amp; \alpha \\ \alpha &amp; \alpha &amp; 1 + \alpha &amp; 0 &amp; 1 \\ 1 + \alpha &amp; 1 + \alpha &amp; \alpha &amp; 1 &amp; 0 \end{array}</m></li>
+        <li><m>\begin{array}{c|cccc} \cdot &amp; 0 &amp; 1 &amp; \alpha &amp; 1 + \alpha \\ \hline 0 &amp; 0 &amp; 0 &amp; 0 &amp; 0 \\ 1 &amp; 0 &amp; 1 &amp; \alpha &amp; 1 + \alpha \\ \alpha &amp; 0 &amp; \alpha &amp; 1 + \alpha &amp; 1 \\ 1 + \alpha &amp; 0 &amp; 1 + \alpha &amp; 1 &amp; \alpha \end{array}</m></li>
+        <li><m>\{ 1, \sqrt{5}\, i, \sqrt[3]{5}, (\sqrt[3]{5}\, )^2, (\sqrt[6]{5}\, )^5 i, (\sqrt[6]{5}\, )^7 i = 5 \sqrt[6]{5}\, i \text{ or } \sqrt[6]{5}\, i \}</m></li>
+        <li><m>0 = f(\beta) = f\left( \frac{p(\alpha)}{q(\alpha)} \right) = a_0 + a_1 \left( \frac{p(\alpha)}{q(\alpha)} \right) + \cdots + a_n \left( \frac{p(\alpha)}{q(\alpha)} \right)^n</m></li>
+        <li><m>(a + b)^p = \sum_{k = 0}^{p} \binom{p}{k} a^k b^{p - k}</m></li>
+        <li><m>(a + b)^{p^{n + 1}} = ((a + b)^p)^{p^{n}} = (a^p + b^p)^{p^{n}} = (a^p)^{p^{n}} + (b^p)^{p^{n}} = a^{p^{n + 1}} + b^{p^{n + 1}}</m></li>
+        <li><m>G_1 = \begin{pmatrix} 1 &amp; 0 &amp; 0 \\ 0 &amp; 1 &amp; 0 \\ 0 &amp; 0 &amp; 1 \\ 1 &amp; 0 &amp; 0 \\ 0 &amp; 1 &amp; 0 \\ 0 &amp; 0 &amp; 1 \end{pmatrix} \quad \text{and} \quad G_2 = \begin{pmatrix} 1 &amp; 0 &amp; 0 \\ 1 &amp; 1 &amp; 0 \\ 1 &amp; 1 &amp; 1 \\ 1 &amp; 1 &amp; 1 \\ 0 &amp; 1 &amp; 1 \\ 0 &amp; 0 &amp; 1 \end{pmatrix}</m></li>
+        <li><m>\begin{array}{rclccrcl} (000) &amp; \mapsto &amp; (000000) &amp; &amp; &amp; (100) &amp; \mapsto &amp; (100100) \\ (001) &amp; \mapsto &amp; (001001) &amp; &amp; &amp; (101) &amp; \mapsto &amp; (101101) \\ (010) &amp; \mapsto &amp; (010010) &amp; &amp; &amp; (110) &amp; \mapsto &amp; (110110) \\ (011) &amp; \mapsto &amp; (011011) &amp; &amp; &amp; (111) &amp; \mapsto &amp; (111111). \end{array}</m></li>
+        <li><m>\begin{array}{rclccrcl} (000) &amp; \mapsto &amp; (000000) &amp; &amp; &amp; (100) &amp; \mapsto &amp; (111100) \\ (001) &amp; \mapsto &amp; (001111) &amp; &amp; &amp; (101) &amp; \mapsto &amp; (110011) \\ (010) &amp; \mapsto &amp; (011110) &amp; &amp; &amp; (110) &amp; \mapsto &amp; (100010) \\ (011) &amp; \mapsto &amp; (010001) &amp; &amp; &amp; (111) &amp; \mapsto &amp; (101101). \end{array}</m></li>
+        <li><m>G = \begin{pmatrix} 1 &amp; 0 &amp; 0 &amp; 0 \\ 1 &amp; 1 &amp; 0 &amp; 0 \\ 0 &amp; 1 &amp; 1 &amp; 0 \\ 1 &amp; 0 &amp; 1 &amp; 1 \\ 0 &amp; 1 &amp; 0 &amp; 1 \\ 0 &amp; 0 &amp; 1 &amp; 0 \\ 0 &amp; 0 &amp; 0 &amp; 1 \end{pmatrix}</m></li>
+        <li><m>G = \begin{pmatrix} g_0 &amp; 0 &amp; \cdots &amp; 0 \\ g_1 &amp; g_0 &amp; \cdots &amp; 0 \\ \vdots &amp; \vdots &amp;\ddots &amp; \vdots \\ g_{n-k} &amp; g_{n-k-1} &amp; \cdots &amp; g_0 \\ 0 &amp; g_{n-k} &amp; \cdots &amp; g_{1} \\ \vdots &amp; \vdots &amp; \ddots &amp; \vdots \\ 0 &amp; 0 &amp; \cdots &amp; g_{n-k} \end{pmatrix}</m></li>
+        <li><m>H = \begin{pmatrix} 0 &amp; \cdots &amp; 0 &amp; 0 &amp; h_k &amp; \cdots &amp; h_0 \\ 0 &amp; \cdots &amp; 0 &amp; h_k &amp; \cdots &amp; h_0 &amp; 0 \\ \cdots &amp; \cdots &amp; \cdots &amp; \cdots &amp; \cdots &amp; \cdots &amp; \cdots \\ h_k &amp; \cdots &amp; h_0 &amp; 0 &amp; 0 &amp; \cdots &amp; 0 \end{pmatrix}</m></li>
+        <li><m>\det \begin{pmatrix} 1 &amp; 1 &amp; \cdots &amp; 1 \\ \alpha_1 &amp; \alpha_2 &amp; \cdots &amp; \alpha_n \\ \alpha_1^2 &amp; \alpha_2^2 &amp; \cdots &amp; \alpha_n^2 \\ \vdots &amp; \vdots &amp; \ddots &amp; \vdots \\ \alpha_1^{n-1} &amp; \alpha_2^{n-1} &amp; \cdots &amp; \alpha_n^{n-1} \end{pmatrix} = \prod_{1 \leq j \lt i \leq n} (\alpha_i - \alpha_j)</m></li>
+        <li><m>p(x) = \det \begin{pmatrix} 1 &amp; 1 &amp; \cdots &amp; 1 &amp; 1 \\ \alpha_1 &amp; \alpha_2 &amp; \cdots &amp; \alpha_{n-1} &amp; x \\ \alpha_1^2 &amp; \alpha_2^2 &amp; \cdots &amp; \alpha_{n-1}^2 &amp; x^2 \\ \vdots &amp; \vdots &amp; \ddots &amp; \vdots &amp; \vdots \\ \alpha_1^{n-1} &amp; \alpha_2^{n-1} &amp; \cdots &amp; \alpha_{n-1}^{n-1} &amp; x^{n-1} \end{pmatrix}</m></li>
+        <li><m>\beta = (-1)^{n + n} \det \begin{pmatrix} 1 &amp; 1 &amp; \cdots &amp; 1 \\ \alpha_1 &amp; \alpha_2 &amp; \cdots &amp; \alpha_{n-1} \\ \alpha_1^2 &amp; \alpha_2^2 &amp; \cdots &amp; \alpha_{n-1}^2 \\ \vdots &amp; \vdots &amp; \ddots &amp; \vdots \\ \alpha_1^{n-2} &amp; \alpha_2^{n-2} &amp; \cdots &amp; \alpha_{n-1}^{n-2} \end{pmatrix}</m></li>
+        <li><m>\beta = (-1)^{n+n} \prod_{1 \leq j \lt i \leq n - 1} (\alpha_i - \alpha_j)</m></li>
+        <li><m>\begin{pmatrix} (\omega^{i_0})^r &amp; (\omega^{i_1})^r &amp; \cdots &amp; (\omega^{i_{s-1}})^r \\ (\omega^{i_0})^{r+1} &amp; (\omega^{i_1})^{r+1} &amp; \cdots &amp; (\omega^{i_{s-1}})^{r+1} \\ \vdots &amp; \vdots &amp; \ddots &amp; \vdots \\ (\omega^{i_0})^{r+s-1} &amp; (\omega^{i_1})^{r+s-1} &amp; \cdots &amp; (\omega^{i_{s-1}})^{r+s-1} \end{pmatrix}</m></li>
+        <li><m>H = \begin{pmatrix} 1 &amp; \omega &amp; \omega^2 &amp; \cdots &amp; \omega^{n-1}\\ 1 &amp; \omega^2 &amp; \omega^{4} &amp; \cdots &amp; \omega^{(n-1)(2)} \\ 1 &amp; \omega^3 &amp; \omega^{6} &amp; \cdots &amp; \omega^{(n-1)(3)} \\ \vdots &amp; \vdots &amp; \vdots &amp; \ddots &amp; \vdots \\ 1 &amp; \omega^{2r} &amp; \omega^{4r} &amp; \cdots &amp; \omega^{(n-1)(2r)} \end{pmatrix}</m></li>
+        <li><m>H {\mathbf x} = \begin{pmatrix} a_0 + a_1 \omega + \cdots + a_{n-1} \omega^{n-1} \\ a_0 + a_1 \omega^2 + \cdots + a_{n-1} (\omega^2)^{n-1} \\ \vdots \\ a_0 + a_1 \omega^{2r} + \cdots + a_{n-1} (\omega^{2r})^{n-1} \end{pmatrix} = \begin{pmatrix} f(\omega) \\ f(\omega^2) \\ \vdots \\ f(\omega^{2r}) \end{pmatrix} = 0</m></li>
+      </ol>
     </p>
   </article>
 </pretext>
