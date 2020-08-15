@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pretext>
+  <docinfo>
+    <macros>
+    \newcommand{\addeqno}{}
+    \newcommand{\R}{\mathbb{R}}
+    \newcommand{\va}{\mathbf{a}}
+    \newcommand{\vb}{\mathbf{b}}
+    \newcommand{\vc}{\mathbf{c}}
+    \newcommand{\vC}{\mathbf{C}}
+    \newcommand{\vd}{\mathbf{d}}
+    \newcommand{\ve}{\mathbf{e}}
+    \newcommand{\vi}{\mathbf{i}}
+    \newcommand{\vj}{\mathbf{j}}
+    \newcommand{\vk}{\mathbf{k}}
+    \newcommand{\vn}{\mathbf{n}}
+    \newcommand{\vm}{\mathbf{m}}
+    \newcommand{\vr}{\mathbf{r}}
+    \newcommand{\vs}{\mathbf{s}}
+    \newcommand{\vu}{\mathbf{u}}
+    \newcommand{\vv}{\mathbf{v}}
+    \newcommand{\vw}{\mathbf{w}}
+    \newcommand{\vx}{\mathbf{x}}
+    \newcommand{\vy}{\mathbf{y}}
+    \newcommand{\vz}{\mathbf{z}}
+    \newcommand{\vzero}{\mathbf{0}}
+    \newcommand{\vF}{\mathbf{F}}
+    \newcommand{\vG}{\mathbf{G}}
+    \newcommand{\vH}{\mathbf{H}}
+    \newcommand{\vR}{\mathbf{R}}
+    \newcommand{\vT}{\mathbf{T}}
+    \newcommand{\vN}{\mathbf{N}}
+    \newcommand{\vL}{\mathbf{L}}
+    \newcommand{\vB}{\mathbf{B}}
+    \newcommand{\vS}{\mathbf{S}}
+    \newcommand{\proj}{\text{proj}}
+    \newcommand{\comp}{\text{comp}}
+    \newcommand{\nin}{}
+    \newcommand{\tr}{\vspace{0.5in}}
+    \newcommand{\lr}{\vspace{1.0in}}
+    \newcommand{\mr}{\vspace{2.0in}}
+    \newcommand{\br}{\vspace{3.0in}}
+    \newcommand{\T}{}
+    \newcommand{\B}{\rule[-1.2ex]{0pt}{0pt}}
+    \newcommand{\vecmag}[1]{|#1|}
+    \newcommand{\grad}{\nabla}
+    \DeclareMathOperator{\curl}{curl}
+    \DeclareMathOperator{\divg}{div}
+    </macros>
+  </docinfo>
+  <article>
+    <p>
+      <ol>
+        <li><m>\R^2</m></li>
+        <li><m>\vr(t)</m></li>
+        <li><m>(x,y)</m></li>
+        <li><m>(x,y,z)</m></li>
+        <li><m>\vF(x,y) = \langle y,x\rangle</m></li>
+        <li><m>(1,-1)</m></li>
+        <li><m>\vG(x,y) = -x\vj</m></li>
+        <li><m>\vi</m></li>
+        <li><m>\vk</m></li>
+        <li><m>\vF(x,y,z) = F_1(x,y,z)\vi + F_2(x,y,z)\vj + F_3(x,y,z)\vk</m></li>
+        <li><m>\vF(x,y,z) = \langle x^2,xy\sin(z),y^3\rangle</m></li>
+        <li><m>f(x,y) = x^2 +
+        y^2</m></li>
+        <li><m>\vecmag{\vF(x,y)}</m></li>
+        <li><m>\grad{f}</m></li>
+        <li><m>g</m></li>
+        <li><m>h</m></li>
+        <li><m>1/2</m></li>
+        <li><m>f\neq g</m></li>
+        <li><m>\vv</m></li>
+        <li><m>\vF\cdot \vv</m></li>
+        <li><m>\vv_1 = \langle
+        200\cos(70^\circ),200\sin(70^\circ)\rangle \approx
+        \langle 68.404,187.94\rangle</m></li>
+        <li><m>0\leq t\leq 1</m></li>
+        <li><m>\pi/2\leq t \leq 5\pi/2</m></li>
+        <li><m>C</m></li>
+        <li><m>P</m></li>
+        <li><m>Q</m></li>
+        <li><m>n</m></li>
+        <li><m>\vr_i</m></li>
+        <li><m>\Delta\vr_i =
+        \vr_{i+1}-\vr_i</m></li>
+        <li><m>\vr_0,\dots,\vr_n</m></li>
+        <li><m>\vF(r_1,r_2)</m></li>
+        <li><m>\sum_{i=0}^{n-1}\vF(\vr_i)\cdot\Delta \vr_i</m></li>
+        <li><m>\int_C \vF\cdot d\vr = \lim_{|\Delta\vr_i|\to 0}
+        \sum_{i=0}^{n-1}\vF(\vr_i)\cdot\Delta\vr_i</m></li>
+        <li><m>\langle P, Q,
+        R\rangle</m></li>
+        <li><m>x&gt;0</m></li>
+        <li><m>x\lt 0</m></li>
+        <li><m>\int_a^b f(x)\, dx = \int_a^c f(x)\, dx + \int_c^b f(x)\, dx</m></li>
+        <li><m>k</m></li>
+        <li><m>\oint_C \vF\cdot d\vr</m></li>
+        <li><m>y=mx+b</m></li>
+        <li><m>d\vr = \left\langle dx,\frac{2}{3}dx\right\rangle =
+        \langle 1,\frac{2}{3} \rangle\, dx</m></li>
+        <li><m>\frac{\partial f}{\partial x} =
+        xy </m></li>
+        <li><m>[a,b]</m></li>
+        <li><m>\Delta \vr_i = \vr(t_{i+1}) - \vr(t_{i}) = \vr(t_{i} +
+        \Delta t) - \vr(t_{i}) = \left(\frac{\vr(t_{i} + \Delta t) -
+        \vr(t_{i})}{\Delta t}\right) \Delta t </m></li>
+        <li><m>\vr'(t_i)</m></li>
+        <li><m>\vF(t) =\langle 54t(\cos(t))^2, 27(s\sin(t))^2,3 \cos(t)\rangle </m></li>
+        <li><m>\int_C \langle (3xy+e^z), x^2,
+        (4z+xe^z)\rangle\cdot d\vr</m></li>
+        <li><m>\int_{C_3}
+        \langle M, N\rangle\cdot d\vr</m></li>
+        <li><m>\vH(x,y,z) = \langle 3x^2
+        y,x^3+2yz^3,xz+3y^2z^2\rangle</m></li>
+        <li><m>D</m></li>
+        <li><m>f\colon \R^3\to \R</m></li>
+        <li><m>\langle f_x(\vr(t)), f_y(\vr(t)), f_z(\vr(t))\rangle\cdot \langle x'(t),y'(t),z'(t)\rangle =\\ 
+        f_x\left( x(t),y(t),z(t) \right) x'(t) + f_y \left( x(t),y(t),z(t) \right) y'(t) + f_z \left( x(t),y(t),z(t) \right) z'(t).</m></li>
+        <li><m>\vH(x,y,z) = \langle H_1,H_2,H_3\rangle</m></li>
+        <li><m>A(x)</m></li>
+        <li><m>L_x</m></li>
+        <li><m>\int_{-h}^{h} F_2(a+t,b+h) dt = (2h) F_2(t^*_1,b+h)</m></li>
+        <li><m>\text{Flow Density}(a,b)=\lim_{h\rightarrow 0} \frac{\text{net flow}}{\text{area}} =\\
+        \lim_{h\rightarrow 0} \frac{(2h) \left(F_2(t^*_1,b+h)-F_2(t^*_2,b-h)+F_1(a+h,t^*_3)-F_1(a-h,t^*_1)\right)}{4h^2}</m></li>
+        <li><m>\text{Flow Density}(a,b)= \lim_{h\rightarrow 0}\left[
+        \frac{F_1(a+h,t^*_3)-F_1(a-h,t^*_1)}{2h}+\frac{F_2(t^*_1,b+h)-F_2(t^*_2,b-h)}{2h}\right]</m></li>
+        <li><m>\divg(\vF)=\frac{\partial F_1}{\partial x}+\frac{\partial F_2}{\partial y}</m></li>
+        <li><m>\vG(x,y)=\langle{G_1(x,y,z),G_2(x,y,z),G_3(x,y,z)}\rangle</m></li>
+        <li><m>div(\vF_1)=0</m></li>
+        <li><m>a_{\text{top}}^*,a_{\text{bottom}}^* \in (a-h,a+h)</m></li>
+        <li><m>\vi \times \vj = \vk \quad \quad  \vi \times \vk = -\vj \quad \quad  \vj \times \vk = \vi </m></li>
+        <li><m>\vu</m></li>
+        <li><m>\curl(\vF)= \left(\frac{\partial F_3}{\partial y}-\frac{\partial F_2}{\partial z}\right)\vi- \left(\frac{\partial F_3}{\partial x}-\frac{\partial F_1}{\partial z}\right)\vj + \left(\frac{\partial F_2}{\partial x}-\frac{\partial F_1}{\partial y}\right)\vk</m></li>
+        <li><m>2\cos(\theta)</m></li>
+        <li><m>\displaystyle\oint_C\vF\cdot d\vr = \iint_R
+        \left(\frac{\partial F_2}{\partial x}- \frac{\partial
+        F_1}{\partial y}\right)\, dA</m></li>
+        <li><m>\oint_{C_2} \vG\cdot d\vr  = \int_0^3\!\int_0^x y\, dy\,
+        dx = \int_0^3 \left.\frac{y^2}{2}\right|_0^x\, dx = \int_0^3
+        \frac{x^2}{2}\, dx = \left.\frac{x^3}{6}\right|_0^3 = \frac{27}{6}</m></li>
+        <li><m>g(x,y) = \frac{1}{2}\ln(x^2+y^2)</m></li>
+        <li><m>\oint_C\vF\cdot d\vr + \oint_{C_2}\vF\cdot d\vr =
+        0\Leftrightarrow \oint_C\vF\cdot d\vr =
+        \oint_{-C_2}\vF\cdot d\vr</m></li>
+        <li><m>\overline{x} = \frac{1}{A}\iint_D x\, dA \qquad \text{and}\qquad
+        \overline{y} = \frac{1}{A}\iint_D y\, dA</m></li>
+        <li><m>D_{i,j}</m></li>
+        <li><m>S_{i,j}=\vecmag{(\vr_s \times
+        \vr_t)(s_i,t_j)}\Delta{s}\Delta{t}</m></li>
+        <li><m>\text{Flux}=\sum_{i=1}^n\sum_{j=1}^m\vecmag{\vF_{\perp
+        Q_{i,j}}}\cdot S_{i,j}</m></li>
+        <li><m>\vw_{i,j}=(\vr_s \times \vr_t)(s_i,t_j)</m></li>
+        <li><m>n,m\rightarrow\infty</m></li>
+        <li><m>t=\phi</m></li>
+        <li><m>Y</m></li>
+        <li><m>B</m></li>
+        <li><m>\vn</m></li>
+        <li><m>z\geq 0</m></li>
+        <li><m>\iint_{S} \vF \cdot \vN\, dS = \iiint_Q \divg(\vF)\, dV</m></li>
+        <li><m>\vF = \langle 2x+3\sin(yz),-4y+e^{x^2}
+        , 7z+\arctan(y^5)</m></li>
+        <li><m>0 \leq \rho \leq 3</m></li>
+      </ol>
+    </p>
+  </article>
+</pretext>

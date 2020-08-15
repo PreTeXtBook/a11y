@@ -30,3 +30,7 @@ When using PreTeXt to process these files, normally a solo "m" in an "li" will e
 ### `acs-115`
 
 115 one-line expressions from [Active Calculus (Single)](https://activecalculus.org/), algorithmically created by Alexei Kolesnikov to have each symbol once, avoid repetition, and keep expressions small.
+
+### `acs-84`
+
+84 one-line expressions from [Active Calculus (Vector)](https://activecalculus.org/), algorithmically created by Alexei Kolesnikov to have each symbol once, avoid repetition, and keep expressions small.

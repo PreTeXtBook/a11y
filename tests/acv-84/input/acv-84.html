@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*       on 2020-08-15T14:22:30-07:00       *-->
+<!--*   A recent stable commit (2020-08-09):   *-->
+<!--* 98f21740783f166a773df4dc83cab5293ab63a4a *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<html lang="en-US">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title></title>
+<meta name="Keywords" content="Authored in PreTeXt">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+    tex2jax: {
+        inlineMath: [['\\(','\\)']]
+    },
+    asciimath2jax: {
+        ignoreClass: ".*",
+        processClass: "has_am"
+    },
+    jax: ["input/AsciiMath"],
+    extensions: ["asciimath2jax.js"],
+    TeX: {
+        extensions: ["extpfeil.js", "autobold.js", "https://pretextbook.org/js/lib/mathjaxknowl.js", "AMScd.js", ],
+        // scrolling to fragment identifiers is controlled by other Javascript
+        positionToHash: false,
+        equationNumbers: { autoNumber: "none", useLabelIds: true, },
+        TagSide: "right",
+        TagIndent: ".8em",
+    },
+    // HTML-CSS output Jax to be dropped for MathJax 3.0
+    "HTML-CSS": {
+        scale: 88,
+        mtextFontInherit: true,
+    },
+    CommonHTML: {
+        scale: 88,
+        mtextFontInherit: true,
+    },
+});
+</script><script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS_CHTML-full"></script><script xmlns:svg="http://www.w3.org/2000/svg" src="https://pretextbook.org/js/lib/jquery.min.js"></script><script xmlns:svg="http://www.w3.org/2000/svg" src="https://pretextbook.org/js/lib/jquery.sticky.js"></script><script xmlns:svg="http://www.w3.org/2000/svg" src="https://pretextbook.org/js/lib/jquery.espy.min.js"></script><script xmlns:svg="http://www.w3.org/2000/svg" src="https://pretextbook.org/js/0.13/pretext.js"></script><script xmlns:svg="http://www.w3.org/2000/svg" src="https://pretextbook.org/js/0.13/pretext_add_on.js"></script><script xmlns:svg="http://www.w3.org/2000/svg" src="https://pretextbook.org/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script xmlns:svg="http://www.w3.org/2000/svg">sagecellEvalName='Evaluate (Sage)';
+</script><link xmlns:svg="http://www.w3.org/2000/svg" href="https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic" rel="stylesheet" type="text/css">
+<link xmlns:svg="http://www.w3.org/2000/svg" href="https://fonts.googleapis.com/css?family=Inconsolata:400,700&amp;subset=latin,latin-ext" rel="stylesheet" type="text/css">
+<link xmlns:svg="http://www.w3.org/2000/svg" href="https://pretextbook.org/css/0.31/pretext.css" rel="stylesheet" type="text/css">
+<link xmlns:svg="http://www.w3.org/2000/svg" href="https://pretextbook.org/css/0.31/pretext_add_on.css" rel="stylesheet" type="text/css">
+<link xmlns:svg="http://www.w3.org/2000/svg" href="https://pretextbook.org/css/0.31/banner_default.css" rel="stylesheet" type="text/css">
+<link xmlns:svg="http://www.w3.org/2000/svg" href="https://pretextbook.org/css/0.31/toc_default.css" rel="stylesheet" type="text/css">
+<link xmlns:svg="http://www.w3.org/2000/svg" href="https://pretextbook.org/css/0.31/knowls_default.css" rel="stylesheet" type="text/css">
+<link xmlns:svg="http://www.w3.org/2000/svg" href="https://pretextbook.org/css/0.31/style_default.css" rel="stylesheet" type="text/css">
+<link xmlns:svg="http://www.w3.org/2000/svg" href="https://pretextbook.org/css/0.31/colors_default.css" rel="stylesheet" type="text/css">
+<link xmlns:svg="http://www.w3.org/2000/svg" href="https://pretextbook.org/css/0.31/setcolors.css" rel="stylesheet" type="text/css">
+<!-- 2019-10-12: Temporary - CSS file for experiments with styling --><link xmlns:svg="http://www.w3.org/2000/svg" href="developer.css" rel="stylesheet" type="text/css">
+</head>
+<body class="mathbook-article">
+<a class="assistive" href="#content">Skip to main content</a><div xmlns:svg="http://www.w3.org/2000/svg" class="hidden-content" style="display:none">\(\newcommand{\addeqno}{}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\va}{\mathbf{a}}
+\newcommand{\vb}{\mathbf{b}}
+\newcommand{\vc}{\mathbf{c}}
+\newcommand{\vC}{\mathbf{C}}
+\newcommand{\vd}{\mathbf{d}}
+\newcommand{\ve}{\mathbf{e}}
+\newcommand{\vi}{\mathbf{i}}
+\newcommand{\vj}{\mathbf{j}}
+\newcommand{\vk}{\mathbf{k}}
+\newcommand{\vn}{\mathbf{n}}
+\newcommand{\vm}{\mathbf{m}}
+\newcommand{\vr}{\mathbf{r}}
+\newcommand{\vs}{\mathbf{s}}
+\newcommand{\vu}{\mathbf{u}}
+\newcommand{\vv}{\mathbf{v}}
+\newcommand{\vw}{\mathbf{w}}
+\newcommand{\vx}{\mathbf{x}}
+\newcommand{\vy}{\mathbf{y}}
+\newcommand{\vz}{\mathbf{z}}
+\newcommand{\vzero}{\mathbf{0}}
+\newcommand{\vF}{\mathbf{F}}
+\newcommand{\vG}{\mathbf{G}}
+\newcommand{\vH}{\mathbf{H}}
+\newcommand{\vR}{\mathbf{R}}
+\newcommand{\vT}{\mathbf{T}}
+\newcommand{\vN}{\mathbf{N}}
+\newcommand{\vL}{\mathbf{L}}
+\newcommand{\vB}{\mathbf{B}}
+\newcommand{\vS}{\mathbf{S}}
+\newcommand{\proj}{\text{proj}}
+\newcommand{\comp}{\text{comp}}
+\newcommand{\nin}{}
+\newcommand{\tr}{\vspace{0.5in}}
+\newcommand{\lr}{\vspace{1.0in}}
+\newcommand{\mr}{\vspace{2.0in}}
+\newcommand{\br}{\vspace{3.0in}}
+\newcommand{\T}{}
+\newcommand{\B}{\rule[-1.2ex]{0pt}{0pt}}
+\newcommand{\vecmag}[1]{|#1|}
+\newcommand{\grad}{\nabla}
+\DeclareMathOperator{\curl}{curl}
+\DeclareMathOperator{\divg}{div}
+\newcommand{\lt}{&lt;}
+\newcommand{\gt}{&gt;}
+\newcommand{\amp}{&amp;}
+\)</div>
+<header id="masthead" class="smallbuttons"><div class="banner"><div class="container">
+<a id="logo-link" href=""></a><div class="title-container">
+<h1 class="heading"><a href="article-1.html"><span class="title"></span></a></h1>
+<p class="byline"></p>
+</div>
+</div></div>
+<nav xmlns:svg="http://www.w3.org/2000/svg" id="primary-navbar" class="navbar"><div class="container">
+<div class="navbar-top-buttons">
+<button class="sidebar-left-toggle-button button active" aria-label="Show or hide table of contents sidebar">Contents</button><div class="tree-nav toolbar toolbar-divisor-3"><span class="threebuttons"><span id="previousbutton" class="previous-button button toolbar-item disabled">Prev</span><span id="upbutton" class="up-button button disabled toolbar-item">Up</span><span id="nextbutton" class="next-button button toolbar-item disabled">Next</span></span></div>
+</div>
+<div class="navbar-bottom-buttons toolbar toolbar-divisor-4">
+<button class="sidebar-left-toggle-button button toolbar-item active">Contents</button><span class="previous-button button toolbar-item disabled">Prev</span><span class="up-button button disabled toolbar-item">Up</span><span class="next-button button toolbar-item disabled">Next</span>
+</div>
+</div></nav></header><div class="page">
+<div xmlns:svg="http://www.w3.org/2000/svg" id="sidebar-left" class="sidebar" role="navigation"><div class="sidebar-content">
+<nav id="toc"><ul></ul></nav><div class="extras"><nav><a class="mathbook-link" href="https://pretextbook.org">Authored in PreTeXt</a><a href="https://www.mathjax.org"><img title="Powered by MathJax" src="https://www.mathjax.org/badge/badge.gif" alt="Powered by MathJax"></a></nav></div>
+</div></div>
+<main class="main"><div id="content" class="pretext-content"><section xmlns:svg="http://www.w3.org/2000/svg" class="article" id="article-1"><ol id="p-1" class="decimal">
+<li id="li-1">\(\R^2\)</li>
+<li id="li-2">\(\vr(t)\)</li>
+<li id="li-3">\((x,y)\)</li>
+<li id="li-4">\((x,y,z)\)</li>
+<li id="li-5">\(\vF(x,y) = \langle y,x\rangle\)</li>
+<li id="li-6">\((1,-1)\)</li>
+<li id="li-7">\(\vG(x,y) = -x\vj\)</li>
+<li id="li-8">\(\vi\)</li>
+<li id="li-9">\(\vk\)</li>
+<li id="li-10">\(\vF(x,y,z) = F_1(x,y,z)\vi + F_2(x,y,z)\vj + F_3(x,y,z)\vk\)</li>
+<li id="li-11">\(\vF(x,y,z) = \langle x^2,xy\sin(z),y^3\rangle\)</li>
+<li id="li-12">\(f(x,y) = x^2 +
+y^2\)</li>
+<li id="li-13">\(\vecmag{\vF(x,y)}\)</li>
+<li id="li-14">\(\grad{f}\)</li>
+<li id="li-15">\(g\)</li>
+<li id="li-16">\(h\)</li>
+<li id="li-17">\(1/2\)</li>
+<li id="li-18">\(f\neq g\)</li>
+<li id="li-19">\(\vv\)</li>
+<li id="li-20">\(\vF\cdot \vv\)</li>
+<li id="li-21">\(\vv_1 = \langle
+200\cos(70^\circ),200\sin(70^\circ)\rangle \approx
+\langle 68.404,187.94\rangle\)</li>
+<li id="li-22">\(0\leq t\leq 1\)</li>
+<li id="li-23">\(\pi/2\leq t \leq 5\pi/2\)</li>
+<li id="li-24">\(C\)</li>
+<li id="li-25">\(P\)</li>
+<li id="li-26">\(Q\)</li>
+<li id="li-27">\(n\)</li>
+<li id="li-28">\(\vr_i\)</li>
+<li id="li-29">\(\Delta\vr_i =
+\vr_{i+1}-\vr_i\)</li>
+<li id="li-30">\(\vr_0,\dots,\vr_n\)</li>
+<li id="li-31">\(\vF(r_1,r_2)\)</li>
+<li id="li-32">\(\sum_{i=0}^{n-1}\vF(\vr_i)\cdot\Delta \vr_i\)</li>
+<li id="li-33">\(\int_C \vF\cdot d\vr = \lim_{|\Delta\vr_i|\to 0}
+\sum_{i=0}^{n-1}\vF(\vr_i)\cdot\Delta\vr_i\)</li>
+<li id="li-34">\(\langle P, Q,
+R\rangle\)</li>
+<li id="li-35">\(x&gt;0\)</li>
+<li id="li-36">\(x\lt 0\)</li>
+<li id="li-37">\(\int_a^b f(x)\, dx = \int_a^c f(x)\, dx + \int_c^b f(x)\, dx\)</li>
+<li id="li-38">\(k\)</li>
+<li id="li-39">\(\oint_C \vF\cdot d\vr\)</li>
+<li id="li-40">\(y=mx+b\)</li>
+<li id="li-41">\(d\vr = \left\langle dx,\frac{2}{3}dx\right\rangle =
+\langle 1,\frac{2}{3} \rangle\, dx\)</li>
+<li id="li-42">\(\frac{\partial f}{\partial x} =
+xy \)</li>
+<li id="li-43">\([a,b]\)</li>
+<li id="li-44">\(\Delta \vr_i = \vr(t_{i+1}) - \vr(t_{i}) = \vr(t_{i} +
+\Delta t) - \vr(t_{i}) = \left(\frac{\vr(t_{i} + \Delta t) -
+\vr(t_{i})}{\Delta t}\right) \Delta t \)</li>
+<li id="li-45">\(\vr'(t_i)\)</li>
+<li id="li-46">\(\vF(t) =\langle 54t(\cos(t))^2, 27(s\sin(t))^2,3 \cos(t)\rangle \)</li>
+<li id="li-47">\(\int_C \langle (3xy+e^z), x^2,
+(4z+xe^z)\rangle\cdot d\vr\)</li>
+<li id="li-48">\(\int_{C_3}
+\langle M, N\rangle\cdot d\vr\)</li>
+<li id="li-49">\(\vH(x,y,z) = \langle 3x^2
+y,x^3+2yz^3,xz+3y^2z^2\rangle\)</li>
+<li id="li-50">\(D\)</li>
+<li id="li-51">\(f\colon \R^3\to \R\)</li>
+<li id="li-52">\(\langle f_x(\vr(t)), f_y(\vr(t)), f_z(\vr(t))\rangle\cdot \langle x'(t),y'(t),z'(t)\rangle =\\ 
+f_x\left( x(t),y(t),z(t) \right) x'(t) + f_y \left( x(t),y(t),z(t) \right) y'(t) + f_z \left( x(t),y(t),z(t) \right) z'(t).\)</li>
+<li id="li-53">\(\vH(x,y,z) = \langle H_1,H_2,H_3\rangle\)</li>
+<li id="li-54">\(A(x)\)</li>
+<li id="li-55">\(L_x\)</li>
+<li id="li-56">\(\int_{-h}^{h} F_2(a+t,b+h) dt = (2h) F_2(t^*_1,b+h)\)</li>
+<li id="li-57">\(\text{Flow Density}(a,b)=\lim_{h\rightarrow 0} \frac{\text{net flow}}{\text{area}} =\\
+\lim_{h\rightarrow 0} \frac{(2h) \left(F_2(t^*_1,b+h)-F_2(t^*_2,b-h)+F_1(a+h,t^*_3)-F_1(a-h,t^*_1)\right)}{4h^2}\)</li>
+<li id="li-58">\(\text{Flow Density}(a,b)= \lim_{h\rightarrow 0}\left[
+\frac{F_1(a+h,t^*_3)-F_1(a-h,t^*_1)}{2h}+\frac{F_2(t^*_1,b+h)-F_2(t^*_2,b-h)}{2h}\right]\)</li>
+<li id="li-59">\(\divg(\vF)=\frac{\partial F_1}{\partial x}+\frac{\partial F_2}{\partial y}\)</li>
+<li id="li-60">\(\vG(x,y)=\langle{G_1(x,y,z),G_2(x,y,z),G_3(x,y,z)}\rangle\)</li>
+<li id="li-61">\(div(\vF_1)=0\)</li>
+<li id="li-62">\(a_{\text{top}}^*,a_{\text{bottom}}^* \in (a-h,a+h)\)</li>
+<li id="li-63">\(\vi \times \vj = \vk \quad \quad  \vi \times \vk = -\vj \quad \quad  \vj \times \vk = \vi \)</li>
+<li id="li-64">\(\vu\)</li>
+<li id="li-65">\(\curl(\vF)= \left(\frac{\partial F_3}{\partial y}-\frac{\partial F_2}{\partial z}\right)\vi- \left(\frac{\partial F_3}{\partial x}-\frac{\partial F_1}{\partial z}\right)\vj + \left(\frac{\partial F_2}{\partial x}-\frac{\partial F_1}{\partial y}\right)\vk\)</li>
+<li id="li-66">\(2\cos(\theta)\)</li>
+<li id="li-67">\(\displaystyle\oint_C\vF\cdot d\vr = \iint_R
+\left(\frac{\partial F_2}{\partial x}- \frac{\partial
+F_1}{\partial y}\right)\, dA\)</li>
+<li id="li-68">\(\oint_{C_2} \vG\cdot d\vr  = \int_0^3\!\int_0^x y\, dy\,
+dx = \int_0^3 \left.\frac{y^2}{2}\right|_0^x\, dx = \int_0^3
+\frac{x^2}{2}\, dx = \left.\frac{x^3}{6}\right|_0^3 = \frac{27}{6}\)</li>
+<li id="li-69">\(g(x,y) = \frac{1}{2}\ln(x^2+y^2)\)</li>
+<li id="li-70">\(\oint_C\vF\cdot d\vr + \oint_{C_2}\vF\cdot d\vr =
+0\Leftrightarrow \oint_C\vF\cdot d\vr =
+\oint_{-C_2}\vF\cdot d\vr\)</li>
+<li id="li-71">\(\overline{x} = \frac{1}{A}\iint_D x\, dA \qquad \text{and}\qquad
+\overline{y} = \frac{1}{A}\iint_D y\, dA\)</li>
+<li id="li-72">\(D_{i,j}\)</li>
+<li id="li-73">\(S_{i,j}=\vecmag{(\vr_s \times
+\vr_t)(s_i,t_j)}\Delta{s}\Delta{t}\)</li>
+<li id="li-74">\(\text{Flux}=\sum_{i=1}^n\sum_{j=1}^m\vecmag{\vF_{\perp
+Q_{i,j}}}\cdot S_{i,j}\)</li>
+<li id="li-75">\(\vw_{i,j}=(\vr_s \times \vr_t)(s_i,t_j)\)</li>
+<li id="li-76">\(n,m\rightarrow\infty\)</li>
+<li id="li-77">\(t=\phi\)</li>
+<li id="li-78">\(Y\)</li>
+<li id="li-79">\(B\)</li>
+<li id="li-80">\(\vn\)</li>
+<li id="li-81">\(z\geq 0\)</li>
+<li id="li-82">\(\iint_{S} \vF \cdot \vN\, dS = \iiint_Q \divg(\vF)\, dV\)</li>
+<li id="li-83">\(\vF = \langle 2x+3\sin(yz),-4y+e^{x^2}
+, 7z+\arctan(y^5)\)</li>
+<li id="li-84">\(0 \leq \rho \leq 3\)</li>
+</ol></section></div></main>
+</div>
+</body>
+</html>
