@@ -26,3 +26,7 @@ When using PreTeXt to process these files, normally a solo "m" in an "li" will e
 ### `aata-unique-177`
 
 177 one-line expressions from Judson's [Abstract Algebra](http://abstract.ups.edu/), algorithmically created by Alexei Kolesnikov to have each symbol once, avoid repetition, and keep expressions small.
+
+### `acs-115`
+
+115 one-line expressions from [Active Calculus (Single)](https://activecalculus.org/), algorithmically created by Alexei Kolesnikov to have each symbol once, avoid repetition, and keep expressions small.
