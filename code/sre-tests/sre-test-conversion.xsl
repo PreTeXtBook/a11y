@@ -41,6 +41,24 @@ along with PreTeXt.  If not, see <http://www.gnu.org/licenses/>.
 <xsl:variable name="math-repr"  select="document($mml-file)/pi:math-representations"/>
 
 
+<!-- To extract from a single book -->
+<!-- 1. Build file of MathML representations -->
+<!-- ~/mathbook/mathbook/pretext/pretext -vv -c math -f mml ~/books/aata/aata/src/aata.xml -->
+<!-- Creates "/tmp/aata-mml.xml -->
+<!-- 2.  xsltproc -xinclude -stringparam mml-file /tmp/aata-mml.xml -stringparam publisher ../publisher/public.xml -stringparam chunk.level 2 ~/mathbook/repos/a11y/code/sre-tests/sre-test-conversion.xsl ~/books/aata/aata/src/aata.xml > aata-tests.json
+
+* -xinclude for modular source
+* stylesheet parameter for MathML versions
+* publisher file for base URL
+* chunking for HTML output file names (soon in publisher file" 
+* redirect to JSON file
+-->
+
+
+
+
+
+
 <!-- ############## -->
 <!-- Entry Template -->
 <!-- ############## -->
@@ -54,10 +72,17 @@ along with PreTeXt.  If not, see <http://www.gnu.org/licenses/>.
     <xsl:text>  "exclude": "</xsl:text><xsl:text>[]</xsl:text><xsl:text>",&#xa;</xsl:text>
     <xsl:text>  "tests":&#xa;</xsl:text>
     <xsl:text>    {&#xa;</xsl:text>
-    <xsl:apply-templates select="pretext/article/p/ol/li/m"/>
+    <xsl:apply-templates select="$document-root//m"/>
+    <!-- <xsl:apply-templates select="pretext/article/p/ol/li/m"/> -->
     <xsl:text>    }&#xa;</xsl:text>
     <xsl:text>}&#xa;</xsl:text>
 </xsl:template>
+
+
+<!-- customize chunking procedure -->
+<xsl:variable name="file-extension" select="'.html'"/>
+<xsl:variable name="chunk-level" select="$chunk.level"/>
+
 
 <xsl:template match="m">
     <!-- to sync two files of the same content -->
@@ -74,6 +99,31 @@ along with PreTeXt.  If not, see <http://www.gnu.org/licenses/>.
             </xsl:with-param>
         </xsl:call-template>
     </xsl:variable>
+
+    <xsl:variable name="enclosing-permid-node" select="ancestor-or-self::*[@permid][not(ancestor::proof)][1]"/>
+    <xsl:variable name="enclosing-permid" select="$enclosing-permid-node/@permid"/>
+
+    <!-- Needs $chunk.level to know granularity of online version -->
+    <!-- Santized for JSON -->
+    <xsl:variable name="online-URL">
+        <xsl:call-template name="escape-json-string">
+            <xsl:with-param name="text">
+                <!-- base URL has a trailing slash, as manufactured -->
+                <xsl:value-of select="$baseurl"/>
+                <xsl:apply-templates select="$enclosing-permid-node" mode="containing-filename"/>
+                <xsl:text>#</xsl:text>
+                <xsl:value-of select="$enclosing-permid"/>
+            </xsl:with-param>
+        </xsl:call-template>
+    </xsl:variable>
+
+<!-- <xsl:message>URL file: <xsl:value-of select="$online-URL"/></xsl:message> -->
+<!-- <xsl:message>Node: <xsl:value-of select="local-name($enclosing-permid-node)"/> PermID: <xsl:value-of select="$enclosing-permid"/></xsl:message> -->
+<!-- <xsl:message>Math: <xsl:value-of select="$mml-file"/></xsl:message> -->
+<xsl:message>Math: <xsl:value-of select="$common-id"/></xsl:message>
+
+
+
 
     <!-- Sanitize raw LaTeX as JSON for the test -->
     <xsl:variable name="raw-latex">
@@ -98,11 +148,12 @@ along with PreTeXt.  If not, see <http://www.gnu.org/licenses/>.
 
     <xsl:text>    "</xsl:text><xsl:value-of select="$test-name"/><xsl:text>": {&#xa;</xsl:text>
     <xsl:text>      "id": "</xsl:text><xsl:value-of select="$common-id"/><xsl:text>",&#xa;</xsl:text>
+    <xsl:text>      "url": "</xsl:text><xsl:value-of select="$online-URL"/><xsl:text>",&#xa;</xsl:text>
     <xsl:text>      "input": "</xsl:text><xsl:value-of select="$mathml"/><xsl:text>",&#xa;</xsl:text>
     <xsl:text>      "tex": "</xsl:text><xsl:value-of select="$escaped-latex"/><xsl:text>",&#xa;</xsl:text>
     <xsl:text>      "expected": "</xsl:text><xsl:text>"&#xa;</xsl:text>
     <xsl:text>      }</xsl:text>
-    <xsl:if test="parent::li/following-sibling::li">
+    <xsl:if test="following::m">
         <xsl:text>,</xsl:text>
     </xsl:if>
     <xsl:text>&#xa;</xsl:text>
