@@ -20,91 +20,114 @@ along with PreTeXt.  If not, see <http://www.gnu.org/licenses/>.
 *********************************************************************-->
 
 <!-- Identify as a stylesheet -->
-<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0"
-    xmlns:xml="http://www.w3.org/XML/1998/namespace"
-    xmlns:exsl="http://exslt.org/common"
-    xmlns:date="http://exslt.org/dates-and-times"
-    xmlns:str="http://exslt.org/strings"
-    extension-element-prefixes="exsl date str"
-    xmlns:pi="http://pretextbook.org/2020/pretext/internal"
-    xmlns:math="http://www.w3.org/1998/Math/MathML"
->
+<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
 
-<!-- get visible ids to track correspondence -->
+<!-- Get visible ids to track correspondence and for subsequent -->
+<!-- identification.  Also a base URL ($baseurl) is generated   -->
+<!-- by the publisher variables suite.                          -->
+<!-- NB: path is hard-coded, the "mathbook/user" directory      -->
+<!-- device can be used if this needs to be a relative URL      -->
+<!-- for use by others                                          -->
 <xsl:import href="/home/rob/mathbook/mathbook/xsl/pretext-common.xsl" />
 
-<!-- Building JSON, so not XML/HTML, etc.-->
+<!-- Building JSON, so not XML/HTML, etc., XSL -->
+<!-- cannot infer JSON structure for output    -->
 <xsl:output method="text"/>
 
-<!-- Necessary to get pre-constructed MathML for math elements. -->
-<xsl:param name="mml-file" select="''"/>
-<xsl:variable name="math-repr"  select="document($mml-file)/pi:math-representations"/>
-
-
-<!-- To extract from a single book -->
-<!-- 1. Build file of MathML representations -->
-<!-- ~/mathbook/mathbook/pretext/pretext -vv -c math -f mml ~/books/aata/aata/src/aata.xml -->
-<!-- Creates "/tmp/aata-mml.xml -->
-<!-- 2.  xsltproc -xinclude -stringparam mml-file /tmp/aata-mml.xml -stringparam publisher ../publisher/public.xml -stringparam chunk.level 2 ~/mathbook/repos/a11y/code/sre-tests/sre-test-conversion.xsl ~/books/aata/aata/src/aata.xml > aata-tests.json
-
-* -xinclude for modular source
-* stylesheet parameter for MathML versions
-* publisher file for base URL
-* chunking for HTML output file names (soon in publisher file" 
-* redirect to JSON file
+<!-- To extract from a single PreTeXt document                                                     -->
+<!--                                                                                               -->
+<!--   * -xinclude necessary for modular source                                                    -->
+<!--   * publisher file to get base URL for HTML truth/context                                     -->
+<!--     (relative path to main source location)                                                   -->
+<!--   * chunking level so HTML output file names are correct                                      -->
+<!--     (moving very soon to publisher file)                                                      -->
+<!--   * redirect output to JSON file                                                              -->
+<!--                                                                                               -->
+<!-- 
+xsltproc -xinclude -stringparam publisher ../publisher/public.xml -stringparam chunk.level 2 ~/mathbook/repos/a11y/code/sre-tests/sre-test-conversion.xsl ~/books/aata/aata/src/aata.xml > aata-tests.json
 -->
 
+<!-- NB: we should really run the pre-processor, -->
+<!-- for example to pick up WW problems in ACS   -->
 
+<!-- HTML is "chunked" for output and we create URLS into -->
+<!-- posted/hosted HTML so that mathematical expressions  -->
+<!-- can be viewed in context as a sort of ground truth   -->
+<xsl:variable name="file-extension" select="'.html'"/>
+<xsl:variable name="chunk-level" select="$chunk-level-entered"/>
 
-
-
-
-<!-- ############## -->
 <!-- Entry Template -->
-<!-- ############## -->
-
-<!-- Deprecation warnings are universal analysis of source and parameters  -->
-<!-- There is always a "document root" directly under the pretext element, -->
-<!-- Note that "docinfo" is at the same level and not processed            -->
+<!-- Minimal outer JSON structure, just a list full of tests -->
+<!-- Start here and simply match on mathematics of interest  -->
+<!-- $document-root is set in routines in -common and will   -->
+<!-- avoid finding anything in $docinfo                      -->
 <xsl:template match="/">
-    <xsl:text>{&#xa;</xsl:text>
-    <xsl:text>  "factory": "</xsl:text><xsl:text>Not Sure</xsl:text><xsl:text>",&#xa;</xsl:text>
-    <xsl:text>  "exclude": "</xsl:text><xsl:text>[]</xsl:text><xsl:text>",&#xa;</xsl:text>
-    <xsl:text>  "tests":&#xa;</xsl:text>
-    <xsl:text>    {&#xa;</xsl:text>
-    <xsl:apply-templates select="$document-root//m"/>
-    <!-- <xsl:apply-templates select="pretext/article/p/ol/li/m"/> -->
-    <xsl:text>    }&#xa;</xsl:text>
-    <xsl:text>}&#xa;</xsl:text>
+    <xsl:text>[&#xa;</xsl:text>
+    <xsl:apply-templates select="$document-root//m|$document-root//me|$document-root//men|$document-root//md|$document-root//mdn"/>
+    <xsl:text>]&#xa;</xsl:text>
 </xsl:template>
 
+<!-- These skip solutions to activities in ACS, which are not shown online -->
+<xsl:template match="m[ancestor::activity and (ancestor::hint|ancestor::answer|ancestor::solution)]"/>
+<xsl:template match="me[ancestor::activity and (ancestor::hint|ancestor::answer|ancestor::solution)]"/>
+<xsl:template match="men[ancestor::activity and (ancestor::hint|ancestor::answer|ancestor::solution)]"/>
+<xsl:template match="md[ancestor::activity and (ancestor::hint|ancestor::answer|ancestor::solution)]"/>
+<xsl:template match="mdn[ancestor::activity and (ancestor::hint|ancestor::answer|ancestor::solution)]"/>
 
-<!-- customize chunking procedure -->
-<xsl:variable name="file-extension" select="'.html'"/>
-<xsl:variable name="chunk-level" select="$chunk.level"/>
+<!-- NB: better?  Import -common, set inline delimiters to null, use  -->
+<!-- switch to turn off inserting periods, and just apply templates   -->
+<!-- to the math elements?  This would produce tags (desired, or no?) -->
 
+<!-- We supply the new lines for "mrow" as part of processing the math -->
+<xsl:template match="mrow">
+    <xsl:value-of select="."/>
+    <xsl:if test="following-sibling::mrow">
+        <xsl:text>\\</xsl:text>
+    </xsl:if>
+</xsl:template>
 
-<xsl:template match="m">
-    <!-- to sync two files of the same content -->
-    <xsl:variable name="common-id">
+<!-- N.B. Constructing a node-set to course over with a "for-each" -->
+<!-- might make it more efficient to look forward for necessity    -->
+<!-- of the comma separating each expression's output.             -->
+
+<xsl:template match="m|me|men|md|mdn">
+    <!-- We build up a few variables, so we can construct   -->
+    <!-- JSON itself at the end and get formatting correct. -->
+
+    <!-- Unique identifier for the math -->
+    <xsl:variable name="visible-id">
         <xsl:apply-templates select="." mode="visible-id"/>
     </xsl:variable>
 
-    <xsl:variable name="math" select="$math-repr/pi:math[@id = $common-id]"/>
-
-    <xsl:variable name="mathml">
-        <xsl:call-template name="escape-json-string">
-            <xsl:with-param name="text">
-                <xsl:apply-templates select="$math/div[@class = 'mathml']/math:math" mode="serialize"/>
-            </xsl:with-param>
-        </xsl:call-template>
+    <!-- JSON flag for display math versus no -->
+    <xsl:variable name="is-display-math">
+        <xsl:choose>
+            <xsl:when test="self::m">
+                <xsl:text>false</xsl:text>
+            </xsl:when>
+            <xsl:otherwise>
+                <xsl:text>true</xsl:text>
+            </xsl:otherwise>
+        </xsl:choose>
     </xsl:variable>
 
-    <xsl:variable name="enclosing-permid-node" select="ancestor-or-self::*[@permid][not(ancestor::proof)][1]"/>
-    <xsl:variable name="enclosing-permid" select="$enclosing-permid-node/@permid"/>
+    <!-- For the impatient - progress indicator on console -->
+    <xsl:message><xsl:value-of select="$visible-id"/></xsl:message>
 
-    <!-- Needs $chunk.level to know granularity of online version -->
-    <!-- Santized for JSON -->
+    <!-- Look outward for an item with a @permid attribute, -->
+    <!-- typically a paragraph.  Consider that some math is -->
+    <!-- in "born hidden" knowls, so a filter like          -->
+    <!-- [not(ancestor::proof)] can be employed.            -->
+    <!--  -->
+    <!-- 1. "m" are not given @permid, so need to look outward           -->
+    <!-- 2. displaymath *do* have @permid, but are not given an HTML @id -->
+    <!-- Convert "self::" to "ancestor-or-self::" to enable better       -->
+    <!-- targeting should we add an HTML id to a PreTeXt HTML            -->
+    <!-- output displaymath div                                          -->
+    <xsl:variable name="enclosing-permid-node" select="ancestor::*[@permid][1]"/>
+    <xsl:variable name="enclosing-permid" select="$enclosing-permid-node/@permid"/>
+    <!-- Borrow routines in -common really meant for HTML   -->
+    <!-- and other chunked output. Santize for use in JSON. -->
     <xsl:variable name="online-URL">
         <xsl:call-template name="escape-json-string">
             <xsl:with-param name="text">
@@ -117,20 +140,61 @@ along with PreTeXt.  If not, see <http://www.gnu.org/licenses/>.
         </xsl:call-template>
     </xsl:variable>
 
-<!-- <xsl:message>URL file: <xsl:value-of select="$online-URL"/></xsl:message> -->
-<!-- <xsl:message>Node: <xsl:value-of select="local-name($enclosing-permid-node)"/> PermID: <xsl:value-of select="$enclosing-permid"/></xsl:message> -->
-<!-- <xsl:message>Math: <xsl:value-of select="$mml-file"/></xsl:message> -->
-<xsl:message>Math: <xsl:value-of select="$common-id"/></xsl:message>
+    <!-- Make a properly wrapped version of the math; display  -->
+    <!-- math gets environment, inline does not get delimiters -->
+    <xsl:variable name="well-formed-latex">
+        <!-- opening delimiter -->
+        <xsl:choose>
+            <xsl:when test="self::m"/>
+            <xsl:when test="self::me">
+                <xsl:text>\begin{equation*}&#xa;</xsl:text>
+            </xsl:when>
+            <xsl:when test="self::men">
+                <xsl:text>\begin{equation}&#xa;</xsl:text>
+            </xsl:when>
+            <xsl:when test="self::md">
+                <xsl:text>\begin{align*}&#xa;</xsl:text>
+            </xsl:when>
+            <xsl:when test="self::mdn">
+                <xsl:text>\begin{align}&#xa;</xsl:text>
+            </xsl:when>
+        </xsl:choose>
 
+        <!-- guts -->
+        <xsl:choose>
+            <xsl:when test="self::m">
+                <xsl:value-of select="."/>
+            </xsl:when>
+            <xsl:when test="self::me|self::men">
+                <xsl:value-of select="."/>
+            </xsl:when>
+            <xsl:when test="self::md|self::mdn">
+                <xsl:apply-templates select="mrow"/>
+            </xsl:when>
+        </xsl:choose>
 
+        <!-- closing delimiter -->
+        <xsl:choose>
+            <xsl:when test="self::m"/>
+            <xsl:when test="self::me">
+                <xsl:text>\end{equation*}&#xa;</xsl:text>
+            </xsl:when>
+            <xsl:when test="self::men">
+                <xsl:text>\end{equation}&#xa;</xsl:text>
+            </xsl:when>
+            <xsl:when test="self::md">
+                <xsl:text>\end{align*}&#xa;</xsl:text>
+            </xsl:when>
+            <xsl:when test="self::mdn">
+                <xsl:text>\end{align}&#xa;</xsl:text>
+            </xsl:when>
+        </xsl:choose>
+    </xsl:variable>
 
-
-    <!-- Sanitize raw LaTeX as JSON for the test -->
+    <!-- Sanitize raw LaTeX as JSON -->
     <xsl:variable name="raw-latex">
         <xsl:call-template name="sanitize-text">
-            <xsl:with-param name="text">
-                <xsl:value-of select="."/>
-            </xsl:with-param>
+            <xsl:with-param name="text" select="$well-formed-latex"/>
         </xsl:call-template>
     </xsl:variable>
     <xsl:variable name="sans-terminal-newline" select="substring($raw-latex, 1, string-length($raw-latex) - 1)"/>
@@ -141,23 +205,19 @@ along with PreTeXt.  If not, see <http://www.gnu.org/licenses/>.
             </xsl:with-param>
         </xsl:call-template>
     </xsl:variable>
-    <xsl:variable name="test-name">
-        <xsl:text>Test </xsl:text>
-        <xsl:value-of select="count(parent::li/preceding-sibling::li) + 1"/>
-    </xsl:variable>
 
-    <xsl:text>    "</xsl:text><xsl:value-of select="$test-name"/><xsl:text>": {&#xa;</xsl:text>
-    <xsl:text>      "id": "</xsl:text><xsl:value-of select="$common-id"/><xsl:text>",&#xa;</xsl:text>
-    <xsl:text>      "url": "</xsl:text><xsl:value-of select="$online-URL"/><xsl:text>",&#xa;</xsl:text>
-    <xsl:text>      "input": "</xsl:text><xsl:value-of select="$mathml"/><xsl:text>",&#xa;</xsl:text>
-    <xsl:text>      "tex": "</xsl:text><xsl:value-of select="$escaped-latex"/><xsl:text>",&#xa;</xsl:text>
-    <xsl:text>      "expected": "</xsl:text><xsl:text>"&#xa;</xsl:text>
-    <xsl:text>      }</xsl:text>
+    <!-- Output one expression as JSON -->
+    <xsl:text>   {&#xa;</xsl:text>
+    <xsl:text>     "id": "</xsl:text><xsl:value-of select="$visible-id"/><xsl:text>",&#xa;</xsl:text>
+    <xsl:text>     "display": </xsl:text><xsl:value-of select="$is-display-math"/><xsl:text>,&#xa;</xsl:text>
+    <xsl:text>     "url": "</xsl:text><xsl:value-of select="$online-URL"/><xsl:text>",&#xa;</xsl:text>
+    <xsl:text>     "tex": "</xsl:text><xsl:value-of select="$escaped-latex"/><xsl:text>"&#xa;</xsl:text>
+    <xsl:text>   }</xsl:text>
+    <!-- n-1 separators! -->
     <xsl:if test="following::m">
         <xsl:text>,</xsl:text>
     </xsl:if>
     <xsl:text>&#xa;</xsl:text>
 </xsl:template>
-
 
 </xsl:stylesheet>
