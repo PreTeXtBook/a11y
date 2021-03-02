@@ -30,6 +30,10 @@ along with PreTeXt.  If not, see <http://www.gnu.org/licenses/>.
 <!-- for use by others                                          -->
 <xsl:import href="/home/rob/mathbook/mathbook/xsl/pretext-common.xsl" />
 
+<!-- Every conversion should run the pre-processor -->
+<xsl:import href="/home/rob/mathbook/mathbook/xsl/pretext-assembly.xsl" />
+
+
 <!-- Building JSON, so not XML/HTML, etc., XSL -->
 <!-- cannot infer JSON structure for output    -->
 <xsl:output method="text"/>
@@ -57,13 +61,21 @@ xsltproc -xinclude -stringparam publisher ../publisher/public.xml -stringparam c
 <xsl:variable name="chunk-level" select="$chunk-level-entered"/>
 
 <!-- Entry Template -->
-<!-- Minimal outer JSON structure, just a list full of tests -->
-<!-- Start here and simply match on mathematics of interest  -->
+<!-- A node-set of all teh math will be useful               -->
 <!-- $document-root is set in routines in -common and will   -->
 <!-- avoid finding anything in $docinfo                      -->
+<xsl:variable name="math-bits" select="$document-root//m|$document-root//me|$document-root//men|$document-root//md|$document-root//mdn"/>
+
+<!-- Minimal outer JSON structure, just a list full of tests -->
+<!-- Start here and simply match on mathematics of interest  -->
 <xsl:template match="/">
     <xsl:text>[&#xa;</xsl:text>
-    <xsl:apply-templates select="$document-root//m|$document-root//me|$document-root//men|$document-root//md|$document-root//mdn"/>
+    <xsl:call-template name="place-macros"/>
+    <xsl:variable name="all-math-extra-comma">
+        <xsl:apply-templates select="$math-bits"/>
+    </xsl:variable>
+    <!-- scrub trailing comma, JSON!!!, newline in the way -->
+    <xsl:value-of select="concat(substring($all-math-extra-comma, 1, string-length($all-math-extra-comma) - 2), '&#xa;')"/>
     <xsl:text>]&#xa;</xsl:text>
 </xsl:template>
 
@@ -74,17 +86,53 @@ xsltproc -xinclude -stringparam publisher ../publisher/public.xml -stringparam c
 <xsl:template match="md[ancestor::activity and (ancestor::hint|ancestor::answer|ancestor::solution)]"/>
 <xsl:template match="mdn[ancestor::activity and (ancestor::hint|ancestor::answer|ancestor::solution)]"/>
 
-<!-- NB: better?  Import -common, set inline delimiters to null, use  -->
-<!-- switch to turn off inserting periods, and just apply templates   -->
-<!-- to the math elements?  This would produce tags (desired, or no?) -->
-
-<!-- We supply the new lines for "mrow" as part of processing the math -->
-<xsl:template match="mrow">
-    <xsl:value-of select="."/>
-    <xsl:if test="following-sibling::mrow">
-        <xsl:text>\\</xsl:text>
-    </xsl:if>
+<xsl:template name="place-macros">
+    <xsl:text>   {&#xa;</xsl:text>
+    <xsl:text>     "macros": "</xsl:text>
+    <!--  -->
+    <xsl:call-template name="escape-json-string">
+        <xsl:with-param name="text">
+            <xsl:value-of select="$latex-macros"/>
+        </xsl:with-param>
+    </xsl:call-template>
+    <!--  -->
+    <xsl:text>"&#xa;</xsl:text>
+    <xsl:text>   },&#xa;</xsl:text>
 </xsl:template>
+
+
+<!-- ################################################# -->
+<!-- Adjustments to math-processing and LaTeX creation -->
+<!-- ################################################# -->
+
+<!-- We have imported -common, set inline delimiters to null, use     -->
+<!-- switch to turn off inserting periods, and then apply templates   -->
+<!-- to the math elements.  We hard-code tags for numbered equations. -->
+
+<!-- No delimiters for inline in JSON, so implement as no-ops -->
+<xsl:template name="begin-inline-math"/>
+<xsl:template name="end-inline-math"/>
+<!-- Solo items in list items don't get display treatment -->
+<xsl:param name="debug.displaystyle" select="'no'"/>
+<!-- Don't look forward for period, comma, etc.  Ever -->
+<xsl:template match="m|me|men|md|mdn" mode="get-clause-punctuation"/>
+<!-- Hard-code tags, always original, so ignore parameter -->
+<xsl:template match="men|mrow" mode="tag">
+    <xsl:text>\tag{</xsl:text>
+    <xsl:apply-templates select="." mode="number" />
+    <xsl:text>}</xsl:text>
+</xsl:template>
+<xsl:template match="mrow[@tag]" mode="tag">
+    <xsl:text>\tag{</xsl:text>
+    <xsl:apply-templates select="@tag" mode="tag-symbol" />
+    <xsl:text>}</xsl:text>
+</xsl:template>
+
+
+<!-- ################################################# -->
+<!-- Process math elements                             -->
+<!-- ################################################# -->
+
 
 <!-- N.B. Constructing a node-set to course over with a "for-each" -->
 <!-- might make it more efficient to look forward for necessity    -->
@@ -140,54 +188,16 @@ xsltproc -xinclude -stringparam publisher ../publisher/public.xml -stringparam c
         </xsl:call-template>
     </xsl:variable>
 
-    <!-- Make a properly wrapped version of the math; display  -->
-    <!-- math gets environment, inline does not get delimiters -->
+    <!-- inline is a straight match, via apply-imports  -->
+    <!-- display needs modal call (which is wrong/bad?) -->
     <xsl:variable name="well-formed-latex">
-        <!-- opening delimiter -->
-        <xsl:choose>
-            <xsl:when test="self::m"/>
-            <xsl:when test="self::me">
-                <xsl:text>\begin{equation*}&#xa;</xsl:text>
-            </xsl:when>
-            <xsl:when test="self::men">
-                <xsl:text>\begin{equation}&#xa;</xsl:text>
-            </xsl:when>
-            <xsl:when test="self::md">
-                <xsl:text>\begin{align*}&#xa;</xsl:text>
-            </xsl:when>
-            <xsl:when test="self::mdn">
-                <xsl:text>\begin{align}&#xa;</xsl:text>
-            </xsl:when>
-        </xsl:choose>
-
-        <!-- guts -->
         <xsl:choose>
             <xsl:when test="self::m">
-                <xsl:value-of select="."/>
+                <xsl:apply-imports select="."/>
             </xsl:when>
-            <xsl:when test="self::me|self::men">
-                <xsl:value-of select="."/>
-            </xsl:when>
-            <xsl:when test="self::md|self::mdn">
-                <xsl:apply-templates select="mrow"/>
-            </xsl:when>
-        </xsl:choose>
-
-        <!-- closing delimiter -->
-        <xsl:choose>
-            <xsl:when test="self::m"/>
-            <xsl:when test="self::me">
-                <xsl:text>\end{equation*}&#xa;</xsl:text>
-            </xsl:when>
-            <xsl:when test="self::men">
-                <xsl:text>\end{equation}&#xa;</xsl:text>
-            </xsl:when>
-            <xsl:when test="self::md">
-                <xsl:text>\end{align*}&#xa;</xsl:text>
-            </xsl:when>
-            <xsl:when test="self::mdn">
-                <xsl:text>\end{align}&#xa;</xsl:text>
-            </xsl:when>
+            <xsl:otherwise>
+                <xsl:apply-templates select="." mode="body"/>
+            </xsl:otherwise>
         </xsl:choose>
     </xsl:variable>
 
@@ -212,12 +222,7 @@ xsltproc -xinclude -stringparam publisher ../publisher/public.xml -stringparam c
     <xsl:text>     "display": </xsl:text><xsl:value-of select="$is-display-math"/><xsl:text>,&#xa;</xsl:text>
     <xsl:text>     "url": "</xsl:text><xsl:value-of select="$online-URL"/><xsl:text>",&#xa;</xsl:text>
     <xsl:text>     "tex": "</xsl:text><xsl:value-of select="$escaped-latex"/><xsl:text>"&#xa;</xsl:text>
-    <xsl:text>   }</xsl:text>
-    <!-- n-1 separators! -->
-    <xsl:if test="following::m">
-        <xsl:text>,</xsl:text>
-    </xsl:if>
-    <xsl:text>&#xa;</xsl:text>
+    <xsl:text>   },&#xa;</xsl:text>
 </xsl:template>
 
 </xsl:stylesheet>
